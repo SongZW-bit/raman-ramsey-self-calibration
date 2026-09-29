@@ -1,0 +1,118 @@
+{
+  "model": {
+    "species": "87Rb",
+    "line": "D1",
+    "states": 16,
+    "sensor_states": [
+      "F=1,m=-1",
+      "F=1,m=+1"
+    ],
+    "detuning_mhz": 1000.0,
+    "unit_mhz": 0.01,
+    "field_gauss": 0.5,
+    "spontaneous_emission": true,
+    "readout": "projector onto F=1,m=+1; all other states count as failure",
+    "decay_resolution": "unresolved_excited",
+    "minor_helicity": [
+      0.0,
+      0.0
+    ],
+    "liouville_dimension": 128,
+    "D2_included": false,
+    "approximations": [
+      "optical rotating wave",
+      "linear Zeeman energies",
+      "Markov vacuum decay",
+      "ideal state preparation and resolved population detection",
+      "no motion"
+    ]
+  },
+  "checks": {
+    "parity_closure_error": 0.0,
+    "reduced_vs_full": 8.320012079134013e-12,
+    "coherent_vs_liouville": 3.5058196521632275e-11,
+    "phase_gauge_error": 4.1367915195169084e-11,
+    "trace_preservation": 1.1368683772161603e-13,
+    "trace_error": 2.7748026109785294e-11,
+    "hermiticity": 5.844320324972403e-13,
+    "min_eigenvalue": 4.77652796914869e-13,
+    "branching_error": 8.881784197001252e-16
+  },
+  "nominal_mapping": [
+    {
+      "b": -0.6,
+      "phase": 0.0,
+      "shift_error": 1.7763568394002505e-15,
+      "coupling_error": 0.0
+    },
+    {
+      "b": -0.6,
+      "phase": 0.7,
+      "shift_error": 1.7763568394002505e-15,
+      "coupling_error": 1.1102230246251565e-16
+    },
+    {
+      "b": -0.6,
+      "phase": -1.2,
+      "shift_error": 1.7763568394002505e-15,
+      "coupling_error": 1.1102230246251565e-16
+    },
+    {
+      "b": 0.0,
+      "phase": 0.0,
+      "shift_error": 4.2674197509029455e-16,
+      "coupling_error": 2.220446049250313e-16
+    },
+    {
+      "b": 0.0,
+      "phase": 0.7,
+      "shift_error": 4.2674197509029455e-16,
+      "coupling_error": 5.551115123125783e-16
+    },
+    {
+      "b": 0.0,
+      "phase": -1.2,
+      "shift_error": 4.614364446098307e-16,
+      "coupling_error": 2.2887833992611187e-16
+    },
+    {
+      "b": 0.6,
+      "phase": 0.0,
+      "shift_error": 0.0,
+      "coupling_error": 4.440892098500626e-16
+    },
+    {
+      "b": 0.6,
+      "phase": 0.7,
+      "shift_error": 8.881784197001252e-16,
+      "coupling_error": 4.710277376051325e-16
+    },
+    {
+      "b": 0.6,
+      "phase": -1.2,
+      "shift_error": 0.0,
+      "coupling_error": 5.978733960281817e-16
+    }
+  ],
+  "sample_final_populations": [
+    0.7612523457092244,
+    0.0007350452397017225,
+    0.22601296914245295,
+    0.0032614390168231424,
+    0.005475192462442137,
+    0.0021885962895798125,
+    0.0007116830701621333,
+    0.00033722004209844127,
+    1.1703449406408082e-08,
+    7.531927943237879e-06,
+    8.016513493153251e-09,
+    1.0886810891991931e-05,
+    9.765267605015498e-09,
+    3.1646552857309647e-06,
+    9.018528265985115e-09,
+    3.887101887508245e-06
+  ],
+  "passed": true,
+  "elapsed": 0.17288430000189692,
+  "scope": "Physical solver checks; no adaptive gain established by this validation."
+}

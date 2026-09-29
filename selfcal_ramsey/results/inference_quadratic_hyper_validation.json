@@ -1,0 +1,26 @@
+{
+  "noiseless_population_errors": [
+    6.4525148557592615e-09,
+    7.097487042528883e-10,
+    6.042225164648585e-09
+  ],
+  "independent_scipy_loss_improvements": [
+    1.4779288903810084e-11,
+    0.0,
+    3.2778473268990638e-09,
+    0.0,
+    8.526512829121202e-14,
+    5.338023356671329e-10,
+    0.0,
+    2.4726887204451486e-12,
+    8.526512829121202e-14,
+    2.842170943040401e-14,
+    3.7351810533436947e-10
+  ],
+  "max_loss_improvement": 3.2778473268990638e-09,
+  "note": "Checks local refinement, not global maximum likelihood or covariance accuracy.",
+  "second_order_mean": true,
+  "b_fit_width": 0.8,
+  "source": "two_beam_quadratic_joint.json",
+  "family": "hyper"
+}

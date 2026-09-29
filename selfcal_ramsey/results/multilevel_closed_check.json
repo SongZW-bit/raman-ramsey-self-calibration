@@ -1,0 +1,400 @@
+{
+  "model": "closed three-level Lambda Hamiltonian",
+  "spontaneous_emission": false,
+  "detuning_units": "effective Raman Rabi frequency",
+  "points": [
+    -0.6,
+    -0.4,
+    0.4,
+    0.6
+  ],
+  "rows": [
+    {
+      "detuning": 100.0,
+      "b": -0.6,
+      "fixed_shape_variance": 1.2247356702206492e-07,
+      "adaptive_oracle_variance": 6.580099393650364e-08,
+      "reduction": 0.46273309795370876,
+      "selected_branch": 3,
+      "branch_variances": [
+        8.491694755703971e-08,
+        1.0345162497292414e-07,
+        8.913672999863571e-08,
+        6.580099393650364e-08,
+        1.8650307823102424e-07,
+        7.018034439639989e-07,
+        7.903801169185714e-07,
+        2.7463410978428575e-07
+      ]
+    },
+    {
+      "detuning": 100.0,
+      "b": -0.4,
+      "fixed_shape_variance": 6.286260244035357e-08,
+      "adaptive_oracle_variance": 5.0009862863732974e-08,
+      "reduction": 0.20445764377661202,
+      "selected_branch": 1,
+      "branch_variances": [
+        1.3031485792502342e-07,
+        5.0009862863732974e-08,
+        9.923946815149134e-08,
+        9.962920328325144e-08,
+        1.5666128533410106e-07,
+        1.5629098458928895e-07,
+        6.695557430213179e-07,
+        1.6268998045157126e-06
+      ]
+    },
+    {
+      "detuning": 100.0,
+      "b": 0.4,
+      "fixed_shape_variance": 7.84297602741329e-08,
+      "adaptive_oracle_variance": 4.443502686315161e-08,
+      "reduction": 0.4334417610376551,
+      "selected_branch": 5,
+      "branch_variances": [
+        9.308603689247976e-08,
+        1.063865290656011e-06,
+        1.3581058004412377e-06,
+        3.0760389116358997e-07,
+        7.050805480064115e-08,
+        4.443502686315161e-08,
+        8.746019267588732e-08,
+        8.324166712817579e-08
+      ]
+    },
+    {
+      "detuning": 100.0,
+      "b": 0.6,
+      "fixed_shape_variance": 8.318630384971004e-08,
+      "adaptive_oracle_variance": 4.542786276288693e-08,
+      "reduction": 0.4539021370037073,
+      "selected_branch": 6,
+      "branch_variances": [
+        2.465651798635191e-07,
+        4.0407714642495794e-07,
+        1.0150240487967408e-06,
+        3.665343427830539e-06,
+        1.4765133371717964e-07,
+        1.1148441914877621e-07,
+        4.542786276288693e-08,
+        8.696039659308602e-08
+      ]
+    },
+    {
+      "detuning": 300.0,
+      "b": -0.6,
+      "fixed_shape_variance": 7.958928088375971e-08,
+      "adaptive_oracle_variance": 4.0724880767059045e-08,
+      "reduction": 0.48831198982011403,
+      "selected_branch": 2,
+      "branch_variances": [
+        6.879295416668153e-08,
+        6.378001959095122e-08,
+        4.0724880767059045e-08,
+        6.347789292990083e-08,
+        2.0395815159862788e-07,
+        5.320436285211322e-07,
+        6.672346004461059e-07,
+        2.449280655711246e-07
+      ]
+    },
+    {
+      "detuning": 300.0,
+      "b": -0.4,
+      "fixed_shape_variance": 7.249921632733393e-08,
+      "adaptive_oracle_variance": 3.0722035791085114e-08,
+      "reduction": 0.5762432016868274,
+      "selected_branch": 1,
+      "branch_variances": [
+        1.370187657080725e-07,
+        3.0722035791085114e-08,
+        6.64733552225852e-08,
+        5.672913773950082e-08,
+        1.363218375489554e-07,
+        1.6033238002233894e-07,
+        4.903064954536621e-07,
+        9.346159535135859e-07
+      ]
+    },
+    {
+      "detuning": 300.0,
+      "b": 0.4,
+      "fixed_shape_variance": 7.384454398394098e-08,
+      "adaptive_oracle_variance": 4.2585246077648694e-08,
+      "reduction": 0.42331222077951036,
+      "selected_branch": 4,
+      "branch_variances": [
+        7.075944739490432e-08,
+        7.210515171046264e-07,
+        6.739294769916663e-07,
+        1.4360774168083535e-07,
+        4.2585246077648694e-08,
+        4.746659105965975e-08,
+        7.143704726208024e-08,
+        4.9706687454135086e-08
+      ]
+    },
+    {
+      "detuning": 300.0,
+      "b": 0.6,
+      "fixed_shape_variance": 6.616402231025408e-08,
+      "adaptive_oracle_variance": 3.560046104440213e-08,
+      "reduction": 0.46193626382831354,
+      "selected_branch": 6,
+      "branch_variances": [
+        7.778538076999363e-08,
+        2.503823794249503e-07,
+        6.818938508344489e-07,
+        7.288898917611783e-07,
+        5.959492266676669e-08,
+        6.546914623489128e-08,
+        3.560046104440213e-08,
+        6.894914130252081e-08
+      ]
+    },
+    {
+      "detuning": 1000.0,
+      "b": -0.6,
+      "fixed_shape_variance": 6.503805179271173e-08,
+      "adaptive_oracle_variance": 4.5437477986797845e-08,
+      "reduction": 0.30137086314308015,
+      "selected_branch": 2,
+      "branch_variances": [
+        5.291835991922115e-08,
+        6.68085136918671e-08,
+        4.5437477986797845e-08,
+        5.989067039819347e-08,
+        1.6585057928540887e-07,
+        5.829702294577309e-07,
+        7.176942010800806e-07,
+        2.8254647809109673e-07
+      ]
+    },
+    {
+      "detuning": 1000.0,
+      "b": -0.4,
+      "fixed_shape_variance": 6.958181710349393e-08,
+      "adaptive_oracle_variance": 3.297830296759272e-08,
+      "reduction": 0.5260499892013202,
+      "selected_branch": 1,
+      "branch_variances": [
+        1.2290675557107564e-07,
+        3.297830296759272e-08,
+        6.899820404800531e-08,
+        6.376643633373533e-08,
+        1.2153404485589284e-07,
+        1.3154787563286602e-07,
+        5.851455214656133e-07,
+        9.70401387794981e-07
+      ]
+    },
+    {
+      "detuning": 1000.0,
+      "b": 0.4,
+      "fixed_shape_variance": 7.394131383954361e-08,
+      "adaptive_oracle_variance": 4.1433522714125066e-08,
+      "reduction": 0.43964313639276276,
+      "selected_branch": 5,
+      "branch_variances": [
+        8.53364104250186e-08,
+        7.63754926513205e-07,
+        9.551286968585379e-07,
+        1.9140424134080803e-07,
+        5.426098973494598e-08,
+        4.1433522714125066e-08,
+        6.721374580108403e-08,
+        4.510359701824127e-08
+      ]
+    },
+    {
+      "detuning": 1000.0,
+      "b": 0.6,
+      "fixed_shape_variance": 6.0131597670048e-08,
+      "adaptive_oracle_variance": 3.323029872556271e-08,
+      "reduction": 0.4473737600004769,
+      "selected_branch": 6,
+      "branch_variances": [
+        7.881750045614151e-08,
+        2.6225680459905507e-07,
+        6.731498158450749e-07,
+        9.354444426041145e-07,
+        5.3469590129211895e-08,
+        6.723201703084626e-08,
+        3.323029872556271e-08,
+        6.508920719654574e-08
+      ]
+    },
+    {
+      "detuning": 3000.0,
+      "b": -0.6,
+      "fixed_shape_variance": 6.660655557751988e-08,
+      "adaptive_oracle_variance": 4.192961074901151e-08,
+      "reduction": 0.3704882291922177,
+      "selected_branch": 2,
+      "branch_variances": [
+        5.424169513290295e-08,
+        6.362442647366973e-08,
+        4.192961074901151e-08,
+        6.261638481204993e-08,
+        1.7154692714984293e-07,
+        5.362275205368921e-07,
+        7.090190816742406e-07,
+        2.79176162276316e-07
+      ]
+    },
+    {
+      "detuning": 3000.0,
+      "b": -0.4,
+      "fixed_shape_variance": 6.988702312641899e-08,
+      "adaptive_oracle_variance": 3.1507787551187164e-08,
+      "reduction": 0.549161115444958,
+      "selected_branch": 1,
+      "branch_variances": [
+        1.2772314709288128e-07,
+        3.1507787551187164e-08,
+        6.600676994301417e-08,
+        5.9468059348867085e-08,
+        1.246863706828885e-07,
+        1.3484854898842622e-07,
+        5.251709745031892e-07,
+        9.190155472588312e-07
+      ]
+    },
+    {
+      "detuning": 3000.0,
+      "b": 0.4,
+      "fixed_shape_variance": 7.628333627627721e-08,
+      "adaptive_oracle_variance": 4.185819092020784e-08,
+      "reduction": 0.4512800178454569,
+      "selected_branch": 5,
+      "branch_variances": [
+        8.035613848105e-08,
+        7.240972655723196e-07,
+        8.375709129467906e-07,
+        1.6994985174701953e-07,
+        5.108674174376863e-08,
+        4.185819092020784e-08,
+        6.587202495527569e-08,
+        4.3475674019609395e-08
+      ]
+    },
+    {
+      "detuning": 3000.0,
+      "b": 0.6,
+      "fixed_shape_variance": 6.401186200097129e-08,
+      "adaptive_oracle_variance": 3.236910702685186e-08,
+      "reduction": 0.49432642614956734,
+      "selected_branch": 6,
+      "branch_variances": [
+        7.010195410930146e-08,
+        2.4983868157261164e-07,
+        6.836323287995443e-07,
+        7.96061693424787e-07,
+        5.064994504337175e-08,
+        6.498208247707225e-08,
+        3.236910702685186e-08,
+        6.375370810151755e-08
+      ]
+    }
+  ],
+  "deviations": [
+    {
+      "detuning": 100.0,
+      "b": -0.6,
+      "max_population_difference": 0.8152719551727603,
+      "rms_population_difference": 0.4557488688222035
+    },
+    {
+      "detuning": 100.0,
+      "b": -0.4,
+      "max_population_difference": 0.6578118224250004,
+      "rms_population_difference": 0.3698571246294044
+    },
+    {
+      "detuning": 100.0,
+      "b": 0.4,
+      "max_population_difference": 0.6142311109940706,
+      "rms_population_difference": 0.2922437264036991
+    },
+    {
+      "detuning": 100.0,
+      "b": 0.6,
+      "max_population_difference": 0.6836681632345358,
+      "rms_population_difference": 0.3302418931605869
+    },
+    {
+      "detuning": 300.0,
+      "b": -0.6,
+      "max_population_difference": 0.8143389609100908,
+      "rms_population_difference": 0.45620940739078153
+    },
+    {
+      "detuning": 300.0,
+      "b": -0.4,
+      "max_population_difference": 0.660039183210525,
+      "rms_population_difference": 0.37107832376281996
+    },
+    {
+      "detuning": 300.0,
+      "b": 0.4,
+      "max_population_difference": 0.6192217248406549,
+      "rms_population_difference": 0.2924760248650761
+    },
+    {
+      "detuning": 300.0,
+      "b": 0.6,
+      "max_population_difference": 0.6868082691842952,
+      "rms_population_difference": 0.32924638528115546
+    },
+    {
+      "detuning": 1000.0,
+      "b": -0.6,
+      "max_population_difference": 0.8137363328328545,
+      "rms_population_difference": 0.4560261364242279
+    },
+    {
+      "detuning": 1000.0,
+      "b": -0.4,
+      "max_population_difference": 0.6605017592401964,
+      "rms_population_difference": 0.37097785383769416
+    },
+    {
+      "detuning": 1000.0,
+      "b": 0.4,
+      "max_population_difference": 0.6179733092836707,
+      "rms_population_difference": 0.29213627388672303
+    },
+    {
+      "detuning": 1000.0,
+      "b": 0.6,
+      "max_population_difference": 0.6841914641932058,
+      "rms_population_difference": 0.3270724827916177
+    },
+    {
+      "detuning": 3000.0,
+      "b": -0.6,
+      "max_population_difference": 0.812544321625055,
+      "rms_population_difference": 0.4553113013102601
+    },
+    {
+      "detuning": 3000.0,
+      "b": -0.4,
+      "max_population_difference": 0.6594383321861574,
+      "rms_population_difference": 0.370239040660631
+    },
+    {
+      "detuning": 3000.0,
+      "b": 0.4,
+      "max_population_difference": 0.6184116212694626,
+      "rms_population_difference": 0.2920374541615934
+    },
+    {
+      "detuning": 3000.0,
+      "b": 0.6,
+      "max_population_difference": 0.6848085236144044,
+      "rms_population_difference": 0.3273864833864732
+    }
+  ],
+  "scope": "Local Gaussian variance with exact three-level propagation; adaptive branch is an oracle branch selection diagnostic, not a full adaptive Monte Carlo estimator."
+}

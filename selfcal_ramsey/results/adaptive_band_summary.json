@@ -1,0 +1,308 @@
+{
+  "points": [
+    {
+      "b": -0.6,
+      "mse": {
+        "fixed_hyper": 2.5257390830752727e-08,
+        "fixed_shape": 2.4792560199368283e-08,
+        "adaptive_frequency": 2.062023436151708e-08,
+        "adaptive_frequency_phase": 2.0016331760580094e-08
+      },
+      "versus_fixed_hyper": {
+        "mse_reduction": 0.20750595757465407,
+        "rmse_reduction": 0.10977865537533538,
+        "mse_reduction_standard_error": 0.024739273753247155,
+        "mse_reduction_interval": [
+          0.1590178720146126,
+          0.25599404313469554
+        ]
+      },
+      "versus_fixed_shape": {
+        "mse_reduction": 0.1926476491487913,
+        "rmse_reduction": 0.10147212015919693,
+        "mse_reduction_standard_error": 0.024864649435121882,
+        "mse_reduction_interval": [
+          0.1439138317677382,
+          0.24138146652984438
+        ]
+      },
+      "versus_adaptive_frequency": {
+        "mse_reduction": 0.029286893172467132,
+        "rmse_reduction": 0.014752261191362637,
+        "mse_reduction_standard_error": 0.0308092817742389,
+        "mse_reduction_interval": [
+          -0.031098189494587404,
+          0.08967197583952166
+        ]
+      },
+      "versus_shape_six_comparison_interval": [
+        0.12704830692413138,
+        0.2582469913734512
+      ]
+    },
+    {
+      "b": -0.5,
+      "mse": {
+        "fixed_hyper": 2.579964182149585e-08,
+        "fixed_shape": 2.5059056215941962e-08,
+        "adaptive_frequency": 2.2546185634858e-08,
+        "adaptive_frequency_phase": 2.0188459673132397e-08
+      },
+      "versus_fixed_hyper": {
+        "mse_reduction": 0.21749069956809652,
+        "rmse_reduction": 0.11540444245299109,
+        "mse_reduction_standard_error": 0.02572907470137938,
+        "mse_reduction_interval": [
+          0.1670626397978523,
+          0.26791875933834075
+        ]
+      },
+      "versus_fixed_shape": {
+        "mse_reduction": 0.19436472390811788,
+        "rmse_reduction": 0.1024281220471075,
+        "mse_reduction_standard_error": 0.02640217999612393,
+        "mse_reduction_interval": [
+          0.1426174020023711,
+          0.24611204581386464
+        ]
+      },
+      "versus_adaptive_frequency": {
+        "mse_reduction": 0.10457316372310854,
+        "rmse_reduction": 0.0537300404869171,
+        "mse_reduction_standard_error": 0.029184794590972733,
+        "mse_reduction_interval": [
+          0.04737201742860261,
+          0.16177431001761447
+        ]
+      },
+      "versus_shape_six_comparison_interval": [
+        0.12470898049770154,
+        0.26402046731853424
+      ]
+    },
+    {
+      "b": -0.4,
+      "mse": {
+        "fixed_hyper": 2.6212122058829822e-08,
+        "fixed_shape": 2.6286160806509633e-08,
+        "adaptive_frequency": 2.064402614024198e-08,
+        "adaptive_frequency_phase": 2.0510037538404017e-08
+      },
+      "versus_fixed_hyper": {
+        "mse_reduction": 0.21753616542865895,
+        "rmse_reduction": 0.11543014149738229,
+        "mse_reduction_standard_error": 0.024862229694640033,
+        "mse_reduction_interval": [
+          0.16880709065180222,
+          0.2662652402055157
+        ]
+      },
+      "versus_fixed_shape": {
+        "mse_reduction": 0.2197400872125529,
+        "rmse_reduction": 0.11667677898322681,
+        "mse_reduction_standard_error": 0.02469402242680215,
+        "mse_reduction_interval": [
+          0.1713406926225963,
+          0.26813948180250946
+        ]
+      },
+      "versus_adaptive_frequency": {
+        "mse_reduction": 0.0064904297702265135,
+        "rmse_reduction": 0.0032504977529341783,
+        "mse_reduction_standard_error": 0.03181783416230981,
+        "mse_reduction_interval": [
+          -0.05587137925396887,
+          0.0688522387944219
+        ]
+      },
+      "versus_shape_six_comparison_interval": [
+        0.15459090293364414,
+        0.28488927149146165
+      ]
+    },
+    {
+      "b": 0.4,
+      "mse": {
+        "fixed_hyper": 2.533812799759874e-08,
+        "fixed_shape": 2.5806046197278795e-08,
+        "adaptive_frequency": 2.1882933782175565e-08,
+        "adaptive_frequency_phase": 1.9935878004422344e-08
+      },
+      "versus_fixed_hyper": {
+        "mse_reduction": 0.21320635816854194,
+        "rmse_reduction": 0.1129861095611534,
+        "mse_reduction_standard_error": 0.025456476973342836,
+        "mse_reduction_interval": [
+          0.1633125801275168,
+          0.2631001362095671
+        ]
+      },
+      "versus_fixed_shape": {
+        "mse_reduction": 0.22747259103471074,
+        "rmse_reduction": 0.12106461616038622,
+        "mse_reduction_standard_error": 0.024879827132406416,
+        "mse_reduction_interval": [
+          0.1787090259136117,
+          0.27623615615580976
+        ]
+      },
+      "versus_adaptive_frequency": {
+        "mse_reduction": 0.08897599367316866,
+        "rmse_reduction": 0.04552422433734271,
+        "mse_reduction_standard_error": 0.029392375954644737,
+        "mse_reduction_interval": [
+          0.03136799538200389,
+          0.14658399196433344
+        ]
+      },
+      "versus_shape_six_comparison_interval": [
+        0.1618332061397953,
+        0.2931119759296262
+      ]
+    },
+    {
+      "b": 0.5,
+      "mse": {
+        "fixed_hyper": 2.251522545927418e-08,
+        "fixed_shape": 2.3957760707428747e-08,
+        "adaptive_frequency": 2.2281926551496925e-08,
+        "adaptive_frequency_phase": 2.18936498377076e-08
+      },
+      "versus_fixed_hyper": {
+        "mse_reduction": 0.027606901946902296,
+        "rmse_reduction": 0.013900056762450874,
+        "mse_reduction_standard_error": 0.031076415142958672,
+        "mse_reduction_interval": [
+          -0.033301752501911856,
+          0.08851555639571645
+        ]
+      },
+      "versus_fixed_shape": {
+        "mse_reduction": 0.08615625203573862,
+        "rmse_reduction": 0.044048250190282134,
+        "mse_reduction_standard_error": 0.02900333025897257,
+        "mse_reduction_interval": [
+          0.02931076929643163,
+          0.14300173477504563
+        ]
+      },
+      "versus_adaptive_frequency": {
+        "mse_reduction": 0.017425634757926356,
+        "rmse_reduction": 0.008751108327442525,
+        "mse_reduction_standard_error": 0.030450764201893382,
+        "mse_reduction_interval": [
+          -0.04225676637950623,
+          0.07710803589535895
+        ]
+      },
+      "versus_shape_six_comparison_interval": [
+        0.009638005024955903,
+        0.16267449904652134
+      ]
+    },
+    {
+      "b": 0.6,
+      "mse": {
+        "fixed_hyper": 2.7235986243569256e-08,
+        "fixed_shape": 2.628360533029522e-08,
+        "adaptive_frequency": 2.1736598798136136e-08,
+        "adaptive_frequency_phase": 2.169110381386823e-08
+      },
+      "versus_fixed_hyper": {
+        "mse_reduction": 0.20358662176260423,
+        "rmse_reduction": 0.1075800437925003,
+        "mse_reduction_standard_error": 0.026060954572463144,
+        "mse_reduction_interval": [
+          0.15250808939784202,
+          0.25466515412736646
+        ]
+      },
+      "versus_fixed_shape": {
+        "mse_reduction": 0.17472875044024283,
+        "rmse_reduction": 0.0915555880739003,
+        "mse_reduction_standard_error": 0.02664489663087591,
+        "mse_reduction_interval": [
+          0.12250571267193341,
+          0.22695178820855225
+        ]
+      },
+      "versus_adaptive_frequency": {
+        "mse_reduction": 0.002093013018752754,
+        "rmse_reduction": 0.0010470546711185413,
+        "mse_reduction_standard_error": 0.03234553109239155,
+        "mse_reduction_interval": [
+          -0.06130306298315519,
+          0.0654890890206607
+        ]
+      },
+      "versus_shape_six_comparison_interval": [
+        0.1044326581027983,
+        0.24502484277768738
+      ]
+    }
+  ],
+  "six_point_mean_comparisons": {
+    "fixed_hyper": {
+      "mse_reduction": 0.1845846133622555,
+      "rmse_reduction": 0.09699646366265846,
+      "mse_reduction_standard_error": 0.01071640335215335,
+      "mse_reduction_interval": [
+        0.16358084874823065,
+        0.20558837797628038
+      ]
+    },
+    "fixed_shape": {
+      "mse_reduction": 0.18365603728237778,
+      "rmse_reduction": 0.09648245024370328,
+      "mse_reduction_standard_error": 0.010642462642785214,
+      "mse_reduction_interval": [
+        0.16279719379570579,
+        0.20451488076904978
+      ]
+    },
+    "adaptive_frequency": {
+      "mse_reduction": 0.04222006167420056,
+      "rmse_reduction": 0.02133767911204454,
+      "mse_reduction_standard_error": 0.01252089035570289,
+      "mse_reduction_interval": [
+        0.017679567522647988,
+        0.06676055582575313
+      ]
+    }
+  },
+  "resources": {
+    "hyper": {
+      "atoms": 160000,
+      "elapsed": 1846.1902159937858,
+      "exposure": 75.25399046844788,
+      "peak": 1.1661903789668588,
+      "nominal_coupling_exposure": 62.4844141459891,
+      "max_stark_sum": 1.16619037896906
+    },
+    "shape": {
+      "atoms": 160000,
+      "elapsed": 1845.3624460326378,
+      "exposure": 74.73564215579877,
+      "peak": 1.166190378963395,
+      "nominal_coupling_exposure": 62.643613951896704,
+      "max_stark_sum": 1.16619037896906
+    },
+    "adaptive": {
+      "atoms": 160000,
+      "elapsed": 1846.1902159937858,
+      "exposure": 75.25399046844788,
+      "peak": 1.1661903789668588,
+      "nominal_coupling_exposure": 62.4844141459891,
+      "max_stark_sum": 1.16619037896906
+    }
+  },
+  "true_delta": 0.0005,
+  "repetitions_per_point": 4000,
+  "sources": [
+    "two_beam_fixed_band_mc.json",
+    "two_beam_adaptive_cal2_band.json",
+    "two_beam_adaptive_phase_band.json"
+  ],
+  "interval_method": "Independent-run delta method, normal approximation. Pointwise 95%; six-comparison intervals use Bonferroni. No model or optimizer uncertainty.",
+  "scope": "Frozen controls after exploratory pilots. Six selected confirmation points at one frequency and one drift model; no continuous-band or literature-wide optimum claim. Shape is the designated main fixed comparator; hyper remains visible."
+}

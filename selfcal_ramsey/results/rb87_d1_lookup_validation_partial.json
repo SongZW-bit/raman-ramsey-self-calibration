@@ -1,0 +1,42 @@
+{
+  "rows": [
+    {
+      "name": "fixed_hyper",
+      "max_population_error": 5.3743262786731805e-06,
+      "max_whitened_squared_error": 2.008320722045226e-07,
+      "minimum_covariance_eigenvalue": 1.7114180293704587e-05
+    },
+    {
+      "name": "fixed_shape",
+      "max_population_error": 5.07856876263979e-06,
+      "max_whitened_squared_error": 2.8433182230672815e-07,
+      "minimum_covariance_eigenvalue": 3.6807270221572827e-06
+    },
+    {
+      "name": "branch_0",
+      "max_population_error": 5.289341415082305e-06,
+      "max_whitened_squared_error": 1.8221148794059407e-07,
+      "minimum_covariance_eigenvalue": 1.697497588809809e-05
+    },
+    {
+      "name": "branch_1",
+      "max_population_error": 6.361109795127717e-06,
+      "max_whitened_squared_error": 2.170115861737971e-07,
+      "minimum_covariance_eigenvalue": 3.474012369911581e-05
+    },
+    {
+      "name": "branch_2",
+      "max_population_error": 5.214494156746685e-06,
+      "max_whitened_squared_error": 1.5599591613479092e-07,
+      "minimum_covariance_eigenvalue": 3.52315069994667e-05
+    },
+    {
+      "name": "branch_3",
+      "max_population_error": 5.694917357690343e-06,
+      "max_whitened_squared_error": 2.0392021542479677e-07,
+      "minimum_covariance_eigenvalue": 3.628491444618795e-05
+    }
+  ],
+  "scope": "Noise-free mean interpolation and covariance positivity only; not the accuracy of Gaussian intensity marginalization.",
+  "passed": false
+}

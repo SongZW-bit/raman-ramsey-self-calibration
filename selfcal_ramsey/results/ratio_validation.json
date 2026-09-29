@@ -1,0 +1,43 @@
+{
+  "zero_modulation_reduction": true,
+  "resources": {
+    "atoms": 160000,
+    "elapsed": 2048.0000000000005,
+    "exposure": 81.82042388281982,
+    "peak": 1.16619037896906,
+    "nominal_coupling_exposure": 68.49228441132587,
+    "max_stark_sum": 1.16619037896906
+  },
+  "resource_dense_check": true,
+  "static_identities": [
+    {
+      "b": -0.6,
+      "derivative_error": 3.661992931114355e-11,
+      "nonlinear_mapping_error": 2.220446049250313e-16
+    },
+    {
+      "b": 0.0,
+      "derivative_error": 3.3306690738754696e-11,
+      "nonlinear_mapping_error": 1.1102230246251565e-16
+    },
+    {
+      "b": 0.6,
+      "derivative_error": 1.1695300283776078e-10,
+      "nonlinear_mapping_error": 2.220446049250313e-16
+    }
+  ],
+  "lambda_comparison": [
+    {
+      "detuning": 1000.0,
+      "error": 0.0021719500970752703
+    },
+    {
+      "detuning": 10000.0,
+      "error": 0.001044238031101985
+    },
+    {
+      "detuning": 100000.0,
+      "error": 1.894865004159474e-05
+    }
+  ]
+}

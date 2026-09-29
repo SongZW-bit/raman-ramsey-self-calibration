@@ -1,0 +1,48 @@
+{
+  "conditional_covariance_checks": [
+    {
+      "tau": 0.2,
+      "factorization_error": 1.3877787807814457e-17,
+      "zero_static_kernel_innovation_variance": 4.438943474231902,
+      "monte_carlo_relative_error": 0.0017589249078204805
+    },
+    {
+      "tau": 2.0,
+      "factorization_error": 2.7755575615628914e-17,
+      "zero_static_kernel_innovation_variance": 2.3670870713125796,
+      "monte_carlo_relative_error": 0.002043668249248398
+    },
+    {
+      "tau": 20.0,
+      "factorization_error": 2.7755575615628914e-17,
+      "zero_static_kernel_innovation_variance": 1.308087954445012,
+      "monte_carlo_relative_error": 0.002890576860731464
+    },
+    {
+      "tau": 200.0,
+      "factorization_error": 2.6020852139652106e-17,
+      "zero_static_kernel_innovation_variance": 0.31318776318101815,
+      "monte_carlo_relative_error": 0.003608715513651939
+    }
+  ],
+  "slow_drift_checks": [
+    {
+      "tau": 1000.0,
+      "exact": 0.04695007848076643,
+      "asymptotic": 0.04728676511881538,
+      "relative_error": 0.007120102997169919
+    },
+    {
+      "tau": 10000.0,
+      "exact": 0.004725296179144191,
+      "asymptotic": 0.004728676511881538,
+      "relative_error": 0.0007148581064603254
+    },
+    {
+      "tau": 100000.0,
+      "exact": 0.00047283383435290754,
+      "asymptotic": 0.0004728676511881538,
+      "relative_error": 7.151437650965153e-05
+    }
+  ]
+}

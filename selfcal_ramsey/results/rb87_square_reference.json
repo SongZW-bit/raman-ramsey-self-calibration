@@ -1,0 +1,599 @@
+{
+  "scope": "Exact D1 local-risk design screen, not finite-data adaptive MSE. Physical log-ratio uncertainty and q controls shared across detunings. Nominal Raman coupling held fixed; optical resource caps enforced.",
+  "reference_detuning_mhz": 1000.0,
+  "reference_b_points": [
+    -0.6,
+    0.0,
+    0.6
+  ],
+  "reference_log_field_ratio": [
+    -0.1518485461780784,
+    0.0009698547046793845,
+    0.15378825558743692
+  ],
+  "optical_caps": {
+    "normalized_field_squared_peak": 8729262.221731327,
+    "normalized_field_squared_exposure": 678809435.943778
+  },
+  "rows": [
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_square",
+      "entry": {
+        "name": "fixed_square",
+        "design": {
+          "family": "square",
+          "parameters": [
+            2.1380913286406216,
+            2.1380913286406216,
+            0.1,
+            140.084869941035,
+            0.7346722311406567,
+            -0.07694788176684565,
+            0.0,
+            -3.141592653589793,
+            0.16814626426984858,
+            0.11965199960164775,
+            0.04551846973654845,
+            0.01934630595690593,
+            0.039244029773770006
+          ],
+          "pattern": {
+            "long_flags": [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true,
+              false
+            ],
+            "phases": [
+              -0.7976897530248515,
+              -1.5750195062828607,
+              1.3270398603228188,
+              -0.424104157608288,
+              1.71221434451851,
+              1.161045419422956,
+              -1.4003167407963917,
+              -1.5750195062828607,
+              1.36088984458679,
+              -0.7976897530248515,
+              1.71221434451851,
+              1.3270398603228188
+            ]
+          },
+          "readout": "count-12-long-4-atom-opt",
+          "variance": 2.5900228370511465e-08,
+          "resources": {
+            "atoms": 160000,
+            "elapsed": 1846.1902159937858,
+            "exposure": 75.25399046844788,
+            "peak": 1.1661903789668588,
+            "nominal_coupling_exposure": 62.4844141459891,
+            "max_stark_sum": 1.16619037896906
+          },
+          "atoms_per_shot": [
+            4414,
+            33096,
+            3363,
+            1702,
+            34475,
+            3166,
+            3563,
+            34165,
+            3373,
+            2018,
+            34051,
+            2614
+          ],
+          "components": {
+            "shot_variance": 1.119871696056954e-08,
+            "common_variance": 7.88882894975133e-09,
+            "difference_variance": 6.181403294657206e-09,
+            "quadratic_variance": 6.312791655333923e-10
+          },
+          "ambiguity_scan": [
+            {
+              "truth": [
+                -0.004,
+                0.15000000000000002
+              ],
+              "remote": [
+                -0.0038333333333333336,
+                0.0
+              ],
+              "distance_squared": 58.75110164212614
+            },
+            {
+              "truth": [
+                0.0005,
+                0.15000000000000002
+              ],
+              "remote": [
+                0.0008333333333333335,
+                0.0
+              ],
+              "distance_squared": 60.435557660751435
+            },
+            {
+              "truth": [
+                0.004,
+                -0.15000000000000002
+              ],
+              "remote": [
+                0.0038333333333333327,
+                0.0
+              ],
+              "distance_squared": 60.9564220491759
+            },
+            {
+              "truth": [
+                0.0005,
+                -0.15000000000000002
+              ],
+              "remote": [
+                0.00016666666666666566,
+                0.0
+              ],
+              "distance_squared": 61.2307639593168
+            },
+            {
+              "truth": [
+                0.004,
+                0.15000000000000002
+              ],
+              "remote": [
+                0.004166666666666666,
+                0.0
+              ],
+              "distance_squared": 61.91817115595726
+            },
+            {
+              "truth": [
+                -0.004,
+                -0.15000000000000002
+              ],
+              "remote": [
+                -0.0041666666666666675,
+                0.0
+              ],
+              "distance_squared": 62.36411358646279
+            },
+            {
+              "truth": [
+                -0.004,
+                0.29999999999999993
+              ],
+              "remote": [
+                -0.003666666666666667,
+                0.14666666666666672
+              ],
+              "distance_squared": 74.34321882451098
+            },
+            {
+              "truth": [
+                0.004,
+                -0.3
+              ],
+              "remote": [
+                0.0036666666666666653,
+                -0.14666666666666672
+              ],
+              "distance_squared": 74.8085128496518
+            },
+            {
+              "truth": [
+                0.0005,
+                -0.3
+              ],
+              "remote": [
+                0.00016666666666666566,
+                -0.14666666666666672
+              ],
+              "distance_squared": 76.77295885204894
+            },
+            {
+              "truth": [
+                0.0005,
+                0.29999999999999993
+              ],
+              "remote": [
+                0.0009999999999999992,
+                0.14666666666666672
+              ],
+              "distance_squared": 76.83320048158816
+            },
+            {
+              "truth": [
+                0.004,
+                0.29999999999999993
+              ],
+              "remote": [
+                0.004333333333333333,
+                0.14666666666666672
+              ],
+              "distance_squared": 78.64024104255806
+            },
+            {
+              "truth": [
+                -0.004,
+                -0.3
+              ],
+              "remote": [
+                -0.004333333333333334,
+                -0.14666666666666672
+              ],
+              "distance_squared": 80.13911371182002
+            },
+            {
+              "truth": [
+                0.004,
+                0.0
+              ],
+              "remote": [
+                0.004333333333333333,
+                -0.16000000000000003
+              ],
+              "distance_squared": 97.0940434043556
+            },
+            {
+              "truth": [
+                0.0005,
+                0.0
+              ],
+              "remote": [
+                0.0008333333333333335,
+                -0.16000000000000003
+              ],
+              "distance_squared": 97.1750584894069
+            },
+            {
+              "truth": [
+                -0.004,
+                0.0
+              ],
+              "remote": [
+                -0.003666666666666667,
+                -0.16000000000000003
+              ],
+              "distance_squared": 99.3521722943434
+            },
+            {
+              "truth": [
+                0.0005,
+                0.45000000000000007
+              ],
+              "remote": [
+                0.0009999999999999992,
+                0.29333333333333345
+              ],
+              "distance_squared": 111.66247143413557
+            },
+            {
+              "truth": [
+                0.004,
+                0.45000000000000007
+              ],
+              "remote": [
+                0.004166666666666666,
+                0.29333333333333345
+              ],
+              "distance_squared": 112.63887206866815
+            },
+            {
+              "truth": [
+                0.0005,
+                -0.44999999999999996
+              ],
+              "remote": [
+                0.0009999999999999992,
+                -0.6000000000000001
+              ],
+              "distance_squared": 116.72109381909827
+            },
+            {
+              "truth": [
+                -0.004,
+                0.45000000000000007
+              ],
+              "remote": [
+                -0.0035000000000000005,
+                0.29333333333333345
+              ],
+              "distance_squared": 122.73198748206345
+            },
+            {
+              "truth": [
+                -0.004,
+                -0.44999999999999996
+              ],
+              "remote": [
+                -0.0038333333333333336,
+                -0.6000000000000001
+              ],
+              "distance_squared": 123.79834708723678
+            },
+            {
+              "truth": [
+                0.004,
+                -0.44999999999999996
+              ],
+              "remote": [
+                0.0034999999999999996,
+                -0.29333333333333333
+              ],
+              "distance_squared": 127.62341972861408
+            },
+            {
+              "truth": [
+                0.0005,
+                -0.6
+              ],
+              "remote": [
+                0.0011666666666666665,
+                -0.76
+              ],
+              "distance_squared": 163.39391660027638
+            },
+            {
+              "truth": [
+                -0.004,
+                -0.6
+              ],
+              "remote": [
+                -0.004,
+                -0.76
+              ],
+              "distance_squared": 165.01241130107147
+            },
+            {
+              "truth": [
+                0.0005,
+                0.6
+              ],
+              "remote": [
+                0.00033333333333333305,
+                0.76
+              ],
+              "distance_squared": 170.43935980546115
+            },
+            {
+              "truth": [
+                0.004,
+                0.6
+              ],
+              "remote": [
+                0.004166666666666666,
+                0.76
+              ],
+              "distance_squared": 195.19867425673323
+            },
+            {
+              "truth": [
+                0.004,
+                -0.6
+              ],
+              "remote": [
+                0.004999999999999999,
+                -0.76
+              ],
+              "distance_squared": 216.79402083395644
+            },
+            {
+              "truth": [
+                -0.004,
+                0.6
+              ],
+              "remote": [
+                -0.0035000000000000005,
+                0.43999999999999995
+              ],
+              "distance_squared": 220.57477412544966
+            }
+          ],
+          "feasibility_projection_max_change": 0.0,
+          "search_history": [
+            {
+              "cycle": 0,
+              "success": false,
+              "accepted": true,
+              "message": "Iteration limit reached",
+              "constraint_minimum": -8.347001364761297e-06,
+              "variance": 2.6252442472367952e-08,
+              "ambiguity_minimum": {
+                "truth": [
+                  -0.004,
+                  0.15000000000000002
+                ],
+                "remote": [
+                  -0.004,
+                  0.0
+                ],
+                "distance_squared": 59.07582854931632
+              },
+              "pair_count": 0
+            },
+            {
+              "cycle": 1,
+              "success": true,
+              "accepted": true,
+              "message": "Optimization terminated successfully",
+              "constraint_minimum": -2.1821606743799293e-09,
+              "variance": 2.5909543194790977e-08,
+              "ambiguity_minimum": {
+                "truth": [
+                  -0.004,
+                  0.15000000000000002
+                ],
+                "remote": [
+                  -0.004,
+                  0.0
+                ],
+                "distance_squared": 59.06689958582413
+              },
+              "pair_count": 0
+            }
+          ],
+          "config": {
+            "shots": 12,
+            "atoms_per_shot": 13333.333333333334,
+            "time_cap": 2048.0,
+            "exposure_cap": 160.0,
+            "overhead": 100.0,
+            "gamma": 0.01,
+            "sigma_intensity": 0.03,
+            "correlation_time": 300.0,
+            "quadrature": false,
+            "beam_correlation": 0.0,
+            "b_width": 0.6,
+            "integer_atoms": true,
+            "quadratic_covariance": true,
+            "ratio_modulation": true,
+            "ratio_alternating": true,
+            "peak_cap": 1.16619037896906,
+            "total_atoms": 160000,
+            "long_time_upper": 300.0,
+            "atom_weights": [
+              0.027586456310049974,
+              0.20684884520131086,
+              0.021019553018169594,
+              0.010637449003008406,
+              0.2154666447797275,
+              0.019790169476276608,
+              0.02227010283518723,
+              0.21352775613835798,
+              0.021081543700057718,
+              0.012614300474077113,
+              0.21282139728543675,
+              0.016335781778340167
+            ]
+          },
+          "nlong": 4,
+          "source": "two_beam_ratio_smooth.json",
+          "allocation_audit": {
+            "success": true,
+            "iterations": 19,
+            "original_variance": 2.6244749860974782e-08,
+            "continuous_variance": 2.59001080789521e-08,
+            "derivative_relative_error": 9.446680361796433e-10,
+            "minimum_atoms": 100,
+            "scope": "Convex fixed-control, finite-grid quadratic-noise allocation; not an exact-likelihood bound."
+          }
+        },
+        "config": {
+          "shots": 12,
+          "atoms_per_shot": 13333.333333333334,
+          "time_cap": 2048.0,
+          "exposure_cap": 160.0,
+          "overhead": 100.0,
+          "gamma": 0.01,
+          "sigma_intensity": 0.03,
+          "correlation_time": 300.0,
+          "quadrature": false,
+          "beam_correlation": 0.0,
+          "b_width": 0.6,
+          "integer_atoms": true,
+          "quadratic_covariance": true,
+          "ratio_modulation": true,
+          "ratio_alternating": true,
+          "peak_cap": 1.16619037896906,
+          "total_atoms": 160000,
+          "long_time_upper": 300.0,
+          "atom_weights": [
+            0.027586456310049974,
+            0.20684884520131086,
+            0.021019553018169594,
+            0.010637449003008406,
+            0.2154666447797275,
+            0.019790169476276608,
+            0.02227010283518723,
+            0.21352775613835798,
+            0.021081543700057718,
+            0.012614300474077113,
+            0.21282139728543675,
+            0.016335781778340167
+          ]
+        }
+      },
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1812.4536716515154,
+        "normalized_field_squared_exposure": 45743973.837126255,
+        "normalized_field_squared_peak": 911514.2138602107,
+        "scope": "Sampled envelope over supplied unknown-b domain; common dipole and geometry factor omitted"
+      },
+      "original_rows": [
+        {
+          "b": 0.0013409559842890478,
+          "variance": 8.312357123113584e-09,
+          "shot_variance": 8.122427940513107e-09,
+          "common_variance": 1.684338877722389e-10,
+          "difference_variance": 2.1495294828234836e-11,
+          "max_leakage": 0.07260200402719352
+        },
+        {
+          "b": -0.001374104511980398,
+          "variance": 1.0010895134638394e-08,
+          "shot_variance": 9.86282192490786e-09,
+          "common_variance": 1.2858565536856105e-10,
+          "difference_variance": 1.9487554361970613e-11,
+          "max_leakage": 0.07289257816690575
+        },
+        {
+          "b": -0.004121317607903007,
+          "variance": 8.910006150330035e-09,
+          "shot_variance": 8.712886731960742e-09,
+          "common_variance": 1.7822713711709412e-10,
+          "difference_variance": 1.8892281252196096e-11,
+          "max_leakage": 0.07434581150876474
+        }
+      ],
+      "rows": [
+        {
+          "b": 0.0013409559842890478,
+          "variance": 7.859305365585026e-09,
+          "shot_variance": 7.678420652496567e-09,
+          "common_variance": 1.5922429248677314e-10,
+          "difference_variance": 2.166042060168657e-11,
+          "max_leakage": 0.07422560128023614
+        },
+        {
+          "b": -0.001374104511980398,
+          "variance": 8.382576183734954e-09,
+          "shot_variance": 8.213786115910784e-09,
+          "common_variance": 1.5041991758199718e-10,
+          "difference_variance": 1.837015024217133e-11,
+          "max_leakage": 0.07632550808366562
+        },
+        {
+          "b": -0.004121317607903007,
+          "variance": 8.336321488247498e-09,
+          "shot_variance": 8.159581136619203e-09,
+          "common_variance": 1.5566538211742462e-10,
+          "difference_variance": 2.107496951087002e-11,
+          "max_leakage": 0.07964437749468223
+        }
+      ],
+      "mean_variance": 8.192734345855827e-09,
+      "optimization": {
+        "initial_variance": 9.077752802694004e-09,
+        "final_variance": 8.192734345855827e-09,
+        "evaluations": 43,
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      },
+      "elapsed": 22.234744800000044
+    }
+  ],
+  "best_fixed": {
+    "detuning_mhz": 200.0,
+    "name": "fixed_square",
+    "mean_variance": 8.192734345855827e-09
+  }
+}

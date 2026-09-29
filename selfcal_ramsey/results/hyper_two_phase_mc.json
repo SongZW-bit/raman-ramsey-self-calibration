@@ -1,0 +1,87 @@
+{
+  "config": {
+    "shots": 16,
+    "atoms_per_shot": 10000,
+    "time_cap": 2048.0,
+    "exposure_cap": 160.0,
+    "overhead": 100.0,
+    "gamma": 0.01,
+    "sigma_intensity": 0.03,
+    "correlation_time": 100.0
+  },
+  "source": "drift_refined_wide.json",
+  "results": [
+    {
+      "family": "hyper",
+      "pattern": "alternating",
+      "b": -0.6,
+      "reps": 5000,
+      "true_delta": 0.0,
+      "delta_bias": -7.303262604763658e-05,
+      "delta_mse": 7.662900375533021e-08,
+      "mse_standard_error": 1.6013670496233054e-09,
+      "nuisance_rmse": 0.004682660654318425,
+      "nuisance_catastrophic_fraction": 0.0
+    },
+    {
+      "family": "hyper",
+      "pattern": "alternating",
+      "b": -0.3,
+      "reps": 5000,
+      "true_delta": 0.0,
+      "delta_bias": -1.1532104089418378e-05,
+      "delta_mse": 3.920329407922089e-08,
+      "mse_standard_error": 7.882708156844862e-10,
+      "nuisance_rmse": 0.0038941774553394475,
+      "nuisance_catastrophic_fraction": 0.0
+    },
+    {
+      "family": "hyper",
+      "pattern": "alternating",
+      "b": 0.0,
+      "reps": 5000,
+      "true_delta": 0.0,
+      "delta_bias": -2.5841327838860494e-06,
+      "delta_mse": 5.2484667090575516e-08,
+      "mse_standard_error": 1.0421814237363307e-09,
+      "nuisance_rmse": 0.010168551321320501,
+      "nuisance_catastrophic_fraction": 0.0
+    },
+    {
+      "family": "hyper",
+      "pattern": "alternating",
+      "b": 0.15,
+      "reps": 5000,
+      "true_delta": 0.0,
+      "delta_bias": 7.026416814209617e-07,
+      "delta_mse": 6.102460346000194e-08,
+      "mse_standard_error": 1.2181114907370591e-09,
+      "nuisance_rmse": 0.022021130982921727,
+      "nuisance_catastrophic_fraction": 0.0
+    },
+    {
+      "family": "hyper",
+      "pattern": "alternating",
+      "b": 0.3,
+      "reps": 5000,
+      "true_delta": 0.0,
+      "delta_bias": -8.499639316789386e-06,
+      "delta_mse": 5.053998835034756e-08,
+      "mse_standard_error": 1.0246324239193656e-09,
+      "nuisance_rmse": 0.013312814624028975,
+      "nuisance_catastrophic_fraction": 0.0
+    },
+    {
+      "family": "hyper",
+      "pattern": "alternating",
+      "b": 0.6,
+      "reps": 5000,
+      "true_delta": 0.0,
+      "delta_bias": -3.3439708216349444e-06,
+      "delta_mse": 5.35076393871831e-08,
+      "mse_standard_error": 1.0342767852217333e-09,
+      "nuisance_rmse": 0.007115721031649286,
+      "nuisance_catastrophic_fraction": 0.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "noiseless_population_errors": [
+    2.7651329004285685e-09,
+    1.199473187440958e-09,
+    8.000479168046581e-09
+  ],
+  "independent_scipy_loss_improvements": [
+    0.0,
+    5.582023732131347e-11,
+    3.439026841078885e-12,
+    1.2826717465941329e-10,
+    2.351583816562197e-09,
+    0.0,
+    5.997208063490689e-09,
+    0.0,
+    0.0,
+    2.0737871864184854e-08,
+    5.515460088645341e-09,
+    0.0
+  ],
+  "max_loss_improvement": 2.0737871864184854e-08,
+  "note": "Checks local refinement, not global maximum likelihood or covariance accuracy."
+}

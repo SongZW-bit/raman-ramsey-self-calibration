@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "detuning_mhz": 100.0,
+      "relative_coefficient_error": 1.3322676295501878e-15,
+      "kappa": -0.5089011663597305,
+      "analytic_kappa": -0.5089011663597298,
+      "maximum_log_ratio_error": 0.0
+    },
+    {
+      "detuning_mhz": 150.0,
+      "relative_coefficient_error": 1.9984014443252818e-15,
+      "kappa": -0.26335174953959545,
+      "analytic_kappa": -0.26335174953959484,
+      "maximum_log_ratio_error": 2.498001805406602e-16
+    },
+    {
+      "detuning_mhz": 200.0,
+      "relative_coefficient_error": 6.17284001691587e-14,
+      "kappa": -0.0178023327194609,
+      "analytic_kappa": -0.017802332719459746,
+      "maximum_log_ratio_error": 0.0
+    },
+    {
+      "detuning_mhz": 250.0,
+      "relative_coefficient_error": 3.4416913763379853e-15,
+      "kappa": 0.22774708410067435,
+      "analytic_kappa": 0.22774708410067523,
+      "maximum_log_ratio_error": 1.1102230246251565e-16
+    },
+    {
+      "detuning_mhz": 300.0,
+      "relative_coefficient_error": 2.886579864025407e-15,
+      "kappa": 0.4732965009208089,
+      "analytic_kappa": 0.4732965009208103,
+      "maximum_log_ratio_error": 0.0
+    },
+    {
+      "detuning_mhz": 500.0,
+      "relative_coefficient_error": 1.5543122344752192e-15,
+      "kappa": 1.4554941682013471,
+      "analytic_kappa": 1.4554941682013505,
+      "maximum_log_ratio_error": 1.942890293094024e-16
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "relative_coefficient_error": 9.992007221626409e-16,
+      "kappa": 3.9109883364026925,
+      "analytic_kappa": 3.910988336402701,
+      "maximum_log_ratio_error": 0.0
+    }
+  ],
+  "passed": true,
+  "scope": "Second-order analytical coefficient and physical nuisance mapping validation; not a validation of the weak-coupling approximation at finite power."
+}

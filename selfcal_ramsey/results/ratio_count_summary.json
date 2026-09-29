@@ -1,0 +1,135 @@
+{
+  "results": [
+    {
+      "source": "two_beam_ratio_mc.json",
+      "family": "hyper",
+      "points": 5,
+      "reps": 2000,
+      "maximum_sampled_mse": 3.4221305225701955e-08,
+      "worst_b": -0.3,
+      "standard_error_at_worst": 1.068230152064146e-09,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2047.9999999996003,
+        "exposure": 93.93097742929237,
+        "peak": 1.166190378967894,
+        "nominal_coupling_exposure": 80.08996463391979,
+        "max_stark_sum": 1.16619037896906
+      },
+      "maximum_sampled_catastrophic_fraction": 0.0
+    },
+    {
+      "source": "two_beam_ratio_mc.json",
+      "family": "shape",
+      "points": 5,
+      "reps": 2000,
+      "maximum_sampled_mse": 3.258702546581253e-08,
+      "worst_b": 0.6,
+      "standard_error_at_worst": 1.037852730962378e-09,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2048.0,
+        "exposure": 99.24049771930513,
+        "peak": 1.1661903789678938,
+        "nominal_coupling_exposure": 81.4760385777597,
+        "max_stark_sum": 1.16619037896906
+      },
+      "maximum_sampled_catastrophic_fraction": 0.0
+    },
+    {
+      "source": "two_beam_count_hyper_mc.json",
+      "family": "hyper",
+      "points": 5,
+      "reps": 2000,
+      "maximum_sampled_mse": 2.7205358059930026e-08,
+      "worst_b": 0.6,
+      "standard_error_at_worst": 8.50221141956857e-10,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "exposure": 75.25399046844788,
+        "peak": 1.1661903789668588,
+        "nominal_coupling_exposure": 62.4844141459891,
+        "max_stark_sum": 1.16619037896906
+      },
+      "maximum_sampled_catastrophic_fraction": 0.0
+    },
+    {
+      "source": "two_beam_count_shape_mc.json",
+      "family": "shape",
+      "points": 5,
+      "reps": 2000,
+      "maximum_sampled_mse": 2.6980039407155053e-08,
+      "worst_b": 0.6,
+      "standard_error_at_worst": 8.369374172551401e-10,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "exposure": 74.73564215579877,
+        "peak": 1.166190378963395,
+        "nominal_coupling_exposure": 62.643613951896704,
+        "max_stark_sum": 1.16619037896906
+      },
+      "maximum_sampled_catastrophic_fraction": 0.0
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "two_beam_ratio_mc.json:hyper",
+      "candidate": "two_beam_ratio_mc.json:shape",
+      "mse_reduction": 0.047756207693153585,
+      "rmse_reduction": 0.02417020320813812
+    },
+    {
+      "reference": "two_beam_count_hyper_mc.json:hyper",
+      "candidate": "two_beam_count_shape_mc.json:shape",
+      "mse_reduction": 0.008282142520551372,
+      "rmse_reduction": 0.004149681187253562
+    },
+    {
+      "reference": "two_beam_ratio_mc.json:hyper",
+      "candidate": "two_beam_count_hyper_mc.json:hyper",
+      "mse_reduction": 0.2050169366568343,
+      "rmse_reduction": 0.10838177264977045
+    },
+    {
+      "reference": "two_beam_ratio_mc.json:shape",
+      "candidate": "two_beam_count_shape_mc.json:shape",
+      "mse_reduction": 0.17206191662199544,
+      "rmse_reduction": 0.09008896952613843
+    }
+  ],
+  "ratio_pointwise": [
+    {
+      "b": -0.6,
+      "hyper_mse": 3.256344734713888e-08,
+      "shape_mse": 3.0611874929270426e-08,
+      "mse_reduction": 0.05993138248122021
+    },
+    {
+      "b": -0.3,
+      "hyper_mse": 3.4221305225701955e-08,
+      "shape_mse": 2.5269880627981583e-08,
+      "mse_reduction": 0.2615746108654381
+    },
+    {
+      "b": 0.0,
+      "hyper_mse": 3.3407338654915344e-08,
+      "shape_mse": 3.0915719364564374e-08,
+      "mse_reduction": 0.0745829925600604
+    },
+    {
+      "b": 0.3,
+      "hyper_mse": 3.336299209039426e-08,
+      "shape_mse": 2.282312598006383e-08,
+      "mse_reduction": 0.3159148940171054
+    },
+    {
+      "b": 0.6,
+      "hyper_mse": 3.241066534214952e-08,
+      "shape_mse": 3.258702546581253e-08,
+      "mse_reduction": -0.0054414225009338235
+    }
+  ],
+  "scope": "Five-point Monte Carlo maxima, not continuous worst-case bounds. Count design selected by surrogate only. No literature-wide optimum claim."
+}

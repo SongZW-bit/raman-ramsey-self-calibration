@@ -1,0 +1,95 @@
+{
+  "config": {
+    "shots": 16,
+    "atoms_per_shot": 10000,
+    "time_cap": 2048.0,
+    "exposure_cap": 160.0,
+    "overhead": 100.0,
+    "gamma": 0.01,
+    "sigma_intensity": 0.03,
+    "correlation_time": 100.0,
+    "quadrature": true
+  },
+  "design_config": {
+    "shots": 16,
+    "atoms_per_shot": 10000,
+    "time_cap": 2048.0,
+    "exposure_cap": 160.0,
+    "overhead": 100.0,
+    "gamma": 0.01,
+    "sigma_intensity": 0.03,
+    "correlation_time": 1000000000.0,
+    "quadrature": true
+  },
+  "results": [
+    {
+      "family": "square",
+      "pattern": "distributed8",
+      "parameters": [
+        1.5651668658403546,
+        1.568816235207381,
+        0.10001967244687461,
+        49.63198309217934,
+        1.0,
+        1.5654840293314205,
+        -0.047224112782968966,
+        -2.3457489966064733
+      ],
+      "static_variance": 3.236288773434464e-08,
+      "variance": 1.554105723801849e-07,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2047.9997517337733,
+        "exposure": 50.143729616763764,
+        "peak": 1.0
+      },
+      "optimizer_success": false
+    },
+    {
+      "family": "square",
+      "pattern": "distributed10",
+      "parameters": [
+        1.5687377039430832,
+        1.572240644288668,
+        0.10009739176052482,
+        66.12368012822186,
+        0.9999535900545234,
+        0.03386751410022394,
+        0.03279988628985751,
+        -0.9686982893472135
+      ],
+      "static_variance": 3.0825031711376266e-08,
+      "variance": 9.896574728013988e-08,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2047.9987082586445,
+        "exposure": 50.253321209565875,
+        "peak": 0.9999535900545234
+      },
+      "optimizer_success": false
+    },
+    {
+      "family": "square",
+      "pattern": "distributed12",
+      "parameters": [
+        1.5717730747507384,
+        1.5718083474813154,
+        0.10001356999088083,
+        99.12507321525655,
+        0.9999857481094145,
+        -1.5681310777864816,
+        -0.051332852485595555,
+        -2.359755534864519
+      ],
+      "static_variance": 3.776769292474465e-08,
+      "variance": 9.66490451408789e-08,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2047.9977584566295,
+        "exposure": 50.29658592405725,
+        "peak": 0.9999857481094145
+      },
+      "optimizer_success": false
+    }
+  ]
+}

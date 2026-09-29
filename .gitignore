@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.pdf
+*.png
+*.tex
+*.bib
+*.bbl
+*.md
+!README.md
+*.zip
+*.log
+*.aux
+*.out
+**/audit/

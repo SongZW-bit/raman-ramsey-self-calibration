@@ -1,0 +1,114 @@
+[
+  {
+    "name": "fixed_hyper",
+    "detuning_mhz": 200.0,
+    "physical_b": [
+      0.0013409559842890478,
+      -0.001374104511980398,
+      -0.004121317607903007
+    ],
+    "point_variance": [
+      2.5388682102183177e-08,
+      2.5342607020987386e-08,
+      2.548334708989349e-08
+    ],
+    "mean_variance": 2.540487873768802e-08,
+    "source": "rb87_joint_phase_refined.json"
+  },
+  {
+    "name": "fixed_shape",
+    "detuning_mhz": 200.0,
+    "physical_b": [
+      0.0013409559842890478,
+      -0.001374104511980398,
+      -0.004121317607903007
+    ],
+    "point_variance": [
+      8.111140203457088e-09,
+      8.067812779706961e-09,
+      8.292873365288376e-09
+    ],
+    "mean_variance": 8.157275449484143e-09,
+    "source": "rb87_joint_phase_refined.json"
+  },
+  {
+    "name": "fixed_hyper",
+    "detuning_mhz": 1000.0,
+    "physical_b": [
+      -0.6000000000000008,
+      0.0,
+      0.6
+    ],
+    "point_variance": [
+      9.741808663602542e-08,
+      6.192017149537142e-08,
+      8.70531439487794e-08
+    ],
+    "mean_variance": 8.213046736005875e-08,
+    "source": "rb87_joint_phase_refined.json"
+  },
+  {
+    "name": "fixed_shape",
+    "detuning_mhz": 1000.0,
+    "physical_b": [
+      -0.6000000000000008,
+      0.0,
+      0.6
+    ],
+    "point_variance": [
+      7.639398223940246e-08,
+      6.035528647604062e-08,
+      8.268275750844507e-08
+    ],
+    "mean_variance": 7.314400874129605e-08,
+    "source": "rb87_joint_phase_refined.json"
+  },
+  {
+    "name": "fixed_square",
+    "detuning_mhz": 200.0,
+    "physical_b": [
+      0.0013409559842890478,
+      -0.001374104511980398,
+      -0.004121317607903007
+    ],
+    "point_variance": [
+      7.861627142836595e-09,
+      8.456698713257617e-09,
+      8.56845605462854e-09
+    ],
+    "mean_variance": 8.295593970240917e-09,
+    "source": "rb87_square_reference.json"
+  },
+  {
+    "name": "fixed_square",
+    "detuning_mhz": 500.0,
+    "physical_b": [
+      -0.22451347623792373,
+      -0.0012063218221167534,
+      0.22207260593242686
+    ],
+    "point_variance": [
+      2.802546137267593e-08,
+      2.5589753616921194e-08,
+      2.814031457669968e-08
+    ],
+    "mean_variance": 2.72518431887656e-08,
+    "source": "rb87_square_far_reference.json"
+  },
+  {
+    "name": "fixed_square",
+    "detuning_mhz": 1000.0,
+    "physical_b": [
+      -0.6000000000000008,
+      0.0,
+      0.6
+    ],
+    "point_variance": [
+      1.3073911196413522e-07,
+      1.577193188966091e-07,
+      1.4831841259780709e-07
+    ],
+    "mean_variance": 1.4559228115285047e-07,
+    "source": "rb87_square_far_reference.json"
+  }
+]

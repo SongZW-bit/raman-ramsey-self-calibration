@@ -1,0 +1,44 @@
+[
+  {
+    "family": "hyper",
+    "b": -0.6,
+    "variance": 4.435180645230631e-08,
+    "minimum_quadratic_eigenvalue": 1.8904408296052296e-07,
+    "independent_mean_error": 1.1790529706647707e-08
+  },
+  {
+    "family": "hyper",
+    "b": 0.0,
+    "variance": 3.9681782207991615e-08,
+    "minimum_quadratic_eigenvalue": 9.878167994797804e-08,
+    "independent_mean_error": 2.4101568928017007e-09
+  },
+  {
+    "family": "hyper",
+    "b": 0.6,
+    "variance": 4.191961508822736e-08,
+    "minimum_quadratic_eigenvalue": 4.1201921340794675e-07,
+    "independent_mean_error": 1.113431205264706e-08
+  },
+  {
+    "family": "shape",
+    "b": -0.6,
+    "variance": 3.675726565304899e-08,
+    "minimum_quadratic_eigenvalue": 1.4810273181743567e-06,
+    "independent_mean_error": 1.5569664590583954e-08
+  },
+  {
+    "family": "shape",
+    "b": 0.0,
+    "variance": 3.40037067116332e-08,
+    "minimum_quadratic_eigenvalue": 1.8154880414491634e-07,
+    "independent_mean_error": 2.44797949142464e-09
+  },
+  {
+    "family": "shape",
+    "b": 0.6,
+    "variance": 3.4381175961308e-08,
+    "minimum_quadratic_eigenvalue": 1.1154243003470146e-07,
+    "independent_mean_error": 1.1093962316291103e-08
+  }
+]

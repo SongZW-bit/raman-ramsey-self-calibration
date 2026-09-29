@@ -1,0 +1,16 @@
+{
+  "source": "two_beam_adaptive_pilot.json",
+  "per_shot_frequency_insertion_max_error": 0.0,
+  "phase_control_embedding_max_error": 0.0,
+  "resource_invariance": true,
+  "independent_scipy_loss_improvements": [
+    0.0,
+    2.901856532844249e-11,
+    5.684341886080802e-14,
+    1.0658141036401503e-12,
+    1.602984411874786e-11,
+    2.9558577807620168e-12,
+    5.9117155615240335e-12
+  ],
+  "scope": "Control insertion and local inference refinement, not an exact adaptive-risk or global-likelihood certificate."
+}

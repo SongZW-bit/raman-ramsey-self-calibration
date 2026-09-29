@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "lookup": "rb87_refined_lookup.json",
+      "name": "fixed_hyper",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 2.1660558372271545e-05,
+      "minimum_eigenvalue": 2.1660558372271545e-05,
+      "node_reconstruction_error": 4.336808689942018e-19
+    },
+    {
+      "lookup": "rb87_refined_lookup.json",
+      "name": "fixed_shape",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 9.546340548840157e-07,
+      "minimum_eigenvalue": 9.546340548840157e-07,
+      "node_reconstruction_error": 1.734723475976807e-18
+    },
+    {
+      "lookup": "rb87_refined_lookup.json",
+      "name": "branch_0",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 2.184384100242918e-05,
+      "minimum_eigenvalue": 2.184384100242918e-05,
+      "node_reconstruction_error": 4.336808689942018e-19
+    },
+    {
+      "lookup": "rb87_refined_lookup.json",
+      "name": "branch_1",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 3.490283592569066e-05,
+      "minimum_eigenvalue": 3.490283592569066e-05,
+      "node_reconstruction_error": 3.469446951953614e-18
+    },
+    {
+      "lookup": "rb87_refined_lookup.json",
+      "name": "branch_7",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 1.777734162062122e-05,
+      "minimum_eigenvalue": 1.777734162062122e-05,
+      "node_reconstruction_error": 4.336808689942018e-19
+    },
+    {
+      "lookup": "rb87_refined_effective_lookup.json",
+      "name": "fixed_hyper",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 2.2463574140097774e-05,
+      "minimum_eigenvalue": 2.2463574140097774e-05,
+      "node_reconstruction_error": 4.336808689942018e-19
+    },
+    {
+      "lookup": "rb87_refined_effective_lookup.json",
+      "name": "fixed_shape",
+      "method": "log_cholesky_cubic",
+      "original_minimum_eigenvalue": -2.9306590160526833e-07,
+      "minimum_eigenvalue": 4.910943794782755e-06,
+      "node_reconstruction_error": 3.469446951953614e-18
+    },
+    {
+      "lookup": "rb87_refined_effective_lookup.json",
+      "name": "branch_0",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 2.264755243469972e-05,
+      "minimum_eigenvalue": 2.264755243469972e-05,
+      "node_reconstruction_error": 8.673617379884035e-19
+    },
+    {
+      "lookup": "rb87_refined_effective_lookup.json",
+      "name": "branch_1",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 3.8231491139506425e-05,
+      "minimum_eigenvalue": 3.8231491139506425e-05,
+      "node_reconstruction_error": 3.469446951953614e-18
+    },
+    {
+      "lookup": "rb87_refined_effective_lookup.json",
+      "name": "branch_7",
+      "method": "certified_positive_cubic",
+      "original_minimum_eigenvalue": 1.7830192418339065e-05,
+      "minimum_eigenvalue": 1.7830192418339065e-05,
+      "node_reconstruction_error": 4.336808689942018e-19
+    }
+  ],
+  "scope": "Bernstein certificate or positive factor interpolation over the closed lookup interval; node fidelity and 10001-point regression. Gaussian likelihood approximation remains separate."
+}

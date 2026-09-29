@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "name": "fixed_hyper",
+      "max_population_error": 5.3476432229082604e-06,
+      "max_whitened_squared_error": 1.9037524804059734e-07,
+      "minimum_covariance_eigenvalue": 2.166109375565875e-05
+    },
+    {
+      "name": "fixed_shape",
+      "max_population_error": 4.627166931059357e-06,
+      "max_whitened_squared_error": 4.656932785952701e-07,
+      "minimum_covariance_eigenvalue": 9.55221304958029e-07
+    },
+    {
+      "name": "branch_0",
+      "max_population_error": 5.4224023567917e-06,
+      "max_whitened_squared_error": 2.0397863775031982e-07,
+      "minimum_covariance_eigenvalue": 2.1857020036840193e-05
+    },
+    {
+      "name": "branch_1",
+      "max_population_error": 5.423068798360298e-06,
+      "max_whitened_squared_error": 2.8780105149500634e-07,
+      "minimum_covariance_eigenvalue": 3.490286739650152e-05
+    },
+    {
+      "name": "branch_7",
+      "max_population_error": 6.286509932035278e-06,
+      "max_whitened_squared_error": 3.585343124186889e-07,
+      "minimum_covariance_eigenvalue": 1.7779265413658452e-05
+    }
+  ],
+  "scope": "Noise-free mean interpolation and covariance positivity only; not the accuracy of Gaussian intensity marginalization.",
+  "passed": true
+}

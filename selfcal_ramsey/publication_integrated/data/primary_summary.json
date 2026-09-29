@@ -1,0 +1,527 @@
+{
+  "holdout": {
+    "cells": 24,
+    "records_per_cell": 96,
+    "comparisons": [
+      {
+        "cells": 24,
+        "records_per_cell": 96,
+        "reference": "fixed_shape",
+        "adaptive": "adaptive8",
+        "reference_mse_hz2": 8.630574393018046,
+        "adaptive_mse_hz2": 6.861290946524337,
+        "gain": 0.20500181864199252,
+        "ci": [
+          0.08290020681463406,
+          0.31281651081953166
+        ],
+        "hierarchical": true
+      },
+      {
+        "cells": 24,
+        "records_per_cell": 96,
+        "reference": "fixed_refined",
+        "adaptive": "adaptive8",
+        "reference_mse_hz2": 8.57149084545741,
+        "adaptive_mse_hz2": 6.861290946524337,
+        "gain": 0.19952187195526427,
+        "ci": [
+          0.07658738407779786,
+          0.3061193527187451
+        ],
+        "hierarchical": true
+      },
+      {
+        "cells": 24,
+        "records_per_cell": 96,
+        "reference": "fixed_refined",
+        "adaptive": "adaptive8_mc",
+        "reference_mse_hz2": 8.57149084545741,
+        "adaptive_mse_hz2": 7.238658154937463,
+        "gain": 0.15549601750158804,
+        "ci": [
+          0.017559862660720255,
+          0.27184115080578164
+        ],
+        "hierarchical": true
+      },
+      {
+        "cells": 24,
+        "records_per_cell": 96,
+        "reference": "adaptive8",
+        "adaptive": "adaptive8_mc",
+        "reference_mse_hz2": 6.861290946524337,
+        "adaptive_mse_hz2": 7.238658154937463,
+        "gain": -0.054999447094469245,
+        "ci": [
+          -0.11533951293889623,
+          -0.002121106221912999
+        ],
+        "hierarchical": true
+      }
+    ],
+    "by_region": {
+      "negative": {
+        "cells": 12,
+        "records_per_cell": 96,
+        "reference": "fixed_refined",
+        "adaptive": "adaptive8",
+        "reference_mse_hz2": 9.530947016055208,
+        "adaptive_mse_hz2": 6.444130328641844,
+        "gain": 0.3238730298482948,
+        "ci": [
+          0.20097963675816233,
+          0.43168417308455564
+        ],
+        "hierarchical": true
+      },
+      "interior": {
+        "cells": 5,
+        "records_per_cell": 96,
+        "reference": "fixed_refined",
+        "adaptive": "adaptive8",
+        "reference_mse_hz2": 7.455853384127974,
+        "adaptive_mse_hz2": 6.769371474834222,
+        "gain": 0.09207288206003827,
+        "ci": [
+          -0.0931534929172451,
+          0.25307016172302355
+        ],
+        "hierarchical": true
+      },
+      "positive": {
+        "cells": 7,
+        "records_per_cell": 96,
+        "reference": "fixed_refined",
+        "adaptive": "adaptive8",
+        "reference_mse_hz2": 7.723592739667924,
+        "adaptive_mse_hz2": 7.642080199815834,
+        "gain": 0.010553707659059608,
+        "ci": [
+          -0.27834446219779374,
+          0.24121876467135078
+        ],
+        "hierarchical": true
+      }
+    },
+    "selection_frequencies": {
+      "adaptive8": [
+        147,
+        54,
+        447,
+        656,
+        303,
+        483,
+        198,
+        16
+      ],
+      "adaptive8_mc": [
+        152,
+        2,
+        639,
+        485,
+        282,
+        263,
+        481,
+        0
+      ]
+    }
+  },
+  "broad": {
+    "cells": 27,
+    "records_per_cell": 96,
+    "comparisons": [
+      {
+        "cells": 27,
+        "records_per_cell": 96,
+        "reference": "fixed_shape",
+        "adaptive": "adaptive8",
+        "reference_mse_hz2": 9.020275191548,
+        "adaptive_mse_hz2": 7.212956910486503,
+        "gain": 0.20036176753841783,
+        "ci": [
+          0.1446719113635758,
+          0.2513751603717561
+        ],
+        "hierarchical": false
+      },
+      {
+        "cells": 27,
+        "records_per_cell": 96,
+        "reference": "fixed_refined",
+        "adaptive": "adaptive8",
+        "reference_mse_hz2": 9.023601561691382,
+        "adaptive_mse_hz2": 7.212956910486503,
+        "gain": 0.20065653817116158,
+        "ci": [
+          0.14439452334636127,
+          0.253199750964145
+        ],
+        "hierarchical": false
+      },
+      {
+        "cells": 27,
+        "records_per_cell": 96,
+        "reference": "fixed_refined",
+        "adaptive": "adaptive8_mc",
+        "reference_mse_hz2": 9.023601561691382,
+        "adaptive_mse_hz2": 7.637908761893752,
+        "gain": 0.15356316325849573,
+        "ci": [
+          0.09240048061718342,
+          0.2088714213381071
+        ],
+        "hierarchical": false
+      },
+      {
+        "cells": 27,
+        "records_per_cell": 96,
+        "reference": "adaptive8",
+        "adaptive": "adaptive8_mc",
+        "reference_mse_hz2": 7.212956910486503,
+        "adaptive_mse_hz2": 7.637908761893752,
+        "gain": -0.058915068630097656,
+        "ci": [
+          -0.0937384739297884,
+          -0.02525114105453951
+        ],
+        "hierarchical": false
+      }
+    ],
+    "selection_frequencies": {
+      "adaptive8": [
+        303,
+        238,
+        359,
+        443,
+        325,
+        393,
+        307,
+        224
+      ],
+      "adaptive8_mc": [
+        224,
+        3,
+        696,
+        391,
+        290,
+        252,
+        736,
+        0
+      ]
+    }
+  },
+  "oracle": [
+    {
+      "b": -0.6,
+      "best_parameter_branch": 1,
+      "branch_risk_hz2": [
+        11.001258396400372,
+        6.21001093106905,
+        6.507593190165304,
+        7.669744595005763,
+        38.99877941303926,
+        146.62026046264504,
+        196.23834980993078,
+        248.7792963585527
+      ],
+      "local_choices": [
+        0,
+        75,
+        20,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mc_choices": [
+        0,
+        2,
+        94,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "local_misselection": 0.21875,
+      "mc_misselection": 0.9791666666666666,
+      "parameter_oracle_hz2": 6.210010931069049,
+      "realization_oracle_hz2": 1.636510320065363,
+      "local_hz2": 6.2023260149400095,
+      "mc_hz2": 6.626899816327286
+    },
+    {
+      "b": -0.4,
+      "best_parameter_branch": 2,
+      "branch_risk_hz2": [
+        11.146657480003467,
+        8.257718196943674,
+        5.801014646567233,
+        7.505893862706757,
+        14.046561757418361,
+        21.746245804804467,
+        79.31851327562383,
+        99.90769174029741
+      ],
+      "local_choices": [
+        0,
+        2,
+        67,
+        27,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mc_choices": [
+        1,
+        0,
+        79,
+        16,
+        0,
+        0,
+        0,
+        0
+      ],
+      "local_misselection": 0.3020833333333333,
+      "mc_misselection": 0.17708333333333334,
+      "parameter_oracle_hz2": 5.801014646567233,
+      "realization_oracle_hz2": 1.178332243626087,
+      "local_hz2": 6.4152639310694815,
+      "mc_hz2": 6.440564028972484
+    },
+    {
+      "b": -0.2,
+      "best_parameter_branch": 4,
+      "branch_risk_hz2": [
+        5.751493134418986,
+        8.861612230958793,
+        7.163419805351719,
+        5.839168713107496,
+        5.354534210169398,
+        11.182474561213446,
+        22.05134305025049,
+        26.40069699766271
+      ],
+      "local_choices": [
+        18,
+        0,
+        2,
+        73,
+        3,
+        0,
+        0,
+        0
+      ],
+      "mc_choices": [
+        18,
+        0,
+        7,
+        55,
+        16,
+        0,
+        0,
+        0
+      ],
+      "local_misselection": 0.96875,
+      "mc_misselection": 0.8333333333333334,
+      "parameter_oracle_hz2": 5.3545342101694,
+      "realization_oracle_hz2": 0.44985573312155486,
+      "local_hz2": 5.94521651960692,
+      "mc_hz2": 5.068359319494434
+    },
+    {
+      "b": 0.0,
+      "best_parameter_branch": 0,
+      "branch_risk_hz2": [
+        5.270806558009071,
+        10.188114785893779,
+        8.441585535181712,
+        7.25427358744143,
+        6.208008115353978,
+        7.25804504407927,
+        11.6564372975821,
+        14.700389856382316
+      ],
+      "local_choices": [
+        53,
+        0,
+        0,
+        3,
+        40,
+        0,
+        0,
+        0
+      ],
+      "mc_choices": [
+        33,
+        0,
+        0,
+        20,
+        30,
+        13,
+        0,
+        0
+      ],
+      "local_misselection": 0.4479166666666667,
+      "mc_misselection": 0.65625,
+      "parameter_oracle_hz2": 5.270806558009071,
+      "realization_oracle_hz2": 0.6699238768735895,
+      "local_hz2": 5.582130295282256,
+      "mc_hz2": 5.958161832134829
+    },
+    {
+      "b": 0.19999999999999996,
+      "best_parameter_branch": 6,
+      "branch_risk_hz2": [
+        9.869149301558313,
+        47.74526271550087,
+        12.852206885228957,
+        11.318995314366955,
+        8.758455407535688,
+        8.444274001485777,
+        7.993827729527704,
+        10.557334444196641
+      ],
+      "local_choices": [
+        4,
+        0,
+        0,
+        0,
+        41,
+        50,
+        1,
+        0
+      ],
+      "mc_choices": [
+        5,
+        0,
+        0,
+        5,
+        33,
+        29,
+        24,
+        0
+      ],
+      "local_misselection": 0.9895833333333334,
+      "mc_misselection": 0.75,
+      "parameter_oracle_hz2": 7.993827729527706,
+      "realization_oracle_hz2": 1.1551609413617598,
+      "local_hz2": 8.953592871376413,
+      "mc_hz2": 9.318802197830523
+    },
+    {
+      "b": 0.3999999999999999,
+      "best_parameter_branch": 6,
+      "branch_risk_hz2": [
+        8.09254891554528,
+        189.15690837940065,
+        95.28056137009217,
+        10.3604031504928,
+        11.643390565510302,
+        7.430637601196395,
+        6.570766228434825,
+        8.60010404041199
+      ],
+      "local_choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        37,
+        55,
+        4
+      ],
+      "mc_choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        88,
+        0
+      ],
+      "local_misselection": 0.4270833333333333,
+      "mc_misselection": 0.08333333333333333,
+      "parameter_oracle_hz2": 6.570766228434823,
+      "realization_oracle_hz2": 0.8380217739449083,
+      "local_hz2": 6.75602103329774,
+      "mc_hz2": 6.844235407520453
+    },
+    {
+      "b": 0.6,
+      "best_parameter_branch": 7,
+      "branch_risk_hz2": [
+        9.635262451666202,
+        217.6795900196515,
+        277.72718932711695,
+        127.2260098648594,
+        16.588098902884735,
+        14.526235572061127,
+        7.381043802112101,
+        6.233947427063556
+      ],
+      "local_choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        27,
+        69
+      ],
+      "mc_choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        96,
+        0
+      ],
+      "local_misselection": 0.28125,
+      "mc_misselection": 1.0,
+      "parameter_oracle_hz2": 6.233947427063555,
+      "realization_oracle_hz2": 1.5171119269266191,
+      "local_hz2": 6.337510087215017,
+      "mc_hz2": 7.381043802112104
+    }
+  ],
+  "resolved_200_mc.json": {
+    "200.0_fixed_hyper": {
+      "mse_hz2": 2.494190650758796,
+      "mse_ci_hz2": [
+        2.2488689819058028,
+        2.747912501839639
+      ],
+      "boundary_fraction": 0.36999999999999994,
+      "records": 600
+    },
+    "200.0_fixed_shape": {
+      "mse_hz2": 0.8281466058397334,
+      "mse_ci_hz2": [
+        0.7337036679670875,
+        0.9286310295914563
+      ],
+      "boundary_fraction": 0.25666666666666665,
+      "records": 600
+    }
+  },
+  "resolved_200_square_mc.json": {
+    "200.0_fixed_square": {
+      "mse_hz2": 0.7249534119324519,
+      "mse_ci_hz2": [
+        0.6451131192131566,
+        0.8083248327838577
+      ],
+      "boundary_fraction": 0.3666666666666667,
+      "records": 600
+    }
+  }
+}

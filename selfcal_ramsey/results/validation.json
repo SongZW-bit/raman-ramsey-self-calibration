@@ -1,0 +1,178 @@
+{
+  "training_scores": {
+    "square": 9587081.025399404,
+    "shaped": 9823419.3247177
+  },
+  "heldout": [
+    {
+      "grid": "train",
+      "family": "square",
+      "minimum": 9587081.025399404,
+      "median": 10176920.114373924,
+      "maximum": 12988883.53609917,
+      "n": 9
+    },
+    {
+      "grid": "train",
+      "family": "shaped",
+      "minimum": 9823419.3247177,
+      "median": 10354180.794385444,
+      "maximum": 12980513.26857157,
+      "n": 9
+    },
+    {
+      "grid": "heldout",
+      "family": "square",
+      "minimum": 811393.9852587109,
+      "median": 7129230.643547899,
+      "maximum": 12478681.682677675,
+      "n": 36
+    },
+    {
+      "grid": "heldout",
+      "family": "shaped",
+      "minimum": 812123.9733022219,
+      "median": 7113678.20780786,
+      "maximum": 12332549.296925176,
+      "n": 36
+    },
+    {
+      "grid": "delta_heldout",
+      "family": "square",
+      "minimum": 255632.42951713305,
+      "median": 2446174.1415132987,
+      "maximum": 12770846.961168354,
+      "n": 27
+    },
+    {
+      "grid": "delta_heldout",
+      "family": "shaped",
+      "minimum": 249357.4535715484,
+      "median": 2544214.1983486265,
+      "maximum": 12794371.569695488,
+      "n": 27
+    }
+  ],
+  "finite_difference": [
+    {
+      "family": "square",
+      "step": 0.001,
+      "minimum": 9581813.46944022
+    },
+    {
+      "family": "square",
+      "step": 0.0003,
+      "minimum": 9586608.8054891
+    },
+    {
+      "family": "square",
+      "step": 0.0001,
+      "minimum": 9587030.463568587
+    },
+    {
+      "family": "square",
+      "step": 3e-05,
+      "minimum": 9587078.4247671
+    },
+    {
+      "family": "square",
+      "step": 1e-05,
+      "minimum": 9587082.585810008
+    },
+    {
+      "family": "square",
+      "step": 3e-06,
+      "minimum": 9587083.059083804
+    },
+    {
+      "family": "square",
+      "step": 1e-06,
+      "minimum": 9587083.100577112
+    },
+    {
+      "family": "square",
+      "nuisance_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "family": "shaped",
+      "step": 0.001,
+      "minimum": 9818088.454063006
+    },
+    {
+      "family": "shaped",
+      "step": 0.0003,
+      "minimum": 9822941.85606128
+    },
+    {
+      "family": "shaped",
+      "step": 0.0001,
+      "minimum": 9823368.16647979
+    },
+    {
+      "family": "shaped",
+      "step": 3e-05,
+      "minimum": 9823416.660204664
+    },
+    {
+      "family": "shaped",
+      "step": 1e-05,
+      "minimum": 9823420.923425363
+    },
+    {
+      "family": "shaped",
+      "step": 3e-06,
+      "minimum": 9823421.408340065
+    },
+    {
+      "family": "shaped",
+      "step": 1e-06,
+      "minimum": 9823421.451160481
+    },
+    {
+      "family": "shaped",
+      "nuisance_ranks": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  ],
+  "resources": {
+    "square": {
+      "atoms": 100000.0,
+      "time_per_atom": 24.99999994391132,
+      "light_per_atom": 2.9374944715284963,
+      "elapsed": 2499999.994391132,
+      "exposure": 293749.44715284964,
+      "peak_power": 1.0,
+      "short_atoms": 46925.56718087895,
+      "long_atoms": 53074.43281912105
+    },
+    "shaped": {
+      "atoms": 99996.77973012623,
+      "time_per_atom": 25.00080509339462,
+      "light_per_atom": 2.9461857754973417,
+      "elapsed": 2500000.0,
+      "exposure": 294609.09003643884,
+      "peak_power": 0.9999467981979716,
+      "short_atoms": 46922.294105327506,
+      "long_atoms": 53074.485624798726
+    }
+  }
+}

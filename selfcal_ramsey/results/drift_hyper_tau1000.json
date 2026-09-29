@@ -1,0 +1,36 @@
+{
+  "config": {
+    "shots": 16,
+    "atoms_per_shot": 10000,
+    "time_cap": 2048.0,
+    "exposure_cap": 160.0,
+    "overhead": 100.0,
+    "gamma": 0.01,
+    "sigma_intensity": 0.03,
+    "correlation_time": 1000.0
+  },
+  "results": [
+    {
+      "family": "hyper",
+      "pattern": "pairs",
+      "parameters": [
+        1.5561116696891424,
+        3.8040575056745185,
+        0.10000000000005506,
+        45.179661649274486,
+        1.0,
+        -0.05697489232387445,
+        0.005497521985431993,
+        0.004768844030678964
+      ],
+      "variance": 3.9346371040514456e-08,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2048.0000000000146,
+        "exposure": 85.76270680581857,
+        "peak": 1.0
+      },
+      "label": "hyper pairs"
+    }
+  ]
+}

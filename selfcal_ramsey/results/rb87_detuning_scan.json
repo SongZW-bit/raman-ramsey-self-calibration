@@ -1,0 +1,965 @@
+{
+  "scope": "Exploratory local variances and oracle diagnostics; fixed/adaptive controls frozen after physical ratio conversion. No finite-data advantage claim.",
+  "rows": [
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "b": -0.6,
+      "name": "fixed_hyper",
+      "variance": 2.8589108731114884e-08,
+      "common_variance": 5.036139892796214e-09,
+      "difference_variance": 7.323095700748808e-10,
+      "shot_variance": 2.2820659268243797e-08,
+      "max_population_outside_sensor_pair": 0.3860304704715328,
+      "max_excited_population": 7.743561357684328e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 58959923.551115006,
+        "normalized_field_squared_peak": 1383988.5060694085,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.079118899993773
+    },
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "b": -0.6,
+      "name": "fixed_shape",
+      "variance": 2.731254637843913e-08,
+      "common_variance": 3.737909362439193e-09,
+      "difference_variance": 1.041396519941569e-09,
+      "shot_variance": 2.2533240496058365e-08,
+      "max_population_outside_sensor_pair": 0.4215301949463963,
+      "max_excited_population": 7.419704744417888e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 56997333.26327385,
+        "normalized_field_squared_peak": 1239867.1792167043,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0556374000007054
+    },
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "b": -0.6,
+      "name": "branch_1",
+      "variance": 2.0082948741598182e-08,
+      "common_variance": 4.273706801320837e-09,
+      "difference_variance": 1.6727206376380604e-09,
+      "shot_variance": 1.4136521302639288e-08,
+      "max_population_outside_sensor_pair": 0.45227481777490164,
+      "max_excited_population": 9.577270268288789e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 58959923.551115,
+        "normalized_field_squared_peak": 1383988.5060694085,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0911405999941053
+    },
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "b": -0.6,
+      "name": "branch_2",
+      "variance": 2.7527385563341227e-08,
+      "common_variance": 9.800712385140968e-09,
+      "difference_variance": 4.294991901515705e-09,
+      "shot_variance": 1.3431681276684558e-08,
+      "max_population_outside_sensor_pair": 0.4491344551907203,
+      "max_excited_population": 8.877946980974929e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 58959923.551115,
+        "normalized_field_squared_peak": 1383988.5060694085,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0953002000023844
+    },
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "b": 0.6,
+      "name": "fixed_hyper",
+      "variance": 3.017472272943734e-08,
+      "common_variance": 7.072287766624499e-09,
+      "difference_variance": 3.2459100288437255e-09,
+      "shot_variance": 1.9856524933969118e-08,
+      "max_population_outside_sensor_pair": 0.20409486914185426,
+      "max_excited_population": 0.00010142638853658505,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 58959923.551115006,
+        "normalized_field_squared_peak": 1383988.5060694085,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0638267000031192
+    },
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "b": 0.6,
+      "name": "fixed_shape",
+      "variance": 3.0087472007305945e-08,
+      "common_variance": 6.078218672836205e-09,
+      "difference_variance": 2.70162983201944e-09,
+      "shot_variance": 2.1307623502450296e-08,
+      "max_population_outside_sensor_pair": 0.20587208667467527,
+      "max_excited_population": 8.354841641884448e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 56997333.26327385,
+        "normalized_field_squared_peak": 1239867.1792167043,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0502922000014223
+    },
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "b": 0.6,
+      "name": "branch_6",
+      "variance": 2.3136496854803884e-08,
+      "common_variance": 6.463924508862835e-09,
+      "difference_variance": 4.182230197328933e-09,
+      "shot_variance": 1.2490342148612114e-08,
+      "max_population_outside_sensor_pair": 0.1887167031154225,
+      "max_excited_population": 9.750877199610643e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 58959923.551115,
+        "normalized_field_squared_peak": 1383988.5060694085,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0861619999996037
+    },
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "b": 0.6,
+      "name": "branch_7",
+      "variance": 2.0052499181446054e-08,
+      "common_variance": 4.2670583776734695e-09,
+      "difference_variance": 2.9507294802762063e-09,
+      "shot_variance": 1.2834711323496379e-08,
+      "max_population_outside_sensor_pair": 0.1917042923895228,
+      "max_excited_population": 9.750877199610643e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 58959923.551115,
+        "normalized_field_squared_peak": 1383988.5060694085,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0529171999951359
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "b": -0.6,
+      "name": "fixed_hyper",
+      "variance": 3.468052488381267e-08,
+      "common_variance": 1.3303212160926352e-08,
+      "difference_variance": 7.963026436406443e-10,
+      "shot_variance": 2.0581010079245674e-08,
+      "max_population_outside_sensor_pair": 0.7054146077603176,
+      "max_excited_population": 8.656743476714493e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 207999276.14494216,
+        "normalized_field_squared_peak": 8872135.823582102,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0353338000059011
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "b": -0.6,
+      "name": "fixed_shape",
+      "variance": 3.0993369989038054e-08,
+      "common_variance": 1.1561778949772914e-08,
+      "difference_variance": 2.901087521196408e-10,
+      "shot_variance": 1.91414822871455e-08,
+      "max_population_outside_sensor_pair": 0.5958783657539942,
+      "max_excited_population": 9.001199048739932e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 182393763.4268105,
+        "normalized_field_squared_peak": 6571869.9040554045,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0951895999969565
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "b": -0.6,
+      "name": "branch_1",
+      "variance": 1.771760850586527e-08,
+      "common_variance": 7.297545765467817e-10,
+      "difference_variance": 7.213532986129046e-10,
+      "shot_variance": 1.6266500630705585e-08,
+      "max_population_outside_sensor_pair": 0.7010650249083543,
+      "max_excited_population": 7.724348790935412e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 207999276.14494216,
+        "normalized_field_squared_peak": 8872135.823582102,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.057023900000786
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "b": -0.6,
+      "name": "branch_2",
+      "variance": 3.444076490680781e-08,
+      "common_variance": 1.7032840858141913e-08,
+      "difference_variance": 3.3750751347320166e-10,
+      "shot_variance": 1.7070416535192696e-08,
+      "max_population_outside_sensor_pair": 0.7010650249083543,
+      "max_excited_population": 8.140045609091112e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 207999276.14494216,
+        "normalized_field_squared_peak": 8872135.823582102,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0072972999987542
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "b": 0.6,
+      "name": "fixed_hyper",
+      "variance": 4.065926230157924e-08,
+      "common_variance": 1.9450726134112184e-08,
+      "difference_variance": 1.2102181742412072e-09,
+      "shot_variance": 1.9998317993225854e-08,
+      "max_population_outside_sensor_pair": 0.28182157469312885,
+      "max_excited_population": 0.000154239474077526,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 207999276.14494216,
+        "normalized_field_squared_peak": 8872135.823582102,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0830923000030452
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "b": 0.6,
+      "name": "fixed_shape",
+      "variance": 4.142653845737753e-08,
+      "common_variance": 1.8506468245767186e-08,
+      "difference_variance": 1.7509332530506699e-09,
+      "shot_variance": 2.116913695855966e-08,
+      "max_population_outside_sensor_pair": 0.31047074922838735,
+      "max_excited_population": 0.00016975087332612708,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 182393763.4268105,
+        "normalized_field_squared_peak": 6571869.9040554045,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0140940999990562
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "b": 0.6,
+      "name": "branch_6",
+      "variance": 2.8412484561512466e-08,
+      "common_variance": 1.1673253120856326e-08,
+      "difference_variance": 3.5394775294027274e-09,
+      "shot_variance": 1.3199753911253417e-08,
+      "max_population_outside_sensor_pair": 0.32554269232802946,
+      "max_excited_population": 0.00015401961683169708,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 207999276.14494216,
+        "normalized_field_squared_peak": 8872135.823582102,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.0302462999970885
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "b": 0.6,
+      "name": "branch_7",
+      "variance": 1.6261126441686296e-08,
+      "common_variance": 7.823979434222928e-10,
+      "difference_variance": 2.182145608000126e-09,
+      "shot_variance": 1.3296582890263873e-08,
+      "max_population_outside_sensor_pair": 0.3288307552629094,
+      "max_excited_population": 0.00015401961683169708,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 207999276.14494216,
+        "normalized_field_squared_peak": 8872135.823582102,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.3713423000008333
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "b": -0.6,
+      "name": "fixed_hyper",
+      "variance": 3.044374080007004e-08,
+      "common_variance": 4.293458964605325e-09,
+      "difference_variance": 5.38047789455159e-09,
+      "shot_variance": 2.0769803940913126e-08,
+      "max_population_outside_sensor_pair": 0.3776325730096093,
+      "max_excited_population": 0.00013577204041406843,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 501274445.1263586,
+        "normalized_field_squared_peak": 24703854.753085915,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.460660700002336
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "b": -0.6,
+      "name": "fixed_shape",
+      "variance": 3.2624894083625725e-08,
+      "common_variance": 1.7289173378511192e-09,
+      "difference_variance": 4.810956683989869e-09,
+      "shot_variance": 2.6085020061784725e-08,
+      "max_population_outside_sensor_pair": 0.3137053506200809,
+      "max_excited_population": 0.00013697846970523472,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 420773463.7657633,
+        "normalized_field_squared_peak": 17241995.46033211,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.3317892000050051
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "b": -0.6,
+      "name": "branch_1",
+      "variance": 2.212385505807934e-08,
+      "common_variance": 3.3601897493402313e-09,
+      "difference_variance": 3.5026146522956504e-09,
+      "shot_variance": 1.526105065644346e-08,
+      "max_population_outside_sensor_pair": 0.3873087552990782,
+      "max_excited_population": 0.00013503791428707212,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 501274445.1263587,
+        "normalized_field_squared_peak": 24703854.753085915,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.5110790000035195
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "b": -0.6,
+      "name": "branch_2",
+      "variance": 3.51562056070147e-08,
+      "common_variance": 7.651347980535354e-09,
+      "difference_variance": 6.65308880189465e-09,
+      "shot_variance": 2.08517688245847e-08,
+      "max_population_outside_sensor_pair": 0.38998380394241555,
+      "max_excited_population": 0.00013503791428707212,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 501274445.1263587,
+        "normalized_field_squared_peak": 24703854.753085915,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.504264899995178
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "b": 0.6,
+      "name": "fixed_hyper",
+      "variance": 2.6835552311423266e-08,
+      "common_variance": 2.06782502750913e-09,
+      "difference_variance": 4.698404628501559e-09,
+      "shot_variance": 2.0069322655412577e-08,
+      "max_population_outside_sensor_pair": 0.6979884613136724,
+      "max_excited_population": 8.40632680323685e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 501274445.1263586,
+        "normalized_field_squared_peak": 24703854.753085915,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4176909000016167
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "b": 0.6,
+      "name": "fixed_shape",
+      "variance": 2.624362856925531e-08,
+      "common_variance": 3.919545044176604e-09,
+      "difference_variance": 3.6918673007565687e-09,
+      "shot_variance": 1.8632216224322128e-08,
+      "max_population_outside_sensor_pair": 0.6091905606855794,
+      "max_excited_population": 9.03593130309034e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 420773463.7657633,
+        "normalized_field_squared_peak": 17241995.46033211,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4142858999985037
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "b": 0.6,
+      "name": "branch_6",
+      "variance": 2.5025133438255893e-08,
+      "common_variance": 5.862009471031352e-09,
+      "difference_variance": 3.735442511147133e-09,
+      "shot_variance": 1.54276814560774e-08,
+      "max_population_outside_sensor_pair": 0.7043655139017755,
+      "max_excited_population": 8.493244589019124e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 501274445.1263587,
+        "normalized_field_squared_peak": 24703854.753085915,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4702213000055053
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "b": 0.6,
+      "name": "branch_7",
+      "variance": 1.9587898629969628e-08,
+      "common_variance": 5.518595170352217e-09,
+      "difference_variance": 1.510119828119e-09,
+      "shot_variance": 1.2559183631498413e-08,
+      "max_population_outside_sensor_pair": 0.7053885302811529,
+      "max_excited_population": 8.564015336599976e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 501274445.1263587,
+        "normalized_field_squared_peak": 24703854.753085915,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.3455595999985235
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "b": -0.6,
+      "name": "fixed_hyper",
+      "variance": 2.903282975130437e-08,
+      "common_variance": 3.072681557474817e-09,
+      "difference_variance": 4.6674901873649655e-09,
+      "shot_variance": 2.1292658006464603e-08,
+      "max_population_outside_sensor_pair": 0.18936578506524926,
+      "max_excited_population": 6.536857386604888e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 229902222.35780233,
+        "normalized_field_squared_peak": 5722399.753467792,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4823885000005248
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "b": -0.6,
+      "name": "fixed_shape",
+      "variance": 2.8432289477636954e-08,
+      "common_variance": 2.8793305189738825e-09,
+      "difference_variance": 4.1799806034009536e-09,
+      "shot_variance": 2.1372978355262117e-08,
+      "max_population_outside_sensor_pair": 0.1834489290208493,
+      "max_excited_population": 6.879662352495947e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 220997027.7230013,
+        "normalized_field_squared_peak": 5044447.914824724,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4511490000004414
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "b": -0.6,
+      "name": "branch_1",
+      "variance": 2.1526610167758e-08,
+      "common_variance": 6.071140355135011e-09,
+      "difference_variance": 3.867550797055386e-09,
+      "shot_variance": 1.1587919015567605e-08,
+      "max_population_outside_sensor_pair": 0.18799054063503695,
+      "max_excited_population": 6.529733347626678e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 229902222.35780233,
+        "normalized_field_squared_peak": 5722399.753467792,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4240551999973832
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "b": -0.6,
+      "name": "branch_2",
+      "variance": 2.1513982830799128e-08,
+      "common_variance": 7.791863934110492e-09,
+      "difference_variance": 2.4784258694259512e-09,
+      "shot_variance": 1.1243693027262686e-08,
+      "max_population_outside_sensor_pair": 0.18844567266261258,
+      "max_excited_population": 6.529733347626678e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 229902222.35780233,
+        "normalized_field_squared_peak": 5722399.753467792,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.3160401999994065
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "b": 0.6,
+      "name": "fixed_hyper",
+      "variance": 2.7989187672937266e-08,
+      "common_variance": 3.1111751253110978e-09,
+      "difference_variance": 4.8008924943730045e-09,
+      "shot_variance": 2.0077120053253157e-08,
+      "max_population_outside_sensor_pair": 0.18724796068481864,
+      "max_excited_population": 4.111529110230309e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 229902222.35780233,
+        "normalized_field_squared_peak": 5722399.753467792,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.277680600003805
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "b": 0.6,
+      "name": "fixed_shape",
+      "variance": 2.5446838306408154e-08,
+      "common_variance": 2.5017473239980456e-09,
+      "difference_variance": 4.542789106329317e-09,
+      "shot_variance": 1.84023018760808e-08,
+      "max_population_outside_sensor_pair": 0.18400259969185018,
+      "max_excited_population": 4.967670184110859e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 220997027.7230013,
+        "normalized_field_squared_peak": 5044447.914824724,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4154570999962743
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "b": 0.6,
+      "name": "branch_6",
+      "variance": 1.912705335122619e-08,
+      "common_variance": 7.1257256423687764e-09,
+      "difference_variance": 1.5792382596355255e-09,
+      "shot_variance": 1.0422089449221881e-08,
+      "max_population_outside_sensor_pair": 0.20720376118207173,
+      "max_excited_population": 4.3012487285415076e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 229902222.35780233,
+        "normalized_field_squared_peak": 5722399.753467792,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4597617000035825
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "b": 0.6,
+      "name": "branch_7",
+      "variance": 1.7599097895881204e-08,
+      "common_variance": 4.614213889177511e-09,
+      "difference_variance": 2.1266201796271366e-09,
+      "shot_variance": 1.085826382707655e-08,
+      "max_population_outside_sensor_pair": 0.21316633339408686,
+      "max_excited_population": 4.191229985401261e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 229902222.35780233,
+        "normalized_field_squared_peak": 5722399.753467792,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.452228499998455
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "b": -0.6,
+      "name": "fixed_hyper",
+      "variance": 3.425395106537943e-08,
+      "common_variance": 4.987357238943289e-09,
+      "difference_variance": 1.2524928568999557e-08,
+      "shot_variance": 1.6741665257436577e-08,
+      "max_population_outside_sensor_pair": 0.08233722621491757,
+      "max_excited_population": 2.6731986413624544e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 265977626.28107607,
+        "normalized_field_squared_peak": 3626075.0894653257,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4839328000016394
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "b": -0.6,
+      "name": "fixed_shape",
+      "variance": 3.3858432978094074e-08,
+      "common_variance": 5.145522544634083e-09,
+      "difference_variance": 1.1672892350527181e-08,
+      "shot_variance": 1.704001808293282e-08,
+      "max_population_outside_sensor_pair": 0.08662370462781921,
+      "max_excited_population": 3.173872099679051e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 265467011.89662766,
+        "normalized_field_squared_peak": 3752204.252292233,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.5053076000040164
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "b": -0.6,
+      "name": "branch_1",
+      "variance": 2.6492505490838717e-08,
+      "common_variance": 5.636475508213681e-09,
+      "difference_variance": 9.033832053851381e-09,
+      "shot_variance": 1.1822197928773645e-08,
+      "max_population_outside_sensor_pair": 0.0819522131868825,
+      "max_excited_population": 3.412548016100541e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 265977626.28107607,
+        "normalized_field_squared_peak": 3626075.0894653257,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.261501600005431
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "b": -0.6,
+      "name": "branch_2",
+      "variance": 2.8067301406468866e-08,
+      "common_variance": 1.0077403838422966e-08,
+      "difference_variance": 7.535349308122258e-09,
+      "shot_variance": 1.0454548259923639e-08,
+      "max_population_outside_sensor_pair": 0.0819522131868825,
+      "max_excited_population": 3.1391015164020055e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 265977626.28107607,
+        "normalized_field_squared_peak": 3626075.0894653257,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.5172880999962217
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "b": 0.6,
+      "name": "fixed_hyper",
+      "variance": 3.240059467316971e-08,
+      "common_variance": 6.4739150266084084e-09,
+      "difference_variance": 1.0927113032285634e-08,
+      "shot_variance": 1.4999566614275655e-08,
+      "max_population_outside_sensor_pair": 0.081325095848778,
+      "max_excited_population": 2.976209468669266e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 265977626.28107607,
+        "normalized_field_squared_peak": 3626075.0894653257,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4603645000024699
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "b": 0.6,
+      "name": "fixed_shape",
+      "variance": 3.268115169859165e-08,
+      "common_variance": 5.786242338554431e-09,
+      "difference_variance": 1.1462814971382622e-08,
+      "shot_variance": 1.5432094388654605e-08,
+      "max_population_outside_sensor_pair": 0.08692832700191588,
+      "max_excited_population": 3.4657592099623275e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 265467011.89662766,
+        "normalized_field_squared_peak": 3752204.252292233,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.359701600005792
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "b": 0.6,
+      "name": "branch_6",
+      "variance": 2.897962798555401e-08,
+      "common_variance": 1.1783811993321297e-08,
+      "difference_variance": 7.703073430320613e-09,
+      "shot_variance": 9.492742561912098e-09,
+      "max_population_outside_sensor_pair": 0.08666476742235446,
+      "max_excited_population": 3.2234689267983574e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 265977626.28107607,
+        "normalized_field_squared_peak": 3626075.0894653257,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.472227300000668
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "b": 0.6,
+      "name": "branch_7",
+      "variance": 2.622564172291929e-08,
+      "common_variance": 6.347974650902243e-09,
+      "difference_variance": 9.512682149492684e-09,
+      "shot_variance": 1.0364984922524359e-08,
+      "max_population_outside_sensor_pair": 0.08719778322443733,
+      "max_excited_population": 3.0084750353757812e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 265977626.28107607,
+        "normalized_field_squared_peak": 3626075.0894653257,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.5361924000026193
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "b": -0.6,
+      "name": "fixed_hyper",
+      "variance": 9.648422849963883e-08,
+      "common_variance": 5.4130079504814715e-09,
+      "difference_variance": 7.500029445508333e-08,
+      "shot_variance": 1.6070926094074035e-08,
+      "max_population_outside_sensor_pair": 0.06871105842600672,
+      "max_excited_population": 2.4133623189569184e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 677503459.9036036,
+        "normalized_field_squared_peak": 8151515.7272023205,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.2827625999998418
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "b": -0.6,
+      "name": "fixed_shape",
+      "variance": 9.271199916335405e-08,
+      "common_variance": 5.690607023800616e-09,
+      "difference_variance": 7.0647346633907e-08,
+      "shot_variance": 1.637404550564646e-08,
+      "max_population_outside_sensor_pair": 0.07171973466299919,
+      "max_excited_population": 2.733328071772e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 678809435.943778,
+        "normalized_field_squared_peak": 8729262.221731327,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.3774860999983503
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "b": -0.6,
+      "name": "branch_1",
+      "variance": 6.388775025499595e-08,
+      "common_variance": 1.0572435775483934e-08,
+      "difference_variance": 4.278310140356385e-08,
+      "shot_variance": 1.0532213075948191e-08,
+      "max_population_outside_sensor_pair": 0.06884302161219047,
+      "max_excited_population": 2.969552194325633e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 677503459.9036036,
+        "normalized_field_squared_peak": 8151515.7272023205,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4527092999996967
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "b": -0.6,
+      "name": "branch_2",
+      "variance": 6.439890537782599e-08,
+      "common_variance": 1.3802034706481307e-08,
+      "difference_variance": 4.036195807040636e-08,
+      "shot_variance": 1.0234912600938343e-08,
+      "max_population_outside_sensor_pair": 0.06865020594868337,
+      "max_excited_population": 2.8296277105230836e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 677503459.9036036,
+        "normalized_field_squared_peak": 8151515.7272023205,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.1734851000001072
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "b": 0.6,
+      "name": "fixed_hyper",
+      "variance": 8.820950455598922e-08,
+      "common_variance": 7.357403113846899e-09,
+      "difference_variance": 6.596345263839496e-08,
+      "shot_variance": 1.4888648803747385e-08,
+      "max_population_outside_sensor_pair": 0.06962982935669426,
+      "max_excited_population": 2.781670251763666e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 677503459.9036036,
+        "normalized_field_squared_peak": 8151515.7272023205,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.2586255999995046
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "b": 0.6,
+      "name": "fixed_shape",
+      "variance": 9.112721691844117e-08,
+      "common_variance": 7.279662325227482e-09,
+      "difference_variance": 6.869569592586584e-08,
+      "shot_variance": 1.5151858667347838e-08,
+      "max_population_outside_sensor_pair": 0.07160883365773746,
+      "max_excited_population": 3.0293572115547973e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1845.3624460326378,
+        "normalized_field_squared_exposure": 678809435.943778,
+        "normalized_field_squared_peak": 8729262.221731327,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4137773000038578
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "b": 0.6,
+      "name": "branch_6",
+      "variance": 6.341904240560272e-08,
+      "common_variance": 1.682681635593398e-08,
+      "difference_variance": 3.58676119208479e-08,
+      "shot_variance": 1.0724614128820843e-08,
+      "max_population_outside_sensor_pair": 0.06948713371631204,
+      "max_excited_population": 2.925455551754302e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 677503459.9036036,
+        "normalized_field_squared_peak": 8151515.7272023205,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.3601800000033109
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "b": 0.6,
+      "name": "branch_7",
+      "variance": 6.859274234048577e-08,
+      "common_variance": 1.3833822228559553e-08,
+      "difference_variance": 4.4496423795786854e-08,
+      "shot_variance": 1.026249631613936e-08,
+      "max_population_outside_sensor_pair": 0.06945821793589096,
+      "max_excited_population": 2.807031596848342e-05,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 1846.1902159937858,
+        "normalized_field_squared_exposure": 677503459.9036036,
+        "normalized_field_squared_peak": 8151515.7272023205,
+        "scope": "121-point envelope over unknown b; common dipole and geometry factor omitted"
+      },
+      "elapsed": 1.4108234000013908
+    }
+  ]
+}

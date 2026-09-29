@@ -1,0 +1,43 @@
+{
+  "effective": false,
+  "points": [
+    -0.6,
+    0.6
+  ],
+  "reps_per_point": 200,
+  "means": {
+    "adaptive": 6.409417353912685e-08,
+    "fixed_bank": 1.0436004293902936e-07,
+    "fixed_hyper": 1.1484480803654276e-07,
+    "fixed_shape": 9.980915843637938e-08
+  },
+  "comparisons": [
+    {
+      "reference": "fixed_bank",
+      "mse_reduction": 0.38583607543576026,
+      "bootstrap_95_interval": [
+        0.27529793329711566,
+        0.4777664011941067
+      ]
+    },
+    {
+      "reference": "fixed_hyper",
+      "mse_reduction": 0.44190621557108134,
+      "bootstrap_95_interval": [
+        0.334072027932051,
+        0.5344036458324556
+      ]
+    },
+    {
+      "reference": "fixed_shape",
+      "mse_reduction": 0.3578327425735993,
+      "bootstrap_95_interval": [
+        0.2350112162403499,
+        0.46279733449900595
+      ]
+    }
+  ],
+  "source": "rb87_refined_d1_mc200.json",
+  "substeps": 1,
+  "scope": "Frozen controls at 1000 MHz, equal-weight endpoints +/-0.6. Monte Carlo uncertainty only; temporal quadrature audited separately. No literature-optimality claim."
+}

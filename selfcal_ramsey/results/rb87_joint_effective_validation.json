@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "key": "200.0_fixed_hyper",
+      "max_population_error": 1.3555462896608361e-06,
+      "max_whitened_error": 2.857035535448579e-07,
+      "minimum_covariance_eigenvalue": 2.1843341333595033e-05
+    },
+    {
+      "key": "200.0_fixed_shape",
+      "max_population_error": 1.559711423626542e-06,
+      "max_whitened_error": 1.1730177687017457e-06,
+      "minimum_covariance_eigenvalue": 2.6063574819658943e-07
+    }
+  ],
+  "passed": true
+}

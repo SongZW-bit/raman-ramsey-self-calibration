@@ -1,0 +1,96 @@
+{
+  "dense_grid_size": 651,
+  "nested_probability_error": 0.0,
+  "designs": [
+    {
+      "family": "square",
+      "minimum": 9587081.025399404,
+      "worst_point": [
+        0.0,
+        0.3,
+        -0.1
+      ],
+      "parameters": [
+        1.4709697094658765,
+        1.4665247620626196,
+        0.1,
+        37.71228224598372,
+        0.5307443281912105,
+        0.95,
+        1.0
+      ],
+      "resources": {
+        "atoms": 100000.0,
+        "time_per_atom": 24.99999994391132,
+        "light_per_atom": 2.9374944715284963,
+        "elapsed": 2499999.994391132,
+        "exposure": 293749.44715284964,
+        "peak_power": 1.0,
+        "short_atoms": 46925.56718087895,
+        "long_atoms": 53074.43281912105
+      }
+    },
+    {
+      "family": "shaped",
+      "minimum": 9832250.066648027,
+      "worst_point": [
+        0.0,
+        -0.3,
+        0.1
+      ],
+      "parameters": [
+        1.4691314280505812,
+        1.4769899449429746,
+        0.1,
+        38.18889101684112,
+        0.5238790371992058,
+        0.95,
+        1.0,
+        -0.0279958622824455,
+        -0.03448424874320324
+      ],
+      "resources": {
+        "atoms": 99999.62829385462,
+        "time_per_atom": 25.00009292688176,
+        "light_per_atom": 2.946121372993556,
+        "elapsed": 2500000.0,
+        "exposure": 294611.04220793623,
+        "peak_power": 1.0,
+        "short_atoms": 47611.9193029916,
+        "long_atoms": 52387.70899086302
+      }
+    },
+    {
+      "family": "square_with_readout_offset",
+      "minimum": 9829858.773238007,
+      "worst_point": [
+        0.0,
+        0.3,
+        -0.1
+      ],
+      "training_minimum": 9829858.773238007,
+      "parameters": [
+        1.4768374098341537,
+        1.4734077406045478,
+        0.10026133624994775,
+        38.058091436572916,
+        0.5255699126729895,
+        0.95,
+        0.9992643246671384,
+        0.029712044223562373
+      ],
+      "resources": {
+        "atoms": 100000.0,
+        "time_per_atom": 24.999999937771562,
+        "light_per_atom": 2.948074727855629,
+        "elapsed": 2499999.9937771563,
+        "exposure": 294807.4727855629,
+        "peak_power": 0.9992643246671384,
+        "short_atoms": 47443.008732701055,
+        "long_atoms": 52556.991267298945
+      },
+      "optimizer_success": false
+    }
+  ],
+  "note": "All families have fixed controls; no true nuisance values are supplied to the design."
+}

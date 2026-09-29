@@ -1,0 +1,8 @@
+{
+  "source": "https://doi.org/10.1103/PhysRevApplied.9.054034",
+  "scope": "Fig. 2(b) pulse-area settings, positive shift interval [0,0.8]; model reconstruction, no pixel digitization.",
+  "max_phase_formula_error": 8.881784197001252e-16,
+  "max_lock_delta": 1.442340068398355e-17,
+  "independent_sequence_cases": 192,
+  "max_sequence_probability_error": 5.551115123125783e-16
+}

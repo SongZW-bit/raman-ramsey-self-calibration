@@ -1,0 +1,76 @@
+{
+  "hyper_ramsey": [
+    {
+      "residual_shift": 0.003,
+      "locked_delta": -5.399849342342891e-09
+    },
+    {
+      "residual_shift": 0.0039390973034636526,
+      "locked_delta": -1.2223602916042888e-08
+    },
+    {
+      "residual_shift": 0.0051721625220515375,
+      "locked_delta": -2.7670083662009716e-08
+    },
+    {
+      "residual_shift": 0.006791217147896323,
+      "locked_delta": -6.263408869024834e-08
+    },
+    {
+      "residual_shift": 0.008917088384838172,
+      "locked_delta": -1.4177256057042298e-07
+    },
+    {
+      "residual_shift": 0.011708426270487701,
+      "locked_delta": -3.2087884361953963e-07
+    },
+    {
+      "residual_shift": 0.015373543449960366,
+      "locked_delta": -7.261627367264506e-07
+    },
+    {
+      "residual_shift": 0.020185961182806716,
+      "locked_delta": -1.6429727656896542e-06
+    },
+    {
+      "residual_shift": 0.026504821754338624,
+      "locked_delta": -3.715872535602662e-06
+    },
+    {
+      "residual_shift": 0.03480169063376667,
+      "locked_delta": -8.398586189605106e-06
+    },
+    {
+      "residual_shift": 0.04569574857714882,
+      "locked_delta": -1.8961086097140783e-05
+    },
+    {
+      "residual_shift": 0.06,
+      "locked_delta": -4.2725531094032354e-05
+    }
+  ],
+  "cubic_log_slope": 2.997204222460534,
+  "intensity_fluctuations": [
+    {
+      "fractional_intensity_sigma": 0.0,
+      "locked_delta": -1.3877787807814457e-17
+    },
+    {
+      "fractional_intensity_sigma": 0.01,
+      "locked_delta": 1.1244358699691376e-09
+    },
+    {
+      "fractional_intensity_sigma": 0.03,
+      "locked_delta": 9.071408845710103e-08
+    },
+    {
+      "fractional_intensity_sigma": 0.06,
+      "locked_delta": 1.431772656662933e-06
+    }
+  ],
+  "sources": [
+    "10.1103/PhysRevA.82.011804",
+    "10.1103/PhysRevA.97.031406"
+  ],
+  "scope": "Independent equation-level reconstruction: cubic residual-shift suppression and correlated Rabi/light-shift intensity fluctuations. Not digitization or a reproduction of all published figure parameters; not a Raman performance baseline."
+}

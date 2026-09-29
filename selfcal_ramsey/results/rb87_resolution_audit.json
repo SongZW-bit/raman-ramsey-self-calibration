@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "name": "fixed_shape",
+      "b": -0.6,
+      "substeps": 1,
+      "finite_difference_step": 0.0002,
+      "variance": 9.271199916335405e-08,
+      "elapsed": 0.8711943000016618
+    },
+    {
+      "name": "fixed_shape",
+      "b": -0.6,
+      "substeps": 1,
+      "finite_difference_step": 0.0001,
+      "variance": 9.269263514825178e-08,
+      "elapsed": 0.7873516999970889
+    },
+    {
+      "name": "fixed_shape",
+      "b": -0.6,
+      "substeps": 3,
+      "finite_difference_step": 0.0002,
+      "variance": 9.281608769004338e-08,
+      "elapsed": 1.1093574000042281
+    },
+    {
+      "name": "fixed_shape",
+      "b": -0.6,
+      "substeps": 9,
+      "finite_difference_step": 0.0002,
+      "variance": 9.282448971808299e-08,
+      "elapsed": 3.3466726999977254
+    },
+    {
+      "name": "branch_1",
+      "b": -0.6,
+      "substeps": 1,
+      "finite_difference_step": 0.0002,
+      "variance": 6.388775025499595e-08,
+      "elapsed": 1.2355514000009862
+    },
+    {
+      "name": "branch_1",
+      "b": -0.6,
+      "substeps": 1,
+      "finite_difference_step": 0.0001,
+      "variance": 6.387507617975886e-08,
+      "elapsed": 1.1359694000057061
+    },
+    {
+      "name": "branch_1",
+      "b": -0.6,
+      "substeps": 3,
+      "finite_difference_step": 0.0002,
+      "variance": 6.399978582297175e-08,
+      "elapsed": 1.4713956999985385
+    },
+    {
+      "name": "branch_1",
+      "b": -0.6,
+      "substeps": 9,
+      "finite_difference_step": 0.0002,
+      "variance": 6.400946051868616e-08,
+      "elapsed": 3.7400525999983074
+    },
+    {
+      "name": "branch_6",
+      "b": 0.6,
+      "substeps": 1,
+      "finite_difference_step": 0.0002,
+      "variance": 6.341904240560272e-08,
+      "elapsed": 1.267542699999467
+    },
+    {
+      "name": "branch_6",
+      "b": 0.6,
+      "substeps": 1,
+      "finite_difference_step": 0.0001,
+      "variance": 6.340668192785178e-08,
+      "elapsed": 1.1050124000030337
+    },
+    {
+      "name": "branch_6",
+      "b": 0.6,
+      "substeps": 3,
+      "finite_difference_step": 0.0002,
+      "variance": 6.353769358908467e-08,
+      "elapsed": 1.4771441999982926
+    },
+    {
+      "name": "branch_6",
+      "b": 0.6,
+      "substeps": 9,
+      "finite_difference_step": 0.0002,
+      "variance": 6.354802543867169e-08,
+      "elapsed": 3.729140000003099
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "fixed_shape",
+      "step_relative_difference": 0.0002088620165352495,
+      "sampling_1_to_9": 0.001211862893839677,
+      "sampling_3_to_9": 9.051520848779582e-05
+    },
+    {
+      "name": "branch_1",
+      "step_relative_difference": 0.00019838036535180237,
+      "sampling_1_to_9": 0.0019014417978836518,
+      "sampling_3_to_9": 0.00015114477822519845
+    },
+    {
+      "name": "branch_6",
+      "step_relative_difference": 0.00019490167751023968,
+      "sampling_1_to_9": 0.00202969379738549,
+      "sampling_3_to_9": 0.00016258332994123492
+    }
+  ],
+  "scope": "Local linear-noise information convergence only, not nonlinear Monte Carlo convergence.",
+  "passed": true
+}

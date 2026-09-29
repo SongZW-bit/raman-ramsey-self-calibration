@@ -1,0 +1,33 @@
+{
+  "pulse_resolution": [
+    {
+      "segments_per_pulse": 3,
+      "variance": 6.217602916232463e-08
+    },
+    {
+      "segments_per_pulse": 6,
+      "variance": 6.21670888765071e-08
+    },
+    {
+      "segments_per_pulse": 12,
+      "variance": 6.216482525019516e-08
+    },
+    {
+      "segments_per_pulse": 24,
+      "variance": 6.216425759502552e-08
+    },
+    {
+      "segments_per_pulse": 48,
+      "variance": 6.21641155704192e-08
+    }
+  ],
+  "unbiasedness_residual": [
+    2.220446049250313e-16,
+    -1.5124620306172787e-17
+  ],
+  "covariance_identity_error": 2.6469779601696886e-23,
+  "gradient_analytic": 1.1114057106641478e-09,
+  "gradient_numeric": 1.1114057103853596e-09,
+  "matrix_probability_error": 4.440892098500626e-16,
+  "asymptotic_scope": "Local linear nuisance projection, not a global quantum bound."
+}

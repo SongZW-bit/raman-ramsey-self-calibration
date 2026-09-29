@@ -1,0 +1,416 @@
+[
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "fixed_shape",
+    "reference_b": -0.6,
+    "physical_b": -0.6000000000000008,
+    "shot": 1,
+    "resolved": {
+      "target": 0.15564691548891246,
+      "initial": 0.7777059204947995,
+      "spectator": 0.06664716393001477,
+      "emitted_photons": 0.10583877079550721,
+      "trace": 0.9999999999137268,
+      "min_eigenvalue": 2.7317925511513283e-12
+    },
+    "nonsecular": {
+      "target": 0.1520218991535171,
+      "initial": 0.781311482620392,
+      "spectator": 0.0666666181098232,
+      "emitted_photons": 0.10585336599371913,
+      "trace": 0.9999999998837324,
+      "min_eigenvalue": 3.7238429215745884e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "fixed_shape",
+    "reference_b": -0.6,
+    "physical_b": -0.6000000000000008,
+    "shot": 3,
+    "resolved": {
+      "target": 0.8646932596093575,
+      "initial": 0.06702852423177591,
+      "spectator": 0.06827821619229898,
+      "emitted_photons": 0.10577942627548398,
+      "trace": 1.0000000000334324,
+      "min_eigenvalue": 5.545253821332694e-12
+    },
+    "nonsecular": {
+      "target": 0.8724427062011939,
+      "initial": 0.05916788546272031,
+      "spectator": 0.06838940820838091,
+      "emitted_photons": 0.10586932082706947,
+      "trace": 0.999999999872295,
+      "min_eigenvalue": 6.757160421434027e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "fixed_shape",
+    "reference_b": 0.0,
+    "physical_b": 0.0,
+    "shot": 1,
+    "resolved": {
+      "target": 0.3355818998939054,
+      "initial": 0.5955804738981856,
+      "spectator": 0.06883762622681645,
+      "emitted_photons": 0.10621047321796465,
+      "trace": 1.0000000000189075,
+      "min_eigenvalue": 6.300468500308784e-13
+    },
+    "nonsecular": {
+      "target": 0.3314294300134065,
+      "initial": 0.5996882956425382,
+      "spectator": 0.0688822742487341,
+      "emitted_photons": 0.1062395217738213,
+      "trace": 0.9999999999046789,
+      "min_eigenvalue": 1.5769850346529543e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "fixed_shape",
+    "reference_b": 0.0,
+    "physical_b": 0.0,
+    "shot": 3,
+    "resolved": {
+      "target": 0.4904230547720476,
+      "initial": 0.44794715023681214,
+      "spectator": 0.061629794971356844,
+      "emitted_photons": 0.09849685395010732,
+      "trace": 0.9999999999802165,
+      "min_eigenvalue": 4.69275085832903e-12
+    },
+    "nonsecular": {
+      "target": 0.49334536605005,
+      "initial": 0.4449707300059222,
+      "spectator": 0.061683903910126285,
+      "emitted_photons": 0.09852257008352741,
+      "trace": 0.9999999999660985,
+      "min_eigenvalue": 9.044233917788164e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "fixed_shape",
+    "reference_b": 0.6,
+    "physical_b": 0.6,
+    "shot": 1,
+    "resolved": {
+      "target": 0.6830573301502458,
+      "initial": 0.24881621105645044,
+      "spectator": 0.06812645876396518,
+      "emitted_photons": 0.10723180681804748,
+      "trace": 0.9999999999706615,
+      "min_eigenvalue": 4.48251730650591e-12
+    },
+    "nonsecular": {
+      "target": 0.681011083533344,
+      "initial": 0.25076168833045387,
+      "spectator": 0.0682272279906538,
+      "emitted_photons": 0.10733881452109166,
+      "trace": 0.9999999998544516,
+      "min_eigenvalue": 6.030293278874878e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "fixed_shape",
+    "reference_b": 0.6,
+    "physical_b": 0.6,
+    "shot": 3,
+    "resolved": {
+      "target": 0.35902219049683703,
+      "initial": 0.5795711745682786,
+      "spectator": 0.06140663489711327,
+      "emitted_photons": 0.09690071898164122,
+      "trace": 0.9999999999622289,
+      "min_eigenvalue": 5.99309537207822e-12
+    },
+    "nonsecular": {
+      "target": 0.35984499642516216,
+      "initial": 0.578719919495325,
+      "spectator": 0.061435084015668925,
+      "emitted_photons": 0.09689730819955467,
+      "trace": 0.999999999936156,
+      "min_eigenvalue": 8.021733722774659e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "branch_0",
+    "reference_b": -0.6,
+    "physical_b": -0.6000000000000008,
+    "shot": 1,
+    "resolved": {
+      "target": 0.14077013018794773,
+      "initial": 0.7932869462858199,
+      "spectator": 0.0659429234890054,
+      "emitted_photons": 0.10474518772573238,
+      "trace": 0.999999999962773,
+      "min_eigenvalue": 2.4387376558222037e-12
+    },
+    "nonsecular": {
+      "target": 0.13707431360096525,
+      "initial": 0.7969610006409296,
+      "spectator": 0.06596468564686767,
+      "emitted_photons": 0.10475907712702257,
+      "trace": 0.9999999998887624,
+      "min_eigenvalue": 3.3035579331283925e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "branch_0",
+    "reference_b": -0.6,
+    "physical_b": -0.6000000000000008,
+    "shot": 3,
+    "resolved": {
+      "target": 0.43749277641735973,
+      "initial": 0.4959708794037805,
+      "spectator": 0.06653634419318567,
+      "emitted_photons": 0.1049726913655695,
+      "trace": 1.0000000000143259,
+      "min_eigenvalue": 3.857413456986883e-12
+    },
+    "nonsecular": {
+      "target": 0.43815293857654847,
+      "initial": 0.49526212174814066,
+      "spectator": 0.06658493976421023,
+      "emitted_photons": 0.10501101263385876,
+      "trace": 1.0000000000888996,
+      "min_eigenvalue": 5.036107580593691e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "branch_0",
+    "reference_b": 0.0,
+    "physical_b": 0.0,
+    "shot": 1,
+    "resolved": {
+      "target": 0.27431737883037705,
+      "initial": 0.6573547891572464,
+      "spectator": 0.06832783206017295,
+      "emitted_photons": 0.10546453283707205,
+      "trace": 1.0000000000477964,
+      "min_eigenvalue": 1.1450638600335437e-12
+    },
+    "nonsecular": {
+      "target": 0.26903633352562045,
+      "initial": 0.6625877648080856,
+      "spectator": 0.0683759015469553,
+      "emitted_photons": 0.1054960975779918,
+      "trace": 0.9999999998806613,
+      "min_eigenvalue": 1.9813776788044802e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "branch_0",
+    "reference_b": 0.0,
+    "physical_b": 0.0,
+    "shot": 3,
+    "resolved": {
+      "target": 0.4778775367333977,
+      "initial": 0.4567659184997358,
+      "spectator": 0.06535654475111177,
+      "emitted_photons": 0.10250032019827979,
+      "trace": 0.9999999999842454,
+      "min_eigenvalue": 3.817100055605672e-12
+    },
+    "nonsecular": {
+      "target": 0.47660586092834256,
+      "initial": 0.45798640392933815,
+      "spectator": 0.06540773513515244,
+      "emitted_photons": 0.1025345421205267,
+      "trace": 0.9999999999928333,
+      "min_eigenvalue": 4.988340477534526e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "branch_0",
+    "reference_b": 0.6,
+    "physical_b": 0.6,
+    "shot": 1,
+    "resolved": {
+      "target": 0.7330137123765812,
+      "initial": 0.19947818195188283,
+      "spectator": 0.06750810565639309,
+      "emitted_photons": 0.10627246091822581,
+      "trace": 0.9999999999848571,
+      "min_eigenvalue": 3.9135003835435855e-12
+    },
+    "nonsecular": {
+      "target": 0.7321409822980108,
+      "initial": 0.200248563876866,
+      "spectator": 0.06761045379349906,
+      "emitted_photons": 0.10638155554317565,
+      "trace": 0.9999999999683759,
+      "min_eigenvalue": 5.605235281163162e-13
+    }
+  },
+  {
+    "detuning_mhz": 1000.0,
+    "entry": "branch_0",
+    "reference_b": 0.6,
+    "physical_b": 0.6,
+    "shot": 3,
+    "resolved": {
+      "target": 0.5878318200162247,
+      "initial": 0.34786690525200403,
+      "spectator": 0.06430127470694569,
+      "emitted_photons": 0.10142565249066524,
+      "trace": 0.9999999999751744,
+      "min_eigenvalue": 4.497138884584007e-12
+    },
+    "nonsecular": {
+      "target": 0.5869031250689405,
+      "initial": 0.3487248409402589,
+      "spectator": 0.06437203380054884,
+      "emitted_photons": 0.10148673350321782,
+      "trace": 0.9999999998097482,
+      "min_eigenvalue": 5.875298093736062e-13
+    }
+  },
+  {
+    "detuning_mhz": 200.0,
+    "entry": "fixed_shape",
+    "reference_b": -0.6,
+    "physical_b": 0.0013409559842890478,
+    "shot": 1,
+    "resolved": {
+      "target": 0.22950318314645046,
+      "initial": 0.6655276866194878,
+      "spectator": 0.10496913029400749,
+      "emitted_photons": 0.13446998155517562,
+      "trace": 1.0000000000599458,
+      "min_eigenvalue": 2.2576022032736948e-13
+    },
+    "nonsecular": {
+      "target": 0.22245135348430967,
+      "initial": 0.6723873940438434,
+      "spectator": 0.10516125245683636,
+      "emitted_photons": 0.1346916168169471,
+      "trace": 0.9999999999849893,
+      "min_eigenvalue": 5.863408942137315e-14
+    }
+  },
+  {
+    "detuning_mhz": 200.0,
+    "entry": "fixed_shape",
+    "reference_b": -0.6,
+    "physical_b": 0.0013409559842890478,
+    "shot": 3,
+    "resolved": {
+      "target": 0.3661363116143168,
+      "initial": 0.5667958538280148,
+      "spectator": 0.06706783447949412,
+      "emitted_photons": 0.09033423860297946,
+      "trace": 0.9999999999218256,
+      "min_eigenvalue": 6.32711388189269e-13
+    },
+    "nonsecular": {
+      "target": 0.3668741262413848,
+      "initial": 0.5660584090107244,
+      "spectator": 0.06706746465306189,
+      "emitted_photons": 0.09031858223981101,
+      "trace": 0.9999999999051712,
+      "min_eigenvalue": 1.0005161347480087e-13
+    }
+  },
+  {
+    "detuning_mhz": 200.0,
+    "entry": "fixed_shape",
+    "reference_b": 0.0,
+    "physical_b": -0.001374104511980398,
+    "shot": 1,
+    "resolved": {
+      "target": 0.23073034058066005,
+      "initial": 0.6628259337710932,
+      "spectator": 0.1064437255927976,
+      "emitted_photons": 0.13595997172968632,
+      "trace": 0.9999999999445509,
+      "min_eigenvalue": 2.5498238911737055e-13
+    },
+    "nonsecular": {
+      "target": 0.22344629185300044,
+      "initial": 0.6698891512412646,
+      "spectator": 0.10666455683231497,
+      "emitted_photons": 0.13621252636664963,
+      "trace": 0.99999999992658,
+      "min_eigenvalue": 6.414555021523128e-14
+    }
+  },
+  {
+    "detuning_mhz": 200.0,
+    "entry": "fixed_shape",
+    "reference_b": 0.0,
+    "physical_b": -0.001374104511980398,
+    "shot": 3,
+    "resolved": {
+      "target": 0.3682973717222188,
+      "initial": 0.5606965783918071,
+      "spectator": 0.07100604989752324,
+      "emitted_photons": 0.09412693401527343,
+      "trace": 1.000000000011549,
+      "min_eigenvalue": 6.770012756413278e-13
+    },
+    "nonsecular": {
+      "target": 0.368870085236026,
+      "initial": 0.5601206957451453,
+      "spectator": 0.0710092189760133,
+      "emitted_photons": 0.09411486581964737,
+      "trace": 0.9999999999571847,
+      "min_eigenvalue": 1.0296557203387975e-13
+    }
+  },
+  {
+    "detuning_mhz": 200.0,
+    "entry": "fixed_shape",
+    "reference_b": 0.6,
+    "physical_b": -0.004121317607903007,
+    "shot": 1,
+    "resolved": {
+      "target": 0.23158295186671624,
+      "initial": 0.6585519680403351,
+      "spectator": 0.10986508010150517,
+      "emitted_photons": 0.13997292773397432,
+      "trace": 1.0000000000085565,
+      "min_eigenvalue": 2.8785139019566406e-13
+    },
+    "nonsecular": {
+      "target": 0.22399554134799082,
+      "initial": 0.6658831706497719,
+      "spectator": 0.11012128801592873,
+      "emitted_photons": 0.14026335455610417,
+      "trace": 1.0000000000136915,
+      "min_eigenvalue": 6.975188916022255e-14
+    }
+  },
+  {
+    "detuning_mhz": 200.0,
+    "entry": "fixed_shape",
+    "reference_b": 0.6,
+    "physical_b": -0.004121317607903007,
+    "shot": 3,
+    "resolved": {
+      "target": 0.36974419016437676,
+      "initial": 0.5534586609012644,
+      "spectator": 0.07679714892435044,
+      "emitted_photons": 0.10036021417680942,
+      "trace": 0.9999999999899917,
+      "min_eigenvalue": 7.324300779697514e-13
+    },
+    "nonsecular": {
+      "target": 0.3701434921575481,
+      "initial": 0.5530496454852042,
+      "spectator": 0.0768068623520891,
+      "emitted_photons": 0.10035443708440181,
+      "trace": 0.9999999999948415,
+      "min_eigenvalue": 1.0484507718326148e-13
+    }
+  }
+]

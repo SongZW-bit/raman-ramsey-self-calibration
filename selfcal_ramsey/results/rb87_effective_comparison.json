@@ -1,0 +1,279 @@
+{
+  "scope": "Identical frozen controls and physical nuisance in both models. Effective qubit retains D1 polarizabilities but omits scattering and leakage. Local variance, not Monte Carlo MSE.",
+  "rows": [
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_hyper",
+      "reference_b": -0.6,
+      "full_variance": 2.5197569068445192e-08,
+      "effective_variance": 3.214995918890299e-08,
+      "full_shot_variance": 1.0141794800332758e-08,
+      "effective_shot_variance": 1.3546487102444887e-08
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_hyper",
+      "reference_b": -0.4,
+      "full_variance": 2.5182879471606834e-08,
+      "effective_variance": 3.23243840060701e-08,
+      "full_shot_variance": 1.0129027521404354e-08,
+      "effective_shot_variance": 1.3640476069065316e-08
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_hyper",
+      "reference_b": -0.2,
+      "full_variance": 2.5190411247717533e-08,
+      "effective_variance": 3.250374169148999e-08,
+      "full_shot_variance": 1.0126278182928695e-08,
+      "effective_shot_variance": 1.3736128475390895e-08
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_hyper",
+      "reference_b": 0.0,
+      "full_variance": 2.5228552100388065e-08,
+      "effective_variance": 3.2686438544681115e-08,
+      "full_shot_variance": 1.0138271928082213e-08,
+      "effective_shot_variance": 1.3832489321319862e-08
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_hyper",
+      "reference_b": 0.19999999999999996,
+      "full_variance": 2.5309941798935453e-08,
+      "effective_variance": 3.287070207139507e-08,
+      "full_shot_variance": 1.0174167888089623e-08,
+      "effective_shot_variance": 1.392854936974183e-08
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_hyper",
+      "reference_b": 0.3999999999999999,
+      "full_variance": 2.5452659165338922e-08,
+      "effective_variance": 3.3054646061913086e-08,
+      "full_shot_variance": 1.0252688111439133e-08,
+      "effective_shot_variance": 1.4023287422142454e-08
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_hyper",
+      "reference_b": 0.6,
+      "full_variance": 2.567650050283934e-08,
+      "effective_variance": 3.323634557239284e-08,
+      "full_shot_variance": 1.0411899403960667e-08,
+      "effective_shot_variance": 1.4115713900367019e-08
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_shape",
+      "reference_b": -0.6,
+      "full_variance": 7.918802012003184e-09,
+      "effective_variance": 8.864043666179093e-09,
+      "full_shot_variance": 7.513696044708786e-09,
+      "effective_shot_variance": 8.352054317322257e-09
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_shape",
+      "reference_b": -0.4,
+      "full_variance": 7.896204843979025e-09,
+      "effective_variance": 8.878234183246678e-09,
+      "full_shot_variance": 7.510528891306638e-09,
+      "effective_shot_variance": 8.35837455388227e-09
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_shape",
+      "reference_b": -0.2,
+      "full_variance": 7.889573661918412e-09,
+      "effective_variance": 8.892202038427116e-09,
+      "full_shot_variance": 7.519567523167895e-09,
+      "effective_shot_variance": 8.36388568039776e-09
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_shape",
+      "reference_b": 0.0,
+      "full_variance": 7.905554487521651e-09,
+      "effective_variance": 8.90579466359018e-09,
+      "full_shot_variance": 7.547323067314261e-09,
+      "effective_shot_variance": 8.368448836235732e-09
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_shape",
+      "reference_b": 0.19999999999999996,
+      "full_variance": 7.957761826806842e-09,
+      "effective_variance": 8.918867000432878e-09,
+      "full_shot_variance": 7.607089284973096e-09,
+      "effective_shot_variance": 8.37193636514493e-09
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_shape",
+      "reference_b": 0.3999999999999999,
+      "full_variance": 8.075056562049542e-09,
+      "effective_variance": 8.931289463985806e-09,
+      "full_shot_variance": 7.72739698462606e-09,
+      "effective_shot_variance": 8.374238657699272e-09
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_shape",
+      "reference_b": 0.6,
+      "full_variance": 8.311195062980427e-09,
+      "effective_variance": 8.942955954293163e-09,
+      "full_shot_variance": 7.963670501255743e-09,
+      "effective_shot_variance": 8.375270674122471e-09
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_hyper",
+      "reference_b": -0.6,
+      "full_variance": 9.599843016153768e-08,
+      "effective_variance": 9.162362214235657e-08,
+      "full_shot_variance": 1.5022499410534067e-08,
+      "effective_shot_variance": 1.2956924841070795e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_hyper",
+      "reference_b": -0.4,
+      "full_variance": 9.145473674075222e-08,
+      "effective_variance": 9.092458898003966e-08,
+      "full_shot_variance": 1.4587753818260932e-08,
+      "effective_shot_variance": 1.2909099822293165e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_hyper",
+      "reference_b": -0.2,
+      "full_variance": 7.904471458030942e-08,
+      "effective_variance": 8.058660206731032e-08,
+      "full_shot_variance": 1.245731702155555e-08,
+      "effective_shot_variance": 1.0953759624813335e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_hyper",
+      "reference_b": 0.0,
+      "full_variance": 6.153626996635851e-08,
+      "effective_variance": 6.224667786847415e-08,
+      "full_shot_variance": 1.0945921169704663e-08,
+      "effective_shot_variance": 9.568645703589276e-09
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_hyper",
+      "reference_b": 0.19999999999999996,
+      "full_variance": 7.765609063447921e-08,
+      "effective_variance": 7.696688831837137e-08,
+      "full_shot_variance": 1.1553437627814947e-08,
+      "effective_shot_variance": 1.0135369860733212e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_hyper",
+      "reference_b": 0.3999999999999999,
+      "full_variance": 8.941712782682663e-08,
+      "effective_variance": 9.09106799248652e-08,
+      "full_shot_variance": 1.2543259325039273e-08,
+      "effective_shot_variance": 1.1072338948136373e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_hyper",
+      "reference_b": 0.6,
+      "full_variance": 8.818743766223243e-08,
+      "effective_variance": 8.733313022602619e-08,
+      "full_shot_variance": 1.6164894308124526e-08,
+      "effective_shot_variance": 1.4161338357283079e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_shape",
+      "reference_b": -0.6,
+      "full_variance": 7.608745962443973e-08,
+      "effective_variance": 7.491481387816062e-08,
+      "full_shot_variance": 1.6259884558479743e-08,
+      "effective_shot_variance": 1.3947843061169685e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_shape",
+      "reference_b": -0.4,
+      "full_variance": 9.986812782529971e-08,
+      "effective_variance": 1.0009697513064444e-07,
+      "full_shot_variance": 1.6377501361755992e-08,
+      "effective_shot_variance": 1.2912913274134608e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_shape",
+      "reference_b": -0.2,
+      "full_variance": 9.793004609569749e-08,
+      "effective_variance": 9.956327965874313e-08,
+      "full_shot_variance": 1.565641479380825e-08,
+      "effective_shot_variance": 1.3584012685658204e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_shape",
+      "reference_b": 0.0,
+      "full_variance": 5.985106721611531e-08,
+      "effective_variance": 6.111311213247968e-08,
+      "full_shot_variance": 1.2075676748356859e-08,
+      "effective_shot_variance": 1.0383901764462738e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_shape",
+      "reference_b": 0.19999999999999996,
+      "full_variance": 8.082595733032803e-08,
+      "effective_variance": 8.003106224358076e-08,
+      "full_shot_variance": 1.1996822482612823e-08,
+      "effective_shot_variance": 1.0252250108155925e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_shape",
+      "reference_b": 0.3999999999999999,
+      "full_variance": 9.035207586504741e-08,
+      "effective_variance": 9.135555534172458e-08,
+      "full_shot_variance": 1.3043463684949345e-08,
+      "effective_shot_variance": 1.156856660034149e-08
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_shape",
+      "reference_b": 0.6,
+      "full_variance": 8.232835272829227e-08,
+      "effective_variance": 8.282326884912784e-08,
+      "full_shot_variance": 1.494096248078039e-08,
+      "effective_shot_variance": 1.3173030111739921e-08
+    }
+  ],
+  "coherent_checks": [
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_hyper",
+      "max_population_difference": 0.0004114785636468721
+    },
+    {
+      "detuning_mhz": 200.0,
+      "name": "fixed_shape",
+      "max_population_difference": 0.0001476432178131315
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_hyper",
+      "max_population_difference": 0.00014745101777469127
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "name": "fixed_shape",
+      "max_population_difference": 0.00019594958597402012
+    }
+  ]
+}

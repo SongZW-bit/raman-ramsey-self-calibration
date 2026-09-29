@@ -1,0 +1,60 @@
+{
+  "correlation_time": 1000.0,
+  "mc_trials_per_point": 5000,
+  "true_delta": 0.0005,
+  "caveat": "MSE maxima are over nine tested b values, not continuous worst-case guarantees. Error bars are pointwise 1.96 MC standard errors.",
+  "results": [
+    {
+      "label": "quasistatic",
+      "local_variance_max": 4.728577587912525e-08,
+      "sampled_worst_mse": 6.449852618190995e-08,
+      "sampled_worst_b": 0.3,
+      "worst_point_mc_se": 1.8279054026887222e-09,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2047.9999999989998,
+        "exposure": 49.84751283065306,
+        "peak": 1.0
+      }
+    },
+    {
+      "label": "shot",
+      "local_variance_max": 4.582975658067308e-08,
+      "sampled_worst_mse": 4.787987692338283e-08,
+      "sampled_worst_b": 0.6,
+      "worst_point_mc_se": 9.727419704974654e-10,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2047.999999999,
+        "exposure": 46.531721071436024,
+        "peak": 1.0
+      }
+    },
+    {
+      "label": "OU",
+      "local_variance_max": 3.9363546334398174e-08,
+      "sampled_worst_mse": 4.233119139235846e-08,
+      "sampled_worst_b": -0.6,
+      "worst_point_mc_se": 8.466406009237752e-10,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2047.9999999999998,
+        "exposure": 46.68186652759477,
+        "peak": 0.9999999999999999
+      }
+    },
+    {
+      "label": "hyper pairs",
+      "local_variance_max": 3.9346371040514456e-08,
+      "sampled_worst_mse": 4.2625967352803477e-08,
+      "sampled_worst_b": -0.6,
+      "worst_point_mc_se": 8.426999675814858e-10,
+      "resources": {
+        "atoms": 160000,
+        "elapsed": 2048.0000000000146,
+        "exposure": 85.76270680581857,
+        "peak": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "source": "two_beam_adaptive_cal2_pilot.json",
+  "results": [
+    {
+      "b": -0.6,
+      "fixed": {
+        "variance": 2.6665718845637753e-08,
+        "shot_variance": 1.4246545126377237e-08,
+        "common_variance": 3.86146845437697e-09,
+        "difference_variance": 6.683771370484581e-09,
+        "quadratic_variance": 1.873933894398955e-09,
+        "known_b_local_variance": 2.5539588405069287e-08,
+        "nuisance_penalty": 1.1261304405684658e-09
+      },
+      "selected_frozen_branch_average": {
+        "variance": 2.0738404363861098e-08,
+        "shot_variance": 1.0092776551555868e-08,
+        "common_variance": 5.51151085516945e-09,
+        "difference_variance": 4.395658481566759e-09,
+        "quadratic_variance": 7.384584755690129e-10,
+        "known_b_local_variance": 1.9640961113153455e-08,
+        "nuisance_penalty": 1.0974432507076428e-09
+      },
+      "oracle_branch": 1,
+      "observed_adaptive_mse": 2.045805618013138e-08
+    },
+    {
+      "b": -0.3,
+      "fixed": {
+        "variance": 2.5157843529365687e-08,
+        "shot_variance": 1.091117221482808e-08,
+        "common_variance": 7.081029121066621e-09,
+        "difference_variance": 6.525211515919775e-09,
+        "quadratic_variance": 6.40430677551208e-10,
+        "known_b_local_variance": 2.1646147091928662e-08,
+        "nuisance_penalty": 3.5116964374370243e-09
+      },
+      "selected_frozen_branch_average": {
+        "variance": 2.3250073997920174e-08,
+        "shot_variance": 1.0302762286508466e-08,
+        "common_variance": 7.3583510342289586e-09,
+        "difference_variance": 5.1381205804400735e-09,
+        "quadratic_variance": 4.508400967426738e-10,
+        "known_b_local_variance": 2.1837662806676292e-08,
+        "nuisance_penalty": 1.4124111912438805e-09
+      },
+      "oracle_branch": 2,
+      "observed_adaptive_mse": 2.2594124769469207e-08
+    },
+    {
+      "b": 0.0,
+      "fixed": {
+        "variance": 2.640287424945139e-08,
+        "shot_variance": 9.007066759086769e-09,
+        "common_variance": 1.4058284211892841e-08,
+        "difference_variance": 3.0495580920218e-09,
+        "quadratic_variance": 2.8796518644997316e-10,
+        "known_b_local_variance": 2.4577588428075173e-08,
+        "nuisance_penalty": 1.8252858213762164e-09
+      },
+      "selected_frozen_branch_average": {
+        "variance": 2.0980376987222582e-08,
+        "shot_variance": 1.2457039842106307e-08,
+        "common_variance": 3.0378858402978303e-09,
+        "difference_variance": 4.859527161000968e-09,
+        "quadratic_variance": 6.259241438174775e-10,
+        "known_b_local_variance": 2.03502162505489e-08,
+        "nuisance_penalty": 6.301607366736851e-10
+      },
+      "oracle_branch": 2,
+      "observed_adaptive_mse": 1.956888702731466e-08
+    },
+    {
+      "b": 0.3,
+      "fixed": {
+        "variance": 2.628447674167262e-08,
+        "shot_variance": 1.0470781066369005e-08,
+        "common_variance": 7.859256421432744e-09,
+        "difference_variance": 7.290721462113615e-09,
+        "quadratic_variance": 6.637177917572561e-10,
+        "known_b_local_variance": 2.3394041219789973e-08,
+        "nuisance_penalty": 2.890435521882646e-09
+      },
+      "selected_frozen_branch_average": {
+        "variance": 2.3262072437357895e-08,
+        "shot_variance": 9.637663435415075e-09,
+        "common_variance": 7.734750890912085e-09,
+        "difference_variance": 5.522135342505784e-09,
+        "quadratic_variance": 3.675227685249479e-10,
+        "known_b_local_variance": 2.1642726429860363e-08,
+        "nuisance_penalty": 1.6193460074975338e-09
+      },
+      "oracle_branch": 5,
+      "observed_adaptive_mse": 2.3396208437151838e-08
+    },
+    {
+      "b": 0.6,
+      "fixed": {
+        "variance": 2.5901804744551284e-08,
+        "shot_variance": 1.331748210884539e-08,
+        "common_variance": 5.4089351157208205e-09,
+        "difference_variance": 5.766611150319506e-09,
+        "quadratic_variance": 1.408776369665561e-09,
+        "known_b_local_variance": 2.5154681418177804e-08,
+        "nuisance_penalty": 7.471233263734805e-10
+      },
+      "selected_frozen_branch_average": {
+        "variance": 2.2125835218328482e-08,
+        "shot_variance": 9.251341459705292e-09,
+        "common_variance": 6.980958719311499e-09,
+        "difference_variance": 5.52944629112457e-09,
+        "quadratic_variance": 3.6408874818712124e-10,
+        "known_b_local_variance": 2.0769798329014575e-08,
+        "nuisance_penalty": 1.3560368893139077e-09
+      },
+      "oracle_branch": 7,
+      "observed_adaptive_mse": 2.169899410168062e-08
+    }
+  ],
+  "scope": "Diagnostic true-b local weights with frozen branch. Averaging by observed choice frequencies is not an attainable adaptive-risk bound or a decomposition of actual adaptive MSE."
+}

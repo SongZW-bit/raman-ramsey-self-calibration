@@ -1,0 +1,65 @@
+{
+  "scope": "Two endpoint average of local variances. Oracle knows b; not an adaptive finite-data MSE result. All controls require reoptimization before a strong-baseline claim.",
+  "rows": [
+    {
+      "detuning_mhz": 100.0,
+      "kappa": 0.5089003974539188,
+      "fixed_hyper": 3.7828699465350763e-08,
+      "fixed_shape": 3.519123560896517e-08,
+      "oracle": 2.2303608788204054e-08,
+      "oracle_reduction_vs_better_fixed_family": 0.3662169457180958,
+      "max_leakage": 0.35084364413164815,
+      "peak_field_rss_mhz": 11.764304085110213
+    },
+    {
+      "detuning_mhz": 150.0,
+      "kappa": 0.26335071266242516,
+      "fixed_hyper": 4.4967588214776934e-08,
+      "fixed_shape": 3.100992463010493e-08,
+      "oracle": 2.4714154705141398e-08,
+      "oracle_reduction_vs_better_fixed_family": 0.20302435430144516,
+      "max_leakage": 0.7126617610993216,
+      "peak_field_rss_mhz": 29.78613070471239
+    },
+    {
+      "detuning_mhz": 250.0,
+      "kappa": 0.2277485027959459,
+      "fixed_hyper": 2.863964655574665e-08,
+      "fixed_shape": 2.9434261326440517e-08,
+      "oracle": 2.0855876844024483e-08,
+      "oracle_reduction_vs_better_fixed_family": 0.27178302276081423,
+      "max_leakage": 0.7053885302811529,
+      "peak_field_rss_mhz": 49.702972499726734
+    },
+    {
+      "detuning_mhz": 300.0,
+      "kappa": 0.47329805402833464,
+      "fixed_hyper": 2.851100871212082e-08,
+      "fixed_shape": 2.6939563892022554e-08,
+      "oracle": 1.9556540363340166e-08,
+      "oracle_reduction_vs_better_fixed_family": 0.2740587619857008,
+      "max_leakage": 0.21316633339408686,
+      "peak_field_rss_mhz": 23.921537896773675
+    },
+    {
+      "detuning_mhz": 500.0,
+      "kappa": 1.4554960289561667,
+      "fixed_hyper": 3.332727286927457e-08,
+      "fixed_shape": 3.326979233834286e-08,
+      "oracle": 2.6359073606879004e-08,
+      "oracle_reduction_vs_better_fixed_family": 0.2077175192794749,
+      "max_leakage": 0.08719778322443733,
+      "peak_field_rss_mhz": 19.37060724988309
+    },
+    {
+      "detuning_mhz": 1000.0,
+      "kappa": 3.910990289510787,
+      "fixed_hyper": 9.234686652781403e-08,
+      "fixed_shape": 9.191960804089761e-08,
+      "oracle": 6.365339633029933e-08,
+      "oracle_reduction_vs_better_fixed_family": 0.30751014188421955,
+      "max_leakage": 0.07171973466299919,
+      "peak_field_rss_mhz": 29.5453248784496
+    }
+  ]
+}

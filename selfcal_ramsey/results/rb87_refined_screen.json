@@ -1,0 +1,605 @@
+{
+  "scope": "Independent-grid local risk and oracle bounds, not actual adaptive MSE. Same frozen control in full D1 and polarizability-derived effective qubit.",
+  "rows": [
+    {
+      "name": "fixed_hyper",
+      "b": -0.65,
+      "full_variance": 9.839017692505078e-08,
+      "effective_variance": 9.160788762716229e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": -0.65,
+      "full_variance": 8.01418958011993e-08,
+      "effective_variance": 7.539293419063291e-08
+    },
+    {
+      "name": "branch_0",
+      "b": -0.65,
+      "full_variance": 9.188971241255663e-08,
+      "effective_variance": 8.541137444318303e-08
+    },
+    {
+      "name": "branch_1",
+      "b": -0.65,
+      "full_variance": 5.8437763898987676e-08,
+      "effective_variance": 6.02651722570221e-08
+    },
+    {
+      "name": "branch_2",
+      "b": -0.65,
+      "full_variance": 7.384839571086497e-08,
+      "effective_variance": 7.589982409787136e-08
+    },
+    {
+      "name": "branch_3",
+      "b": -0.65,
+      "full_variance": 9.78866410617557e-08,
+      "effective_variance": 9.825788420418479e-08
+    },
+    {
+      "name": "branch_4",
+      "b": -0.65,
+      "full_variance": 2.874759328826397e-07,
+      "effective_variance": 2.613494241488538e-07
+    },
+    {
+      "name": "branch_5",
+      "b": -0.65,
+      "full_variance": 1.961450118785561e-06,
+      "effective_variance": 1.8679982005283774e-06
+    },
+    {
+      "name": "branch_6",
+      "b": -0.65,
+      "full_variance": 1.4712601624926368e-06,
+      "effective_variance": 1.4711588650057342e-06
+    },
+    {
+      "name": "branch_7",
+      "b": -0.65,
+      "full_variance": 2.0965875008515353e-06,
+      "effective_variance": 2.1240477723060677e-06
+    },
+    {
+      "name": "fixed_hyper",
+      "b": -0.55,
+      "full_variance": 9.470225572740479e-08,
+      "effective_variance": 9.168520107537495e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": -0.55,
+      "full_variance": 7.627776165531802e-08,
+      "effective_variance": 7.348958103389878e-08
+    },
+    {
+      "name": "branch_0",
+      "b": -0.55,
+      "full_variance": 8.902792819722781e-08,
+      "effective_variance": 8.733348576702153e-08
+    },
+    {
+      "name": "branch_1",
+      "b": -0.55,
+      "full_variance": 6.077611251306207e-08,
+      "effective_variance": 6.026585049160981e-08
+    },
+    {
+      "name": "branch_2",
+      "b": -0.55,
+      "full_variance": 6.549416616711233e-08,
+      "effective_variance": 6.728128932279118e-08
+    },
+    {
+      "name": "branch_3",
+      "b": -0.55,
+      "full_variance": 8.974801318915498e-08,
+      "effective_variance": 9.185789959731773e-08
+    },
+    {
+      "name": "branch_4",
+      "b": -0.55,
+      "full_variance": 2.1782033889120652e-07,
+      "effective_variance": 2.064266251219404e-07
+    },
+    {
+      "name": "branch_5",
+      "b": -0.55,
+      "full_variance": 6.385635825809597e-07,
+      "effective_variance": 5.687372615954545e-07
+    },
+    {
+      "name": "branch_6",
+      "b": -0.55,
+      "full_variance": 1.853902707789512e-06,
+      "effective_variance": 1.8368604417414777e-06
+    },
+    {
+      "name": "branch_7",
+      "b": -0.55,
+      "full_variance": 2.247485802804548e-06,
+      "effective_variance": 2.2518719551592032e-06
+    },
+    {
+      "name": "fixed_hyper",
+      "b": -0.45,
+      "full_variance": 9.241218670887165e-08,
+      "effective_variance": 9.12492001917598e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": -0.45,
+      "full_variance": 8.733425974264748e-08,
+      "effective_variance": 8.498414398193756e-08
+    },
+    {
+      "name": "branch_0",
+      "b": -0.45,
+      "full_variance": 9.186092139282246e-08,
+      "effective_variance": 9.22341532975883e-08
+    },
+    {
+      "name": "branch_1",
+      "b": -0.45,
+      "full_variance": 8.406514439092605e-08,
+      "effective_variance": 8.197609118751264e-08
+    },
+    {
+      "name": "branch_2",
+      "b": -0.45,
+      "full_variance": 6.175394519951437e-08,
+      "effective_variance": 6.21223096136183e-08
+    },
+    {
+      "name": "branch_3",
+      "b": -0.45,
+      "full_variance": 7.373323052370504e-08,
+      "effective_variance": 7.575807999048009e-08
+    },
+    {
+      "name": "branch_4",
+      "b": -0.45,
+      "full_variance": 1.3454680958889578e-07,
+      "effective_variance": 1.2584485498977878e-07
+    },
+    {
+      "name": "branch_5",
+      "b": -0.45,
+      "full_variance": 2.595220139008817e-07,
+      "effective_variance": 2.3673474639849246e-07
+    },
+    {
+      "name": "branch_6",
+      "b": -0.45,
+      "full_variance": 1.540765930671678e-06,
+      "effective_variance": 1.429845702644262e-06
+    },
+    {
+      "name": "branch_7",
+      "b": -0.45,
+      "full_variance": 1.6276428421532438e-06,
+      "effective_variance": 1.596690169475551e-06
+    },
+    {
+      "name": "fixed_hyper",
+      "b": -0.35,
+      "full_variance": 8.999565653879008e-08,
+      "effective_variance": 9.000968688993986e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": -0.35,
+      "full_variance": 9.591052671025121e-08,
+      "effective_variance": 9.537621639152868e-08
+    },
+    {
+      "name": "branch_0",
+      "b": -0.35,
+      "full_variance": 9.168499543121559e-08,
+      "effective_variance": 9.284438079575561e-08
+    },
+    {
+      "name": "branch_1",
+      "b": -0.35,
+      "full_variance": 1.1194494661344355e-07,
+      "effective_variance": 1.1119712198045685e-07
+    },
+    {
+      "name": "branch_2",
+      "b": -0.35,
+      "full_variance": 6.663293061555435e-08,
+      "effective_variance": 6.506352349417233e-08
+    },
+    {
+      "name": "branch_3",
+      "b": -0.35,
+      "full_variance": 6.425166854879286e-08,
+      "effective_variance": 6.547667745419543e-08
+    },
+    {
+      "name": "branch_4",
+      "b": -0.35,
+      "full_variance": 8.809188013800265e-08,
+      "effective_variance": 8.54113880278727e-08
+    },
+    {
+      "name": "branch_5",
+      "b": -0.35,
+      "full_variance": 2.021362524874886e-07,
+      "effective_variance": 1.9339683827235475e-07
+    },
+    {
+      "name": "branch_6",
+      "b": -0.35,
+      "full_variance": 4.078877123478022e-07,
+      "effective_variance": 3.6076201324571585e-07
+    },
+    {
+      "name": "branch_7",
+      "b": -0.35,
+      "full_variance": 9.129835450302288e-07,
+      "effective_variance": 8.682358537599351e-07
+    },
+    {
+      "name": "fixed_hyper",
+      "b": -0.15,
+      "full_variance": 7.318163229133582e-08,
+      "effective_variance": 7.484529128830868e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": -0.15,
+      "full_variance": 9.066748200302018e-08,
+      "effective_variance": 9.163680863894765e-08
+    },
+    {
+      "name": "branch_0",
+      "b": -0.15,
+      "full_variance": 7.25335409212174e-08,
+      "effective_variance": 7.420210856023057e-08
+    },
+    {
+      "name": "branch_1",
+      "b": -0.15,
+      "full_variance": 1.0336736239943279e-07,
+      "effective_variance": 1.056422197139971e-07
+    },
+    {
+      "name": "branch_2",
+      "b": -0.15,
+      "full_variance": 9.566550748555226e-08,
+      "effective_variance": 9.552706360226274e-08
+    },
+    {
+      "name": "branch_3",
+      "b": -0.15,
+      "full_variance": 7.026129434764645e-08,
+      "effective_variance": 6.870342337007947e-08
+    },
+    {
+      "name": "branch_4",
+      "b": -0.15,
+      "full_variance": 7.323994312904951e-08,
+      "effective_variance": 7.412167951030038e-08
+    },
+    {
+      "name": "branch_5",
+      "b": -0.15,
+      "full_variance": 9.010631579131883e-08,
+      "effective_variance": 8.770558528985693e-08
+    },
+    {
+      "name": "branch_6",
+      "b": -0.15,
+      "full_variance": 1.8529878802665303e-07,
+      "effective_variance": 1.737016602124601e-07
+    },
+    {
+      "name": "branch_7",
+      "b": -0.15,
+      "full_variance": 2.0431525025332076e-07,
+      "effective_variance": 2.0034513101062718e-07
+    },
+    {
+      "name": "fixed_hyper",
+      "b": 0.15,
+      "full_variance": 7.00606504351375e-08,
+      "effective_variance": 6.92143035613074e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": 0.15,
+      "full_variance": 6.332834668891746e-08,
+      "effective_variance": 6.339342768846226e-08
+    },
+    {
+      "name": "branch_0",
+      "b": 0.15,
+      "full_variance": 8.000812285240784e-08,
+      "effective_variance": 7.934192944377134e-08
+    },
+    {
+      "name": "branch_1",
+      "b": 0.15,
+      "full_variance": 1.840138281528471e-07,
+      "effective_variance": 1.8168535540861602e-07
+    },
+    {
+      "name": "branch_2",
+      "b": 0.15,
+      "full_variance": 7.568577853191619e-08,
+      "effective_variance": 7.501088708870323e-08
+    },
+    {
+      "name": "branch_3",
+      "b": 0.15,
+      "full_variance": 8.948598855400522e-08,
+      "effective_variance": 9.129438226090769e-08
+    },
+    {
+      "name": "branch_4",
+      "b": 0.15,
+      "full_variance": 6.327890898889954e-08,
+      "effective_variance": 6.440142795642878e-08
+    },
+    {
+      "name": "branch_5",
+      "b": 0.15,
+      "full_variance": 7.520461735192553e-08,
+      "effective_variance": 7.658476387951214e-08
+    },
+    {
+      "name": "branch_6",
+      "b": 0.15,
+      "full_variance": 8.174638846368043e-08,
+      "effective_variance": 8.071968040383179e-08
+    },
+    {
+      "name": "branch_7",
+      "b": 0.15,
+      "full_variance": 1.1586790319924737e-07,
+      "effective_variance": 1.1773628670729311e-07
+    },
+    {
+      "name": "fixed_hyper",
+      "b": 0.35,
+      "full_variance": 8.856750215730702e-08,
+      "effective_variance": 8.962899912202886e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": 0.35,
+      "full_variance": 7.813109669138903e-08,
+      "effective_variance": 7.800068007522595e-08
+    },
+    {
+      "name": "branch_0",
+      "b": 0.35,
+      "full_variance": 9.3676366491401e-08,
+      "effective_variance": 9.53268662494116e-08
+    },
+    {
+      "name": "branch_1",
+      "b": 0.35,
+      "full_variance": 1.2489633888810966e-06,
+      "effective_variance": 1.1788549359009391e-06
+    },
+    {
+      "name": "branch_2",
+      "b": 0.35,
+      "full_variance": 2.2188050160016712e-07,
+      "effective_variance": 2.1432354531671504e-07
+    },
+    {
+      "name": "branch_3",
+      "b": 0.35,
+      "full_variance": 9.754278778911187e-08,
+      "effective_variance": 9.542773033455129e-08
+    },
+    {
+      "name": "branch_4",
+      "b": 0.35,
+      "full_variance": 1.0880063830826145e-07,
+      "effective_variance": 1.0937322714204017e-07
+    },
+    {
+      "name": "branch_5",
+      "b": 0.35,
+      "full_variance": 6.41670993694848e-08,
+      "effective_variance": 6.55935872899009e-08
+    },
+    {
+      "name": "branch_6",
+      "b": 0.35,
+      "full_variance": 7.619105499017454e-08,
+      "effective_variance": 7.75200036750371e-08
+    },
+    {
+      "name": "branch_7",
+      "b": 0.35,
+      "full_variance": 1.1741055254924318e-07,
+      "effective_variance": 1.1858768832214785e-07
+    },
+    {
+      "name": "fixed_hyper",
+      "b": 0.45,
+      "full_variance": 8.898290310714831e-08,
+      "effective_variance": 9.059819224129242e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": 0.45,
+      "full_variance": 8.05567944865854e-08,
+      "effective_variance": 8.134362100017935e-08
+    },
+    {
+      "name": "branch_0",
+      "b": 0.45,
+      "full_variance": 8.889673929242877e-08,
+      "effective_variance": 9.084123433124628e-08
+    },
+    {
+      "name": "branch_1",
+      "b": 0.45,
+      "full_variance": 1.840447456807441e-06,
+      "effective_variance": 1.7472981865066155e-06
+    },
+    {
+      "name": "branch_2",
+      "b": 0.45,
+      "full_variance": 1.0584158471598003e-06,
+      "effective_variance": 1.0097036915229965e-06
+    },
+    {
+      "name": "branch_3",
+      "b": 0.45,
+      "full_variance": 1.2504789410271157e-07,
+      "effective_variance": 1.1880844881283927e-07
+    },
+    {
+      "name": "branch_4",
+      "b": 0.45,
+      "full_variance": 1.3729079589005677e-07,
+      "effective_variance": 1.3926159373804424e-07
+    },
+    {
+      "name": "branch_5",
+      "b": 0.45,
+      "full_variance": 7.49324911925512e-08,
+      "effective_variance": 7.548823221106627e-08
+    },
+    {
+      "name": "branch_6",
+      "b": 0.45,
+      "full_variance": 6.854469647538753e-08,
+      "effective_variance": 7.020498807036754e-08
+    },
+    {
+      "name": "branch_7",
+      "b": 0.45,
+      "full_variance": 8.816647099995732e-08,
+      "effective_variance": 8.95677958823198e-08
+    },
+    {
+      "name": "fixed_hyper",
+      "b": 0.55,
+      "full_variance": 8.829037716316582e-08,
+      "effective_variance": 8.886684623264408e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": 0.55,
+      "full_variance": 8.730393531012011e-08,
+      "effective_variance": 8.85347069973624e-08
+    },
+    {
+      "name": "branch_0",
+      "b": 0.55,
+      "full_variance": 8.440523862288735e-08,
+      "effective_variance": 8.504391353624791e-08
+    },
+    {
+      "name": "branch_1",
+      "b": 0.55,
+      "full_variance": 2.2941844463386888e-06,
+      "effective_variance": 2.2112625609097007e-06
+    },
+    {
+      "name": "branch_2",
+      "b": 0.55,
+      "full_variance": 1.7751327970999503e-06,
+      "effective_variance": 1.6673155462422344e-06
+    },
+    {
+      "name": "branch_3",
+      "b": 0.55,
+      "full_variance": 2.800206879318636e-07,
+      "effective_variance": 2.6994347795990825e-07
+    },
+    {
+      "name": "branch_4",
+      "b": 0.55,
+      "full_variance": 1.424236747047264e-07,
+      "effective_variance": 1.4551248235051882e-07
+    },
+    {
+      "name": "branch_5",
+      "b": 0.55,
+      "full_variance": 1.1149326490007572e-07,
+      "effective_variance": 1.1241597175104812e-07
+    },
+    {
+      "name": "branch_6",
+      "b": 0.55,
+      "full_variance": 6.337979058211152e-08,
+      "effective_variance": 6.451309026956159e-08
+    },
+    {
+      "name": "branch_7",
+      "b": 0.55,
+      "full_variance": 6.46696889265933e-08,
+      "effective_variance": 6.638415753562391e-08
+    },
+    {
+      "name": "fixed_hyper",
+      "b": 0.65,
+      "full_variance": 8.928552460139207e-08,
+      "effective_variance": 8.693645907219247e-08
+    },
+    {
+      "name": "fixed_shape",
+      "b": 0.65,
+      "full_variance": 9.7191919938361e-08,
+      "effective_variance": 9.74253107771062e-08
+    },
+    {
+      "name": "branch_0",
+      "b": 0.65,
+      "full_variance": 8.467856519158806e-08,
+      "effective_variance": 8.245548629345824e-08
+    },
+    {
+      "name": "branch_1",
+      "b": 0.65,
+      "full_variance": 1.983193175486987e-06,
+      "effective_variance": 1.9497779829819872e-06
+    },
+    {
+      "name": "branch_2",
+      "b": 0.65,
+      "full_variance": 1.9909002242606357e-06,
+      "effective_variance": 1.900435644185876e-06
+    },
+    {
+      "name": "branch_3",
+      "b": 0.65,
+      "full_variance": 1.3688257082960412e-06,
+      "effective_variance": 1.294238017719383e-06
+    },
+    {
+      "name": "branch_4",
+      "b": 0.65,
+      "full_variance": 1.3074561343945602e-07,
+      "effective_variance": 1.339478922948569e-07
+    },
+    {
+      "name": "branch_5",
+      "b": 0.65,
+      "full_variance": 1.4263002857806165e-07,
+      "effective_variance": 1.4500452935491872e-07
+    },
+    {
+      "name": "branch_6",
+      "b": 0.65,
+      "full_variance": 7.907947828268331e-08,
+      "effective_variance": 7.957807778268899e-08
+    },
+    {
+      "name": "branch_7",
+      "b": 0.65,
+      "full_variance": 6.26763191776167e-08,
+      "effective_variance": 6.398123545310496e-08
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "rows": [
+    {
+      "name": "fixed_shape",
+      "b": -0.6,
+      "max_population_difference_1_to_9": 0.0031570911146291403,
+      "max_whitened_squared_difference_1_to_9": 0.02885055305391392,
+      "max_whitened_squared_difference_3_to_9": 0.005800004242736989
+    },
+    {
+      "name": "branch_1",
+      "b": -0.6,
+      "max_population_difference_1_to_9": 0.0031173718055629296,
+      "max_whitened_squared_difference_1_to_9": 0.09545305408682375,
+      "max_whitened_squared_difference_3_to_9": 0.009296461296963737
+    },
+    {
+      "name": "branch_7",
+      "b": 0.6,
+      "max_population_difference_1_to_9": 0.0032126012073456778,
+      "max_whitened_squared_difference_1_to_9": 0.10487344348348422,
+      "max_whitened_squared_difference_3_to_9": 0.008353289456483911
+    }
+  ],
+  "passed": false,
+  "scope": "Four nested exact-atom OU trajectories per frozen design; trajectory quadrature audit, not Monte Carlo MSE confidence."
+}

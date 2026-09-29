@@ -1,0 +1,91 @@
+{
+  "source": "two_beam_joint_coded.json",
+  "config": {
+    "shots": 16,
+    "atoms_per_shot": 10000,
+    "time_cap": 2048.0,
+    "exposure_cap": 160.0,
+    "overhead": 100.0,
+    "gamma": 0.01,
+    "sigma_intensity": 0.03,
+    "correlation_time": 300.0,
+    "quadrature": false,
+    "beam_correlation": 0.0,
+    "b_width": 0.6,
+    "integer_atoms": true
+  },
+  "results": [
+    {
+      "family": "hyper",
+      "b": -0.6,
+      "reps": 12000,
+      "linear_variance": 3.9725070386433956e-08,
+      "quadratic_added_variance": 1.4057862915107991e-08,
+      "quadratic_surrogate_variance": 5.455710135964942e-08,
+      "empirical_oracle_linear_variance": 5.530824304121344e-08,
+      "empirical_variance_standard_error": 7.915013995911055e-10,
+      "residual_bias": 1.3137410453019854e-06,
+      "scope": "Oracle local weights at true b; diagnostic only, not an attainable unknown-b estimator."
+    },
+    {
+      "family": "hyper",
+      "b": 0.0,
+      "reps": 12000,
+      "linear_variance": 3.95175463076717e-08,
+      "quadratic_added_variance": 1.5969967276896206e-10,
+      "quadratic_surrogate_variance": 3.968185824074325e-08,
+      "empirical_oracle_linear_variance": 3.9946797412181755e-08,
+      "empirical_variance_standard_error": 5.278423073642226e-10,
+      "residual_bias": 1.5300766393216307e-06,
+      "scope": "Oracle local weights at true b; diagnostic only, not an attainable unknown-b estimator."
+    },
+    {
+      "family": "hyper",
+      "b": 0.6,
+      "reps": 12000,
+      "linear_variance": 3.966190532815956e-08,
+      "quadratic_added_variance": 2.943306514206622e-09,
+      "quadratic_surrogate_variance": 4.27802115068082e-08,
+      "empirical_oracle_linear_variance": 4.2257555662946014e-08,
+      "empirical_variance_standard_error": 5.519383878674082e-10,
+      "residual_bias": 2.645527048445341e-06,
+      "scope": "Oracle local weights at true b; diagnostic only, not an attainable unknown-b estimator."
+    },
+    {
+      "family": "shape",
+      "b": -0.6,
+      "reps": 12000,
+      "linear_variance": 3.4152721754979354e-08,
+      "quadratic_added_variance": 2.5340328841477737e-09,
+      "quadratic_surrogate_variance": 3.678003832771344e-08,
+      "empirical_oracle_linear_variance": 3.6751246768935724e-08,
+      "empirical_variance_standard_error": 4.673303934765522e-10,
+      "residual_bias": 3.7445673570344283e-06,
+      "scope": "Oracle local weights at true b; diagnostic only, not an attainable unknown-b estimator."
+    },
+    {
+      "family": "shape",
+      "b": 0.0,
+      "reps": 12000,
+      "linear_variance": 3.376251838653452e-08,
+      "quadratic_added_variance": 2.3438536468528945e-10,
+      "quadratic_surrogate_variance": 3.4003956411638826e-08,
+      "empirical_oracle_linear_variance": 3.3929531850421416e-08,
+      "empirical_variance_standard_error": 4.3853183025753795e-10,
+      "residual_bias": 2.140642334651767e-06,
+      "scope": "Oracle local weights at true b; diagnostic only, not an attainable unknown-b estimator."
+    },
+    {
+      "family": "shape",
+      "b": 0.6,
+      "reps": 12000,
+      "linear_variance": 3.3859322679986287e-08,
+      "quadratic_added_variance": 5.23549777199014e-10,
+      "quadratic_surrogate_variance": 3.4381278121431965e-08,
+      "empirical_oracle_linear_variance": 3.4757773044401047e-08,
+      "empirical_variance_standard_error": 4.5006048261744695e-10,
+      "residual_bias": -6.829917546820728e-08,
+      "scope": "Oracle local weights at true b; diagnostic only, not an attainable unknown-b estimator."
+    }
+  ]
+}

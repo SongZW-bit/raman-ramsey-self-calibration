@@ -1,0 +1,164 @@
+{
+  "worst_rows": [
+    {
+      "family": "hyper",
+      "readout": "two-group",
+      "pattern": "distributed12",
+      "b": 0.0,
+      "true_delta": 0.0005,
+      "reps": 2000,
+      "delta_bias": -2.1112751375937594e-06,
+      "delta_mse": 4.2725208437088185e-08,
+      "mse_standard_error": 1.3821976709448793e-09,
+      "nuisance_rmse": 0.021879579979201907,
+      "nuisance_catastrophic_fraction": 0.0
+    },
+    {
+      "family": "hyper",
+      "readout": "joint-coded",
+      "pattern": {
+        "long_flags": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false
+        ],
+        "phases": [
+          -1.665597856070758,
+          1.3429821213700452,
+          -2.2386275205199375,
+          -1.5451470987251443,
+          1.8952411802072455,
+          -1.7702358680812875,
+          2.14738332240012,
+          1.5749620626464431,
+          -1.665597856070758,
+          1.3429821213700452,
+          -2.2386275205199375,
+          -1.5451470987251443,
+          1.8952411802072455,
+          1.5749620626464431,
+          -1.7702358680812875,
+          2.14738332240012
+        ]
+      },
+      "b": 0.0,
+      "true_delta": 0.0005,
+      "reps": 2000,
+      "delta_bias": -9.22607982676237e-07,
+      "delta_mse": 3.974266768513856e-08,
+      "mse_standard_error": 1.2807563962973767e-09,
+      "nuisance_rmse": 0.023061336455179514,
+      "nuisance_catastrophic_fraction": 0.0
+    },
+    {
+      "family": "shape",
+      "readout": "joint-coded",
+      "pattern": {
+        "long_flags": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        "phases": [
+          -1.5002043945046906,
+          -0.7189127833484407,
+          -1.5177918958851362,
+          1.6871636466282185,
+          -1.5084277422562644,
+          -1.5727750742333528,
+          -1.5391403965264434,
+          1.6862751460438667,
+          -1.5002043945046906,
+          -0.7189127833484407,
+          1.6871636466282185,
+          -1.5177918958851362,
+          -1.5084277422562644,
+          1.6862751460438667,
+          -1.5727750742333528,
+          -1.5391403965264434
+        ]
+      },
+      "b": 0.6,
+      "true_delta": 0.0005,
+      "reps": 2000,
+      "delta_bias": 4.716323652851576e-06,
+      "delta_mse": 3.406097303260458e-08,
+      "mse_standard_error": 1.0700354763803897e-09,
+      "nuisance_rmse": 0.014308178737958898,
+      "nuisance_catastrophic_fraction": 0.0
+    }
+  ],
+  "matched_worst_mse_reduction": 0.1429620854228314,
+  "matched_worst_rmse_reduction": 0.07423657742532919,
+  "fixed_design_known_b_diagnostic": [
+    {
+      "family": "hyper",
+      "b": -0.6,
+      "unknown_b_variance": 3.90916064854691e-08,
+      "known_b_variance": 3.773608076108026e-08,
+      "relative_reduction": 0.03467562083673159
+    },
+    {
+      "family": "hyper",
+      "b": 0.0,
+      "unknown_b_variance": 3.8871013855365394e-08,
+      "known_b_variance": 3.6029099068633174e-08,
+      "relative_reduction": 0.07311141400393262
+    },
+    {
+      "family": "hyper",
+      "b": 0.6,
+      "unknown_b_variance": 3.914448116287972e-08,
+      "known_b_variance": 3.772152725549333e-08,
+      "relative_reduction": 0.036351328849282605
+    },
+    {
+      "family": "shape",
+      "b": -0.6,
+      "unknown_b_variance": 3.428626011191696e-08,
+      "known_b_variance": 3.243262600392451e-08,
+      "relative_reduction": 0.05406346746311286
+    },
+    {
+      "family": "shape",
+      "b": 0.0,
+      "unknown_b_variance": 3.404851297978599e-08,
+      "known_b_variance": 3.247197886087999e-08,
+      "relative_reduction": 0.046302583605984826
+    },
+    {
+      "family": "shape",
+      "b": 0.6,
+      "unknown_b_variance": 3.402180908185835e-08,
+      "known_b_variance": 3.354206412449326e-08,
+      "relative_reduction": 0.014101100744254857
+    }
+  ],
+  "scope": "Five true b points; fit range [-0.8,0.8]; all three use the same corrected Gaussian estimator."
+}

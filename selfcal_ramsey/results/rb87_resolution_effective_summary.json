@@ -1,0 +1,41 @@
+{
+  "effective": true,
+  "points": [
+    -0.6,
+    0.6
+  ],
+  "coarse_reps_per_point": 400,
+  "correction_reps_per_point": 400,
+  "coarse_source": "rb87_refined_effective_certified_mc400.json",
+  "correction_sources": [
+    "rb87_resolution_effective_certified_negative400.json",
+    "rb87_resolution_effective_certified_positive400.json"
+  ],
+  "corrected_substeps": 3,
+  "coarse_risks": {
+    "fixed_shape": 8.308820622405446e-08,
+    "adaptive": 7.325523960233603e-08
+  },
+  "mean_risk_correction": {
+    "fixed_shape": -1.7351279479038953e-10,
+    "adaptive": 3.195884973415067e-10
+  },
+  "corrected_risks": {
+    "fixed_shape": 8.291469342926407e-08,
+    "adaptive": 7.357482809967753e-08
+  },
+  "direct_fine_risks": {
+    "fixed_shape": 9.735951544416542e-08,
+    "adaptive": 6.888790552067114e-08
+  },
+  "mse_reduction": 0.11264427260476495,
+  "bootstrap_95_interval": [
+    -0.006504860468069424,
+    0.21763180625610132
+  ],
+  "branch_switch_counts": [
+    0,
+    0
+  ],
+  "scope": "R3 estimated as independent mean(L1) + mean(L3-L1); paired uniforms and OU paths within correction, including new calibration decisions. Stratified bootstrap includes both independent samples. No continuum-limit or literature-optimality claim."
+}

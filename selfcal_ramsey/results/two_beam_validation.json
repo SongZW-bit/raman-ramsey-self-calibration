@@ -1,0 +1,54 @@
+{
+  "common_mode_probability_error": 0.0,
+  "common_mode_variance_relative_error": 0.0,
+  "lambda_comparison": [
+    {
+      "single_photon_detuning": 100.0,
+      "max_population_error": 0.0290736593305867
+    },
+    {
+      "single_photon_detuning": 1000.0,
+      "max_population_error": 0.0035269495706593545
+    },
+    {
+      "single_photon_detuning": 10000.0,
+      "max_population_error": 0.00045888113505831996
+    },
+    {
+      "single_photon_detuning": 100000.0,
+      "max_population_error": 5.7867749806539415e-05
+    }
+  ],
+  "resolution": [
+    {
+      "segments_per_pulse": 3,
+      "variance": 5.1532424255747236e-08,
+      "shot_variance": 3.3040567896115657e-08,
+      "common_variance": 6.481318088064187e-09,
+      "difference_variance": 1.2010538271567418e-08
+    },
+    {
+      "segments_per_pulse": 6,
+      "variance": 5.153067269308092e-08,
+      "shot_variance": 3.304047332566288e-08,
+      "common_variance": 6.479994531352363e-09,
+      "difference_variance": 1.2010204836065641e-08
+    },
+    {
+      "segments_per_pulse": 12,
+      "variance": 5.153023242502573e-08,
+      "shot_variance": 3.304044952323848e-08,
+      "common_variance": 6.47966435825427e-09,
+      "difference_variance": 1.2010118543532967e-08
+    },
+    {
+      "segments_per_pulse": 24,
+      "variance": 5.153012221031055e-08,
+      "shot_variance": 3.304044356242371e-08,
+      "common_variance": 6.479581855767828e-09,
+      "difference_variance": 1.2010096792119037e-08
+    }
+  ],
+  "allocated_integer_total": 160000,
+  "allocation_projection_check": true
+}

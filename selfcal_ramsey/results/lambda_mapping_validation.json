@@ -1,0 +1,168 @@
+{
+  "single_pulse": [
+    {
+      "detuning": 100.0,
+      "max_error": 0.03219256378667079
+    },
+    {
+      "detuning": 1000.0,
+      "max_error": 0.0033205296679706953
+    },
+    {
+      "detuning": 10000.0,
+      "max_error": 0.0003330941157428935
+    },
+    {
+      "detuning": 100000.0,
+      "max_error": 3.33198508605248e-05
+    }
+  ],
+  "sequences": [
+    {
+      "family": "hyper",
+      "ratio": false,
+      "detuning": 100.0,
+      "max_error": 0.08497679556597248,
+      "max_excited": 0.10248809989705739,
+      "trace_error": 6.219020017967871e-15,
+      "min_eigenvalue": 6.331188313426092e-11
+    },
+    {
+      "family": "hyper",
+      "ratio": false,
+      "detuning": 1000.0,
+      "max_error": 0.005662379416802699,
+      "max_excited": 0.006088167200778775,
+      "trace_error": 4.663283765561758e-15,
+      "min_eigenvalue": 5.2126021470849444e-11
+    },
+    {
+      "family": "hyper",
+      "ratio": false,
+      "detuning": 10000.0,
+      "max_error": 0.0008007122686111146,
+      "max_excited": 0.0007320990756464805,
+      "trace_error": 5.884258239856741e-15,
+      "min_eigenvalue": 5.2496167411402435e-12
+    },
+    {
+      "family": "hyper",
+      "ratio": false,
+      "detuning": 100000.0,
+      "max_error": 7.763381295422533e-05,
+      "max_excited": 0.00010700704365839447,
+      "trace_error": 4.218851631269775e-15,
+      "min_eigenvalue": 4.971406218385819e-15
+    },
+    {
+      "family": "hyper",
+      "ratio": true,
+      "detuning": 100.0,
+      "max_error": 0.10023954642406063,
+      "max_excited": 0.10228365598602475,
+      "trace_error": 4.997869673170458e-15,
+      "min_eigenvalue": 4.491043778418857e-10
+    },
+    {
+      "family": "hyper",
+      "ratio": true,
+      "detuning": 1000.0,
+      "max_error": 0.004987505924987867,
+      "max_excited": 0.005329570933392951,
+      "trace_error": 5.1070263852571185e-15,
+      "min_eigenvalue": 5.582895970497032e-11
+    },
+    {
+      "family": "hyper",
+      "ratio": true,
+      "detuning": 10000.0,
+      "max_error": 0.001058469119632921,
+      "max_excited": 0.0010183629041341487,
+      "trace_error": 4.663276334107124e-15,
+      "min_eigenvalue": 4.930960253709837e-12
+    },
+    {
+      "family": "hyper",
+      "ratio": true,
+      "detuning": 100000.0,
+      "max_error": 6.3496151345932e-05,
+      "max_excited": 9.267378750572873e-05,
+      "trace_error": 3.996863371258626e-15,
+      "min_eigenvalue": 1.6461416982154937e-15
+    },
+    {
+      "family": "shape",
+      "ratio": false,
+      "detuning": 100.0,
+      "max_error": 0.016734170008113503,
+      "max_excited": 0.02310735082961391,
+      "trace_error": 5.329126856638828e-15,
+      "min_eigenvalue": 6.98373046591467e-13
+    },
+    {
+      "family": "shape",
+      "ratio": false,
+      "detuning": 1000.0,
+      "max_error": 0.007257664548810938,
+      "max_excited": 0.0070936922356722295,
+      "trace_error": 3.774850797644809e-15,
+      "min_eigenvalue": 4.0098929817069764e-13
+    },
+    {
+      "family": "shape",
+      "ratio": false,
+      "detuning": 10000.0,
+      "max_error": 0.0006956089284719802,
+      "max_excited": 0.0008463799990096903,
+      "trace_error": 3.553043480668736e-15,
+      "min_eigenvalue": 4.330557090367239e-12
+    },
+    {
+      "family": "shape",
+      "ratio": false,
+      "detuning": 100000.0,
+      "max_error": 5.4057362443904466e-05,
+      "max_excited": 7.731750706362147e-05,
+      "trace_error": 6.217418973595684e-15,
+      "min_eigenvalue": 3.8381030423096116e-13
+    },
+    {
+      "family": "shape",
+      "ratio": true,
+      "detuning": 100.0,
+      "max_error": 0.019492873274159384,
+      "max_excited": 0.023999335789209007,
+      "trace_error": 5.107292308819336e-15,
+      "min_eigenvalue": 3.199417086198928e-12
+    },
+    {
+      "family": "shape",
+      "ratio": true,
+      "detuning": 1000.0,
+      "max_error": 0.007105982982911263,
+      "max_excited": 0.009470183234669124,
+      "trace_error": 4.552810271511296e-15,
+      "min_eigenvalue": 1.8137011043505424e-12
+    },
+    {
+      "family": "shape",
+      "ratio": true,
+      "detuning": 10000.0,
+      "max_error": 0.000903055024118582,
+      "max_excited": 0.0010662002461459881,
+      "trace_error": 3.8858024463944494e-15,
+      "min_eigenvalue": 3.3070272200639026e-12
+    },
+    {
+      "family": "shape",
+      "ratio": true,
+      "detuning": 100000.0,
+      "max_error": 2.606580830744054e-05,
+      "max_excited": 8.88605444735075e-05,
+      "trace_error": 4.218855353911026e-15,
+      "min_eigenvalue": 1.8938567935297776e-13
+    }
+  ],
+  "passed": true,
+  "scope": "Closed Lambda mapping only; not a species-specific multilevel advantage test."
+}

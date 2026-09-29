@@ -1,0 +1,617 @@
+{
+  "scope": "Qubit likelihood applied to D1 counts with the realized D1 controller choice held fixed; not blind transfer of the entire controller.",
+  "rows": [
+    {
+      "source": "d1.json",
+      "arm": "fixed_shape",
+      "b": -0.43,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 1.1900215682274349e-07,
+      "mismatched_mse": 1.943149940933227e-06,
+      "mismatched_bias": -0.0013224499390631713,
+      "target_bound_hits": 11
+    },
+    {
+      "source": "d1.json",
+      "arm": "adaptive",
+      "b": -0.43,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 8.99738216382595e-08,
+      "mismatched_mse": 5.50800680088784e-07,
+      "mismatched_bias": -0.0005427900035458602,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_refined",
+      "b": -0.43,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 1.1567323744589436e-07,
+      "mismatched_mse": 2.3065958839275558e-06,
+      "mismatched_bias": -0.0014532027433251126,
+      "target_bound_hits": 16
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_shape",
+      "b": -0.43,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 9.598537811917027e-08,
+      "mismatched_mse": 1.5675996934777809e-06,
+      "mismatched_bias": -0.0012053093065998463,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "adaptive",
+      "b": -0.43,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 9.14534660357583e-08,
+      "mismatched_mse": 4.566639756530389e-07,
+      "mismatched_bias": -0.0004137415605979795,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_refined",
+      "b": -0.43,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 9.701992958150451e-08,
+      "mismatched_mse": 2.24540284845265e-06,
+      "mismatched_bias": -0.0013706705657582367,
+      "target_bound_hits": 1
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_shape",
+      "b": 0.17,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 6.286033543128993e-08,
+      "mismatched_mse": 1.7131851883675743e-07,
+      "mismatched_bias": 0.00021627579610825084,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "adaptive",
+      "b": 0.17,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 7.399010778650263e-08,
+      "mismatched_mse": 8.456374532612143e-08,
+      "mismatched_bias": 4.5049564992168564e-05,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_refined",
+      "b": 0.17,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 6.256080732137774e-08,
+      "mismatched_mse": 2.0208122938613043e-07,
+      "mismatched_bias": 0.0002998951819411065,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_shape",
+      "b": 0.17,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 6.456955935161557e-08,
+      "mismatched_mse": 1.2510721523074823e-07,
+      "mismatched_bias": 8.034446784771036e-05,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "adaptive",
+      "b": 0.17,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 7.308672088434757e-08,
+      "mismatched_mse": 1.3195500151289057e-07,
+      "mismatched_bias": 4.3618211844633254e-05,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_refined",
+      "b": 0.17,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 6.231904264334974e-08,
+      "mismatched_mse": 1.2141841383002434e-07,
+      "mismatched_bias": 9.97334876150944e-05,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_shape",
+      "b": 0.43,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 8.555627632996976e-08,
+      "mismatched_mse": 2.0153515866153506e-07,
+      "mismatched_bias": 0.0003358058269729992,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "adaptive",
+      "b": 0.43,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 8.815258144900291e-08,
+      "mismatched_mse": 7.06849267219212e-07,
+      "mismatched_bias": 0.0007037391888588221,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_refined",
+      "b": 0.43,
+      "delta": -0.0015,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 8.37727069281455e-08,
+      "mismatched_mse": 1.3524878431978568e-07,
+      "mismatched_bias": 0.00022119616523429286,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_shape",
+      "b": 0.43,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 8.100642145035325e-08,
+      "mismatched_mse": 7.75762112509951e-07,
+      "mismatched_bias": 0.0006449216183164637,
+      "target_bound_hits": 17
+    },
+    {
+      "source": "d1.json",
+      "arm": "adaptive",
+      "b": 0.43,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 9.397143364330903e-08,
+      "mismatched_mse": 1.1424122853461447e-06,
+      "mismatched_bias": 0.0008581590221816755,
+      "target_bound_hits": 25
+    },
+    {
+      "source": "d1.json",
+      "arm": "fixed_refined",
+      "b": 0.43,
+      "delta": 0.002,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 7.664830030665056e-08,
+      "mismatched_mse": 5.935274351610709e-07,
+      "mismatched_bias": 0.0004540024805217389,
+      "target_bound_hits": 14
+    },
+    {
+      "source": "d1_stress.json",
+      "arm": "fixed_shape",
+      "b": -0.6,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.06,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 6.601803165087905e-07,
+      "mismatched_mse": 8.693348692846986e-06,
+      "mismatched_bias": -0.002706948684792837,
+      "target_bound_hits": 24
+    },
+    {
+      "source": "d1_stress.json",
+      "arm": "adaptive",
+      "b": -0.6,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.06,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 3.263577150180918e-07,
+      "mismatched_mse": 1.096198897005545e-06,
+      "mismatched_bias": -0.0007545660713213255,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1_stress.json",
+      "arm": "fixed_shape",
+      "b": 0.6,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.06,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 4.1619419041023185e-07,
+      "mismatched_mse": 4.352653474125099e-06,
+      "mismatched_bias": 0.0018487226138731371,
+      "target_bound_hits": 18
+    },
+    {
+      "source": "d1_stress.json",
+      "arm": "adaptive",
+      "b": 0.6,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.06,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 3.2286709932458667e-07,
+      "mismatched_mse": 5.918189755278526e-07,
+      "mismatched_bias": 0.0002892001436715745,
+      "target_bound_hits": 1
+    },
+    {
+      "source": "d1_stress.json",
+      "arm": "fixed_shape",
+      "b": -0.6,
+      "delta": 0.0005,
+      "delay": 100.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 1.1788458287134554e-07,
+      "mismatched_mse": 6.993589903197404e-06,
+      "mismatched_bias": -0.002442574859477546,
+      "target_bound_hits": 17
+    },
+    {
+      "source": "d1_stress.json",
+      "arm": "adaptive",
+      "b": -0.6,
+      "delta": 0.0005,
+      "delay": 100.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 5.063557175981866e-08,
+      "mismatched_mse": 4.5695656995734647e-07,
+      "mismatched_bias": -0.0005804239899152686,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "d1_stress.json",
+      "arm": "fixed_shape",
+      "b": 0.6,
+      "delta": 0.0005,
+      "delay": 100.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 9.048415883477963e-08,
+      "mismatched_mse": 2.622315995450288e-06,
+      "mismatched_bias": 0.001511395546478003,
+      "target_bound_hits": 3
+    },
+    {
+      "source": "d1_stress.json",
+      "arm": "adaptive",
+      "b": 0.6,
+      "delta": 0.0005,
+      "delay": 100.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 64,
+      "matched_mse": 5.4925189509458456e-08,
+      "mismatched_mse": 3.3325830118604897e-07,
+      "mismatched_bias": 0.0003997724077729372,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "fixed_refined",
+      "b": -0.6,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 7.738588347950722e-08,
+      "mismatched_mse": 9.973760794263687e-06,
+      "mismatched_bias": -0.002965750462686449,
+      "target_bound_hits": 49
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "adaptive8",
+      "b": -0.6,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 7.41838824838405e-08,
+      "mismatched_mse": 4.2508353712729276e-07,
+      "mismatched_bias": -0.000573356524113255,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "fixed_refined",
+      "b": -0.43,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 9.120149029781894e-08,
+      "mismatched_mse": 2.026830879319476e-06,
+      "mismatched_bias": -0.001370716748283985,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "adaptive8",
+      "b": -0.43,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 6.636277080571194e-08,
+      "mismatched_mse": 1.118444530537369e-07,
+      "mismatched_bias": -0.0001807098780387597,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "fixed_refined",
+      "b": 0.17,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 7.261485911387753e-08,
+      "mismatched_mse": 1.9424114001309463e-07,
+      "mismatched_bias": 0.00026001410157196154,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "adaptive8",
+      "b": 0.17,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 7.355035977285257e-08,
+      "mismatched_mse": 1.2571628178441032e-07,
+      "mismatched_bias": -0.00017359021925361187,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "fixed_refined",
+      "b": 0.43,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 8.329734118117785e-08,
+      "mismatched_mse": 2.2259894482338395e-07,
+      "mismatched_bias": 0.0002365562949382909,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "adaptive8",
+      "b": 0.43,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 8.551360451740183e-08,
+      "mismatched_mse": 1.284972440933193e-07,
+      "mismatched_bias": -0.00018108121442517375,
+      "target_bound_hits": 0
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "fixed_refined",
+      "b": 0.6,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 9.471282622951704e-08,
+      "mismatched_mse": 2.5437653468474022e-06,
+      "mismatched_bias": 0.0014849263743094137,
+      "target_bound_hits": 4
+    },
+    {
+      "source": "bank8_d1.json",
+      "arm": "adaptive8",
+      "b": 0.6,
+      "delta": 0.0005,
+      "delay": 0.0,
+      "noise": {
+        "sigma_intensity": 0.03,
+        "correlation_time": 300.0,
+        "beam_correlation": 0.0
+      },
+      "reps": 96,
+      "matched_mse": 5.819526139986768e-08,
+      "mismatched_mse": 1.679727993583693e-07,
+      "mismatched_bias": 0.0002011638598352895,
+      "target_bound_hits": 0
+    }
+  ]
+}

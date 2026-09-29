@@ -1,0 +1,11 @@
+{
+  "checks": [
+    {
+      "key": "200.0_fixed_square",
+      "max_population_error": 1.479592690589726e-06,
+      "max_whitened_error": 1.1577560575037005e-06,
+      "minimum_covariance_eigenvalue": 7.413255353968251e-06
+    }
+  ],
+  "passed": true
+}

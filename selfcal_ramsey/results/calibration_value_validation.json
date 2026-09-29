@@ -1,0 +1,58 @@
+{
+  "parameters": {
+    "a": 1.1,
+    "prior_b_variance": 0.0006,
+    "differential_ou_variance": 0.00045,
+    "readout_variance": 0.0002,
+    "correlation_time": 300.0
+  },
+  "repetitions": 300000,
+  "results": [
+    {
+      "delay": 0.0,
+      "correlation": 1.0,
+      "posterior_variance": 0.00017024916325771662,
+      "monte_carlo_mse": 0.00016993378707827442,
+      "monte_carlo_se": 4.391654104489736e-07,
+      "unpredicted_reuse_variance": 0.0002,
+      "information_value": 0.0009742508367422835
+    },
+    {
+      "delay": 100.0,
+      "correlation": 0.7165313105737893,
+      "posterior_variance": 0.0004153072933179798,
+      "monte_carlo_mse": 0.00041589808210628726,
+      "monte_carlo_se": 1.0745057932770028e-06,
+      "unpredicted_reuse_variance": 0.0005086974027851436,
+      "information_value": 0.0007291927066820203
+    },
+    {
+      "delay": 300.0,
+      "correlation": 0.36787944117144233,
+      "posterior_variance": 0.0006681172067911998,
+      "monte_carlo_mse": 0.0006682859379471764,
+      "monte_carlo_se": 1.719963276114977e-06,
+      "unpredicted_reuse_variance": 0.0008883792885642993,
+      "information_value": 0.0004763827932088003
+    },
+    {
+      "delay": 900.0,
+      "correlation": 0.049787068367863944,
+      "posterior_variance": 0.0008520003558671713,
+      "monte_carlo_mse": 0.0008506794016698483,
+      "monte_carlo_se": 2.203412500198817e-06,
+      "unpredicted_reuse_variance": 0.0012347818825473964,
+      "information_value": 0.0002924996441328288
+    },
+    {
+      "delay": 3000.0,
+      "correlation": 4.5399929762484854e-05,
+      "posterior_variance": 0.0008767204054107862,
+      "monte_carlo_mse": 0.0008822813458337104,
+      "monte_carlo_se": 2.277329479936513e-06,
+      "unpredicted_reuse_variance": 0.0012889505594764889,
+      "information_value": 0.0002677795945892139
+    }
+  ],
+  "scope": "Local frozen sensitivity and Gaussian prior; verifies the scalar derivation, not the nonlinear Raman risk or a quantum precision bound."
+}

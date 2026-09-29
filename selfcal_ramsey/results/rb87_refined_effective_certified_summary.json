@@ -1,0 +1,42 @@
+{
+  "effective": true,
+  "points": [
+    -0.6,
+    0.6
+  ],
+  "reps_per_point": 400,
+  "means": {
+    "adaptive": 7.325523960233603e-08,
+    "fixed_bank": 8.456110985098913e-08,
+    "fixed_hyper": 9.010312790591301e-08,
+    "fixed_shape": 8.308820622405446e-08
+  },
+  "comparisons": [
+    {
+      "reference": "fixed_bank",
+      "mse_reduction": 0.13370058965138865,
+      "bootstrap_95_interval": [
+        0.024833300294600062,
+        0.2259238962905752
+      ]
+    },
+    {
+      "reference": "fixed_hyper",
+      "mse_reduction": 0.18698449981858323,
+      "bootstrap_95_interval": [
+        0.07240095005506358,
+        0.28728094530276327
+      ]
+    },
+    {
+      "reference": "fixed_shape",
+      "mse_reduction": 0.11834371048043801,
+      "bootstrap_95_interval": [
+        -0.00040883880626726396,
+        0.22063584317901233
+      ]
+    }
+  ],
+  "source": "rb87_refined_effective_certified_mc400.json",
+  "scope": "Stratified bootstrap Monte Carlo uncertainty for these frozen candidates and test points; not literature-wide superiority or a global optimum."
+}

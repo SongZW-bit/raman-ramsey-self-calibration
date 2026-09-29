@@ -1,0 +1,23 @@
+{
+  "effective": true,
+  "points": [
+    -0.6,
+    0.6
+  ],
+  "reps_per_point": 1600,
+  "means": {
+    "adaptive": 6.698020313904047e-08,
+    "fixed_shape": 8.537278037747171e-08
+  },
+  "comparisons": [
+    {
+      "reference": "fixed_shape",
+      "mse_reduction": 0.2154384237822562,
+      "bootstrap_95_interval": [
+        0.1654939714289644,
+        0.2614332981952136
+      ]
+    }
+  ],
+  "scope": "Independent confirmation at three temporal substeps, 1600 records per endpoint. Fixed frozen controls and covariance-safe likelihood; only fixed shaping and adaptive compared."
+}

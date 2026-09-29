@@ -1,0 +1,246 @@
+{
+  "model": "second-order secular intensity mixture; rapidly oscillating wrong-helicity Raman terms omitted",
+  "detuning_mhz": 200.0,
+  "rows": [
+    {
+      "reference_b": -0.6,
+      "physical_b": 0.0013409559842890478,
+      "minor_intensity_1": 0.0,
+      "minor_intensity_2": 0.0,
+      "ideal_shift_hz": 13.409559842890474,
+      "impurity_shift_hz": 13.409559842890474,
+      "shift_change_hz": 0.0,
+      "resonant_coupling_fraction": 1.0
+    },
+    {
+      "reference_b": -0.6,
+      "physical_b": 0.0013409559842890478,
+      "minor_intensity_1": 0.005,
+      "minor_intensity_2": 0.005,
+      "ideal_shift_hz": 13.409559842890474,
+      "impurity_shift_hz": 13.138212996799421,
+      "shift_change_hz": -0.27134684609105353,
+      "resonant_coupling_fraction": 0.995
+    },
+    {
+      "reference_b": -0.6,
+      "physical_b": 0.0013409559842890478,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": 13.409559842890474,
+      "impurity_shift_hz": 12.866866150708384,
+      "shift_change_hz": -0.5426936921820897,
+      "resonant_coupling_fraction": 0.99
+    },
+    {
+      "reference_b": -0.6,
+      "physical_b": 0.0013409559842890478,
+      "minor_intensity_1": 0.05,
+      "minor_intensity_2": 0.05,
+      "ideal_shift_hz": 13.409559842890474,
+      "impurity_shift_hz": 10.696091381980052,
+      "shift_change_hz": -2.713468460910423,
+      "resonant_coupling_fraction": 0.95
+    },
+    {
+      "reference_b": -0.6,
+      "physical_b": 0.0013409559842890478,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.0,
+      "ideal_shift_hz": 13.409559842890474,
+      "impurity_shift_hz": 14.938883626843102,
+      "shift_change_hz": 1.5293237839526277,
+      "resonant_coupling_fraction": 0.99498743710662
+    },
+    {
+      "reference_b": -0.6,
+      "physical_b": 0.0013409559842890478,
+      "minor_intensity_1": 0.0,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": 13.409559842890474,
+      "impurity_shift_hz": 11.337542366755757,
+      "shift_change_hz": -2.072017476134717,
+      "resonant_coupling_fraction": 0.99498743710662
+    },
+    {
+      "reference_b": -0.6,
+      "physical_b": 0.0013409559842890478,
+      "minor_intensity_1": 0.02,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": 13.409559842890474,
+      "impurity_shift_hz": 14.396189934660995,
+      "shift_change_hz": 0.9866300917705205,
+      "resonant_coupling_fraction": 0.9849873095629201
+    },
+    {
+      "reference_b": -0.6,
+      "physical_b": 0.0013409559842890478,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.02,
+      "ideal_shift_hz": 13.409559842890474,
+      "impurity_shift_hz": 10.794848674573666,
+      "shift_change_hz": -2.614711168316807,
+      "resonant_coupling_fraction": 0.9849873095629201
+    },
+    {
+      "reference_b": 0.0,
+      "physical_b": -0.001374104511980398,
+      "minor_intensity_1": 0.0,
+      "minor_intensity_2": 0.0,
+      "ideal_shift_hz": -13.741045119804001,
+      "impurity_shift_hz": -13.741045119804001,
+      "shift_change_hz": 0.0,
+      "resonant_coupling_fraction": 1.0
+    },
+    {
+      "reference_b": 0.0,
+      "physical_b": -0.001374104511980398,
+      "minor_intensity_1": 0.005,
+      "minor_intensity_2": 0.005,
+      "ideal_shift_hz": -13.741045119804001,
+      "impurity_shift_hz": -13.739318673110843,
+      "shift_change_hz": 0.001726446693158662,
+      "resonant_coupling_fraction": 0.995
+    },
+    {
+      "reference_b": 0.0,
+      "physical_b": -0.001374104511980398,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": -13.741045119804001,
+      "impurity_shift_hz": -13.7375922264177,
+      "shift_change_hz": 0.0034528933862999767,
+      "resonant_coupling_fraction": 0.99
+    },
+    {
+      "reference_b": 0.0,
+      "physical_b": -0.001374104511980398,
+      "minor_intensity_1": 0.05,
+      "minor_intensity_2": 0.05,
+      "ideal_shift_hz": -13.741045119804001,
+      "impurity_shift_hz": -13.723780652872666,
+      "shift_change_hz": 0.017264466931335085,
+      "resonant_coupling_fraction": 0.95
+    },
+    {
+      "reference_b": 0.0,
+      "physical_b": -0.001374104511980398,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.0,
+      "ideal_shift_hz": -13.741045119804001,
+      "impurity_shift_hz": -11.959209522626955,
+      "shift_change_hz": 1.7818355971770463,
+      "resonant_coupling_fraction": 0.99498743710662
+    },
+    {
+      "reference_b": 0.0,
+      "physical_b": -0.001374104511980398,
+      "minor_intensity_1": 0.0,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": -13.741045119804001,
+      "impurity_shift_hz": -15.519427823594746,
+      "shift_change_hz": -1.7783827037907465,
+      "resonant_coupling_fraction": 0.99498743710662
+    },
+    {
+      "reference_b": 0.0,
+      "physical_b": -0.001374104511980398,
+      "minor_intensity_1": 0.02,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": -13.741045119804001,
+      "impurity_shift_hz": -11.955756629240707,
+      "shift_change_hz": 1.7852884905632944,
+      "resonant_coupling_fraction": 0.9849873095629201
+    },
+    {
+      "reference_b": 0.0,
+      "physical_b": -0.001374104511980398,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.02,
+      "ideal_shift_hz": -13.741045119804001,
+      "impurity_shift_hz": -15.51597493020848,
+      "shift_change_hz": -1.774929810404481,
+      "resonant_coupling_fraction": 0.9849873095629201
+    },
+    {
+      "reference_b": 0.6,
+      "physical_b": -0.004121317607903007,
+      "minor_intensity_1": 0.0,
+      "minor_intensity_2": 0.0,
+      "ideal_shift_hz": -41.21317607903007,
+      "impurity_shift_hz": -41.21317607903007,
+      "shift_change_hz": 0.0,
+      "resonant_coupling_fraction": 1.0
+    },
+    {
+      "reference_b": 0.6,
+      "physical_b": -0.004121317607903007,
+      "minor_intensity_1": 0.005,
+      "minor_intensity_2": 0.005,
+      "ideal_shift_hz": -41.21317607903007,
+      "impurity_shift_hz": -40.93833594251684,
+      "shift_change_hz": 0.2748401365132349,
+      "resonant_coupling_fraction": 0.995
+    },
+    {
+      "reference_b": 0.6,
+      "physical_b": -0.004121317607903007,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": -41.21317607903007,
+      "impurity_shift_hz": -40.663495806003574,
+      "shift_change_hz": 0.5496802730264958,
+      "resonant_coupling_fraction": 0.99
+    },
+    {
+      "reference_b": 0.6,
+      "physical_b": -0.004121317607903007,
+      "minor_intensity_1": 0.05,
+      "minor_intensity_2": 0.05,
+      "ideal_shift_hz": -41.21317607903007,
+      "impurity_shift_hz": -38.46477471389768,
+      "shift_change_hz": 2.7484013651323838,
+      "resonant_coupling_fraction": 0.95
+    },
+    {
+      "reference_b": 0.6,
+      "physical_b": -0.004121317607903007,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.0,
+      "ideal_shift_hz": -41.21317607903007,
+      "impurity_shift_hz": -39.13713559062452,
+      "shift_change_hz": 2.0760404884055497,
+      "resonant_coupling_fraction": 0.99498743710662
+    },
+    {
+      "reference_b": 0.6,
+      "physical_b": -0.004121317607903007,
+      "minor_intensity_1": 0.0,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": -41.21317607903007,
+      "impurity_shift_hz": -42.73953629440912,
+      "shift_change_hz": -1.526360215379054,
+      "resonant_coupling_fraction": 0.99498743710662
+    },
+    {
+      "reference_b": 0.6,
+      "physical_b": -0.004121317607903007,
+      "minor_intensity_1": 0.02,
+      "minor_intensity_2": 0.01,
+      "ideal_shift_hz": -41.21317607903007,
+      "impurity_shift_hz": -38.58745531759807,
+      "shift_change_hz": 2.6257207614319937,
+      "resonant_coupling_fraction": 0.9849873095629201
+    },
+    {
+      "reference_b": 0.6,
+      "physical_b": -0.004121317607903007,
+      "minor_intensity_1": 0.01,
+      "minor_intensity_2": 0.02,
+      "ideal_shift_hz": -41.21317607903007,
+      "impurity_shift_hz": -42.18985602138263,
+      "shift_change_hz": -0.9766799423525669,
+      "resonant_coupling_fraction": 0.9849873095629201
+    }
+  ]
+}

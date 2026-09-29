@@ -1,0 +1,46 @@
+[
+  {
+    "b": -0.6,
+    "effective": true,
+    "reference": "fixed_shape",
+    "adaptive": "adaptive",
+    "gain": 0.100321811926123,
+    "ci": [
+      0.014484396706497229,
+      0.18022620195460734
+    ]
+  },
+  {
+    "b": -0.6,
+    "effective": false,
+    "reference": "fixed_shape",
+    "adaptive": "adaptive",
+    "gain": 0.32477141798306564,
+    "ci": [
+      0.11755432887792805,
+      0.4795305638428259
+    ]
+  },
+  {
+    "b": 0.6,
+    "effective": true,
+    "reference": "fixed_shape",
+    "adaptive": "adaptive",
+    "gain": 0.30528928918689435,
+    "ci": [
+      0.24512866198382313,
+      0.3595771730840515
+    ]
+  },
+  {
+    "b": 0.6,
+    "effective": false,
+    "reference": "fixed_shape",
+    "adaptive": "adaptive",
+    "gain": 0.36808198399104486,
+    "ci": [
+      0.20614019672382114,
+      0.5012426403307272
+    ]
+  }
+]
